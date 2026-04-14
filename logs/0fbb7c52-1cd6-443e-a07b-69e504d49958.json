@@ -1,0 +1,95 @@
+{
+  "taskUuid": "0fbb7c52-1cd6-443e-a07b-69e504d49958",
+  "monitoringId": "f6fcb261-61f4-4131-989a-e02e50ea1a8c",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 14,
+  "activityList": [
+    {
+      "time": "2026-04-14T09:34:06Z",
+      "videoTime": "00:00:03.0857739",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - powershell",
+      "sessionTime": "00:00:07.7754213"
+    },
+    {
+      "time": "2026-04-14T09:34:24Z",
+      "videoTime": "00:00:21.6483142",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:25.9139306"
+    },
+    {
+      "time": "2026-04-14T09:34:26Z",
+      "videoTime": "00:00:23.1951189",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:27.7464758"
+    },
+    {
+      "time": "2026-04-14T09:34:27Z",
+      "videoTime": "00:00:24.2300369",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:28.9688985"
+    },
+    {
+      "time": "2026-04-14T09:34:33Z",
+      "videoTime": "00:00:30.9305723",
+      "eventInfo": "chrome.exe, YouTube - Google Chrome",
+      "sessionTime": "00:00:35.2695418"
+    },
+    {
+      "time": "2026-04-14T09:34:48Z",
+      "videoTime": "00:00:45.8587412",
+      "eventInfo": "chrome.exe, İllegal Dizi/Film siteleri:) - YouTube - Google Chrome",
+      "sessionTime": "00:00:50.2960088"
+    },
+    {
+      "time": "2026-04-14T09:34:49Z",
+      "videoTime": "00:00:46.3743218",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:51.0976706"
+    },
+    {
+      "time": "2026-04-14T09:34:52Z",
+      "videoTime": "00:00:48.9679512",
+      "eventInfo": "[New Tab - Google Chrome] Buffer cleared due to timeout. Cleared input: ouy",
+      "sessionTime": "00:00:53.4042849"
+    },
+    {
+      "time": "2026-04-14T09:34:54Z",
+      "videoTime": "00:00:51.0305494",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:55.6116268"
+    },
+    {
+      "time": "2026-04-14T09:34:55Z",
+      "videoTime": "00:00:52.5618852",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:00:57.2334566"
+    },
+    {
+      "time": "2026-04-14T09:34:59Z",
+      "videoTime": "00:00:56.1765522",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:00.8812107"
+    },
+    {
+      "time": "2026-04-14T09:35:01Z",
+      "videoTime": "00:00:58.2341171",
+      "eventInfo": "chrome.exe, En Son Haber: Son Dakika Haberler, Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:02.5423299"
+    },
+    {
+      "time": "2026-04-14T09:35:02Z",
+      "videoTime": "00:00:59.7808719",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:04.1381655"
+    },
+    {
+      "time": "2026-04-14T09:35:06Z",
+      "videoTime": "00:01:03.9110930",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:08.2150315"
+    }
+  ]
+}

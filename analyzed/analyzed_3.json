@@ -1,0 +1,26 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {}
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {
+      "command": 1,
+      "command_2": 1
+    }
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "WinHTTrack.exe": 2,
+      "DiskMark64.exe": 1,
+      "pritunl.exe": 1,
+      "FortiClient.exe": 1,
+      "MobaXterm.exe": 1
+    }
+  }
+]

@@ -1,0 +1,443 @@
+{
+  "taskUuid": "a3d1e9d0-c3b3-4f99-8d18-c3e13564cece",
+  "monitoringId": "ca14efcc-a47d-4142-a6ba-e13713c329dc",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 72,
+  "activityList": [
+    {
+      "time": "2026-04-14T14:16:32Z",
+      "videoTime": "00:00:03.0871469",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:08.3012672"
+    },
+    {
+      "time": "2026-04-14T14:18:38Z",
+      "videoTime": "00:02:09.2676314",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:02:14.4131861"
+    },
+    {
+      "time": "2026-04-14T14:18:41Z",
+      "videoTime": "00:02:12.3613057",
+      "eventInfo": "explorer.exe, File Explorer",
+      "sessionTime": "00:02:17.4934979"
+    },
+    {
+      "time": "2026-04-14T14:18:41Z",
+      "videoTime": "00:02:12.3613057",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:02:17.6971227"
+    },
+    {
+      "time": "2026-04-14T14:18:47Z",
+      "videoTime": "00:02:18.0270749",
+      "eventInfo": "pythonw.exe, hesap.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap.py (3.12.4)",
+      "sessionTime": "00:02:23.1815844"
+    },
+    {
+      "time": "2026-04-14T14:18:56Z",
+      "videoTime": "00:02:27.2792229",
+      "eventInfo": "pythonw.exe, *hesap.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap.py (3.12.4)*",
+      "sessionTime": "00:02:32.3566976"
+    },
+    {
+      "time": "2026-04-14T14:19:05Z",
+      "videoTime": "00:02:36.5815420",
+      "eventInfo": "[hesap.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap.py (3.12.4)] Shortcut used: Ctrl+S",
+      "sessionTime": "00:02:42.0105790"
+    },
+    {
+      "time": "2026-04-14T14:19:06Z",
+      "videoTime": "00:02:37.0978598",
+      "eventInfo": "pythonw.exe, hesap.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap.py (3.12.4)",
+      "sessionTime": "00:02:42.1307911"
+    },
+    {
+      "time": "2026-04-14T14:19:07Z",
+      "videoTime": "00:02:38.1169984",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:02:43.5517487"
+    },
+    {
+      "time": "2026-04-14T14:19:11Z",
+      "videoTime": "00:02:42.2418413",
+      "eventInfo": "[geliştirme] Entry: print8\"toplanıyor\"9cmd",
+      "sessionTime": "00:02:47.4653873"
+    },
+    {
+      "time": "2026-04-14T14:19:11Z",
+      "videoTime": "00:02:42.7575941",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:02:47.8707111"
+    },
+    {
+      "time": "2026-04-14T14:19:15Z",
+      "videoTime": "00:02:45.8269334",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:02:51.1131581"
+    },
+    {
+      "time": "2026-04-14T14:19:16Z",
+      "videoTime": "00:02:46.8570186",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:02:52.1296995"
+    },
+    {
+      "time": "2026-04-14T14:19:16Z",
+      "videoTime": "00:02:47.3725303",
+      "eventInfo": "cmd.exe, Select Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:02:52.5338558"
+    },
+    {
+      "time": "2026-04-14T14:19:17Z",
+      "videoTime": "00:02:48.4036970",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:02:53.5514430"
+    },
+    {
+      "time": "2026-04-14T14:19:19Z",
+      "videoTime": "00:02:50.4662521",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: python hesap.py",
+      "sessionTime": "00:02:55.4458532"
+    },
+    {
+      "time": "2026-04-14T14:19:19Z",
+      "videoTime": "00:02:50.4662521",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe - python  hesap.py",
+      "sessionTime": "00:02:55.5850447"
+    },
+    {
+      "time": "2026-04-14T14:19:21Z",
+      "videoTime": "00:02:52.5287278",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: 1",
+      "sessionTime": "00:02:57.8162778"
+    },
+    {
+      "time": "2026-04-14T14:19:22Z",
+      "videoTime": "00:02:53.5600002",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: 6",
+      "sessionTime": "00:02:58.8753415"
+    },
+    {
+      "time": "2026-04-14T14:19:22Z",
+      "videoTime": "00:02:54.0756253",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:02:59.0508509"
+    },
+    {
+      "time": "2026-04-14T14:19:29Z",
+      "videoTime": "00:03:00.7790998",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:03:06.0065380"
+    },
+    {
+      "time": "2026-04-14T14:19:30Z",
+      "videoTime": "00:03:01.8102299",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:03:07.0228282"
+    },
+    {
+      "time": "2026-04-14T14:19:34Z",
+      "videoTime": "00:03:05.4198263",
+      "eventInfo": "[New Tab - Google Chrome] Entry: haberler",
+      "sessionTime": "00:03:10.5505164"
+    },
+    {
+      "time": "2026-04-14T14:19:34Z",
+      "videoTime": "00:03:05.9398486",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:03:11.0818025"
+    },
+    {
+      "time": "2026-04-14T14:19:36Z",
+      "videoTime": "00:03:07.4820915",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:03:12.6891148"
+    },
+    {
+      "time": "2026-04-14T14:19:42Z",
+      "videoTime": "00:03:13.6694037",
+      "eventInfo": "chrome.exe, Ozan Kabak imzayı attı! 2030 yılına kadar Bundesliga'da - Haberler - Google Chrome",
+      "sessionTime": "00:03:18.7261218"
+    },
+    {
+      "time": "2026-04-14T14:19:45Z",
+      "videoTime": "00:03:15.7320292",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:03:21.1361683"
+    },
+    {
+      "time": "2026-04-14T14:19:47Z",
+      "videoTime": "00:03:18.2945053",
+      "eventInfo": "chrome.exe, Gülistan Doku soruşturmasında oğlu gözaltına alınan eski Tunceli Valisi Tuncay Sonel'den ilk açıklama - Haberler - Google Chrome",
+      "sessionTime": "00:03:23.7488623"
+    },
+    {
+      "time": "2026-04-14T14:19:55Z",
+      "videoTime": "00:03:26.0304939",
+      "eventInfo": "[New Tab - Google Chrome] Entry: youtube",
+      "sessionTime": "00:03:31.2025138"
+    },
+    {
+      "time": "2026-04-14T14:19:55Z",
+      "videoTime": "00:03:26.5462761",
+      "eventInfo": "chrome.exe, YouTube - Google Chrome",
+      "sessionTime": "00:03:31.8010195"
+    },
+    {
+      "time": "2026-04-14T14:20:06Z",
+      "videoTime": "00:03:37.8898721",
+      "eventInfo": "chrome.exe, Nasıl para biriktiriyorum? Mert Başaran küçük paralarla yatırım yapma tekniğini anlatıyor - YouTube - Google Chrome",
+      "sessionTime": "00:03:43.0464772"
+    },
+    {
+      "time": "2026-04-14T14:20:09Z",
+      "videoTime": "00:03:40.4685083",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:03:45.4567774"
+    },
+    {
+      "time": "2026-04-14T14:20:15Z",
+      "videoTime": "00:03:46.1157816",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:03:51.1580123"
+    },
+    {
+      "time": "2026-04-14T14:20:21Z",
+      "videoTime": "00:03:52.3029789",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:03:57.4682976"
+    },
+    {
+      "time": "2026-04-14T14:20:22Z",
+      "videoTime": "00:03:53.3342744",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:03:58.4834854"
+    },
+    {
+      "time": "2026-04-14T14:20:22Z",
+      "videoTime": "00:03:53.8532574",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:03:58.8883693"
+    },
+    {
+      "time": "2026-04-14T14:20:26Z",
+      "videoTime": "00:03:57.4435685",
+      "eventInfo": "[Search] Entry: cmd",
+      "sessionTime": "00:04:02.9163306"
+    },
+    {
+      "time": "2026-04-14T14:20:26Z",
+      "videoTime": "00:03:57.9594342",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:04:02.9809185"
+    },
+    {
+      "time": "2026-04-14T14:20:27Z",
+      "videoTime": "00:03:57.9594342",
+      "eventInfo": "cmd.exe, Command Prompt",
+      "sessionTime": "00:04:03.1840348"
+    },
+    {
+      "time": "2026-04-14T14:20:27Z",
+      "videoTime": "00:03:57.9594342",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:04:03.3874224"
+    },
+    {
+      "time": "2026-04-14T14:20:50Z",
+      "videoTime": "00:04:21.5848779",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:04:26.9711230"
+    },
+    {
+      "time": "2026-04-14T14:20:51Z",
+      "videoTime": "00:04:22.6158689",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:04:27.7906308"
+    },
+    {
+      "time": "2026-04-14T14:20:53Z",
+      "videoTime": "00:04:24.1626142",
+      "eventInfo": "[Command Prompt] Entry: ipconfig",
+      "sessionTime": "00:04:29.4356587"
+    },
+    {
+      "time": "2026-04-14T14:20:58Z",
+      "videoTime": "00:04:29.8189226",
+      "eventInfo": "[Command Prompt] Entry: whoami",
+      "sessionTime": "00:04:35.1014370"
+    },
+    {
+      "time": "2026-04-14T14:20:59Z",
+      "videoTime": "00:04:29.8189226",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - whoami",
+      "sessionTime": "00:04:35.1334258"
+    },
+    {
+      "time": "2026-04-14T14:20:59Z",
+      "videoTime": "00:04:30.3347770",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:04:35.3325086"
+    },
+    {
+      "time": "2026-04-14T14:21:07Z",
+      "videoTime": "00:04:38.5762096",
+      "eventInfo": "[Command Prompt] Entry: netstatt",
+      "sessionTime": "00:04:43.5937589"
+    },
+    {
+      "time": "2026-04-14T14:21:15Z",
+      "videoTime": "00:04:46.3105248",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:04:51.3867752"
+    },
+    {
+      "time": "2026-04-14T14:21:20Z",
+      "videoTime": "00:04:51.4666940",
+      "eventInfo": "[geliştirme] Shortcut used: Ctrl+A",
+      "sessionTime": "00:04:56.8848902"
+    },
+    {
+      "time": "2026-04-14T14:21:24Z",
+      "videoTime": "00:04:55.5778770",
+      "eventInfo": "[geliştirme] Entry: hesap2.py",
+      "sessionTime": "00:05:00.5660835"
+    },
+    {
+      "time": "2026-04-14T14:21:24Z",
+      "videoTime": "00:04:55.5778770",
+      "eventInfo": "explorer.exe, Rename",
+      "sessionTime": "00:05:00.7619449"
+    },
+    {
+      "time": "2026-04-14T14:21:27Z",
+      "videoTime": "00:04:58.1573634",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:05:03.6242679"
+    },
+    {
+      "time": "2026-04-14T14:21:31Z",
+      "videoTime": "00:05:02.7735098",
+      "eventInfo": "pythonw.exe, hesap.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap.py (3.12.4)",
+      "sessionTime": "00:05:08.0972497"
+    },
+    {
+      "time": "2026-04-14T14:21:32Z",
+      "videoTime": "00:05:03.8052315",
+      "eventInfo": "[hesap.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap.py (3.12.4)] Shortcut used: Ctrl+A",
+      "sessionTime": "00:05:09.0204458"
+    },
+    {
+      "time": "2026-04-14T14:21:33Z",
+      "videoTime": "00:05:04.8360312",
+      "eventInfo": "[hesap.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap.py (3.12.4)] Shortcut used: Ctrl+C",
+      "sessionTime": "00:05:09.8117136"
+    },
+    {
+      "time": "2026-04-14T14:21:34Z",
+      "videoTime": "00:05:05.3517749",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:05:10.7527225"
+    },
+    {
+      "time": "2026-04-14T14:21:38Z",
+      "videoTime": "00:05:08.9610679",
+      "eventInfo": "pythonw.exe, hesap2.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap2.py (3.12.4)",
+      "sessionTime": "00:05:14.2211396"
+    },
+    {
+      "time": "2026-04-14T14:21:38Z",
+      "videoTime": "00:05:09.9924491",
+      "eventInfo": "[hesap2.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap2.py (3.12.4)] Shortcut used: Ctrl+V",
+      "sessionTime": "00:05:15.0682889"
+    },
+    {
+      "time": "2026-04-14T14:21:39Z",
+      "videoTime": "00:05:09.9924491",
+      "eventInfo": "pythonw.exe, *hesap2.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap2.py (3.12.4)*",
+      "sessionTime": "00:05:15.4404000"
+    },
+    {
+      "time": "2026-04-14T14:21:39Z",
+      "videoTime": "00:05:10.5088482",
+      "eventInfo": "[hesap2.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap2.py (3.12.4)] Paste detected. Length: 123",
+      "sessionTime": "00:05:15.5167722"
+    },
+    {
+      "time": "2026-04-14T14:21:48Z",
+      "videoTime": "00:05:19.2736849",
+      "eventInfo": "[hesap2.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap2.py (3.12.4)] Shortcut used: Ctrl+S",
+      "sessionTime": "00:05:24.3052404"
+    },
+    {
+      "time": "2026-04-14T14:21:48Z",
+      "videoTime": "00:05:19.2736849",
+      "eventInfo": "pythonw.exe, hesap2.py - C:\\Users\\Administrator\\Desktop\\geliştirme\\hesap2.py (3.12.4)",
+      "sessionTime": "00:05:24.3964551"
+    },
+    {
+      "time": "2026-04-14T14:21:49Z",
+      "videoTime": "00:05:20.8205211",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:05:25.8162173"
+    },
+    {
+      "time": "2026-04-14T14:21:51Z",
+      "videoTime": "00:05:22.8829374",
+      "eventInfo": "[geliştirme] Entry: a = int(input(\"İlk Sayıyı Giriniz\"))\r\nb = int(input(\"İkinci Sayıyı Giriniz\"))\r\nprint(\"toplanıyor\")\r\nc = a + b\r\n\r\ntest deneme 123cmd",
+      "sessionTime": "00:05:27.9049701"
+    },
+    {
+      "time": "2026-04-14T14:21:52Z",
+      "videoTime": "00:05:22.8829374",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:05:28.2529177"
+    },
+    {
+      "time": "2026-04-14T14:21:58Z",
+      "videoTime": "00:05:29.0704687",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: python hesap2.py",
+      "sessionTime": "00:05:34.4437802"
+    },
+    {
+      "time": "2026-04-14T14:21:58Z",
+      "videoTime": "00:05:29.5860645",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe - python  hesap2.py",
+      "sessionTime": "00:05:34.5715667"
+    },
+    {
+      "time": "2026-04-14T14:22:00Z",
+      "videoTime": "00:05:31.6497233",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: 1",
+      "sessionTime": "00:05:37.0561329"
+    },
+    {
+      "time": "2026-04-14T14:22:01Z",
+      "videoTime": "00:05:32.6825520",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: 4",
+      "sessionTime": "00:05:37.6875212"
+    },
+    {
+      "time": "2026-04-14T14:22:01Z",
+      "videoTime": "00:05:32.6825520",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:05:37.8206597"
+    },
+    {
+      "time": "2026-04-14T14:22:09Z",
+      "videoTime": "00:05:40.4141536",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:05:45.7430272"
+    },
+    {
+      "time": "2026-04-14T14:22:11Z",
+      "videoTime": "00:05:41.9611419",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:05:47.1660385"
+    }
+  ]
+}

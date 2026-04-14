@@ -1,0 +1,119 @@
+{
+  "taskUuid": "c99792b7-e1b5-49fc-a3d6-124d39818e8d",
+  "monitoringId": "b9404ec1-e4f5-49d8-9e08-6da63aecf228",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 18,
+  "activityList": [
+    {
+      "time": "2026-04-14T09:17:55Z",
+      "videoTime": "00:00:03.5414140",
+      "eventInfo": "ServerManager.exe, Please wait while the application opens",
+      "sessionTime": "00:00:09.7435539"
+    },
+    {
+      "time": "2026-04-14T09:17:55Z",
+      "videoTime": "00:00:04.5722561",
+      "eventInfo": "ServerManager.exe, Server Manager",
+      "sessionTime": "00:00:10.5048044"
+    },
+    {
+      "time": "2026-04-14T09:18:18Z",
+      "videoTime": "00:00:27.1976913",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:33.3605620"
+    },
+    {
+      "time": "2026-04-14T09:18:22Z",
+      "videoTime": "00:00:31.3072145",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:37.4520834"
+    },
+    {
+      "time": "2026-04-14T09:18:23Z",
+      "videoTime": "00:00:31.8230838",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:00:37.6592086"
+    },
+    {
+      "time": "2026-04-14T09:18:27Z",
+      "videoTime": "00:00:35.9170184",
+      "eventInfo": "[Search] Entry: cmd",
+      "sessionTime": "00:00:42.0868594"
+    },
+    {
+      "time": "2026-04-14T09:18:27Z",
+      "videoTime": "00:00:36.4328135",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:42.3630982"
+    },
+    {
+      "time": "2026-04-14T09:18:27Z",
+      "videoTime": "00:00:36.4328135",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:42.5784884"
+    },
+    {
+      "time": "2026-04-14T09:18:34Z",
+      "videoTime": "00:00:43.1196784",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:00:49.0845689"
+    },
+    {
+      "time": "2026-04-14T09:18:36Z",
+      "videoTime": "00:00:44.6666189",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:50.7078722"
+    },
+    {
+      "time": "2026-04-14T09:18:38Z",
+      "videoTime": "00:00:46.7292731",
+      "eventInfo": "[Administrator: Command Prompt] Entry: ipconfig",
+      "sessionTime": "00:00:52.6685547"
+    },
+    {
+      "time": "2026-04-14T09:18:38Z",
+      "videoTime": "00:00:46.7292731",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - ipconfig",
+      "sessionTime": "00:00:52.7509224"
+    },
+    {
+      "time": "2026-04-14T09:18:38Z",
+      "videoTime": "00:00:46.7292731",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:52.9578311"
+    },
+    {
+      "time": "2026-04-14T09:18:43Z",
+      "videoTime": "00:00:51.8771420",
+      "eventInfo": "[Administrator: Command Prompt] Entry: powershell",
+      "sessionTime": "00:00:57.9448695"
+    },
+    {
+      "time": "2026-04-14T09:18:43Z",
+      "videoTime": "00:00:51.8771420",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - powershell",
+      "sessionTime": "00:00:58.0628600"
+    },
+    {
+      "time": "2026-04-14T09:18:45Z",
+      "videoTime": "00:00:54.4552409",
+      "eventInfo": "[Administrator: Command Prompt] Entry: ls",
+      "sessionTime": "00:01:00.3200840"
+    },
+    {
+      "time": "2026-04-14T09:19:05Z",
+      "videoTime": "00:01:14.5210876",
+      "eventInfo": "[Administrator: Command Prompt] Entry: whoami",
+      "sessionTime": "00:01:20.4505297"
+    },
+    {
+      "time": "2026-04-14T09:19:14Z",
+      "videoTime": "00:01:22.7709143",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:01:29.2213689"
+    }
+  ]
+}

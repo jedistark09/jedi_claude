@@ -1,0 +1,281 @@
+{
+  "taskUuid": "cfc39a00-b23c-44ac-bf0d-70a24cb03acd",
+  "monitoringId": "988ef6ba-25cc-4423-aa5e-5159e0ce3edf",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 45,
+  "activityList": [
+    {
+      "time": "2026-04-14T10:31:53Z",
+      "videoTime": "00:00:03.5537834",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:07.9472138"
+    },
+    {
+      "time": "2026-04-14T10:31:58Z",
+      "videoTime": "00:00:09.1716749",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:13.4429967"
+    },
+    {
+      "time": "2026-04-14T10:31:59Z",
+      "videoTime": "00:00:09.6746540",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:14.2551818"
+    },
+    {
+      "time": "2026-04-14T10:32:02Z",
+      "videoTime": "00:00:12.2498845",
+      "eventInfo": "chrome.exe, YouTube - Google Chrome",
+      "sessionTime": "00:00:16.8869957"
+    },
+    {
+      "time": "2026-04-14T10:32:17Z",
+      "videoTime": "00:00:27.6573274",
+      "eventInfo": "chrome.exe, Amerika Balonu Patlamıştır🎈🎯 Amerika'nın Tarihsel Hatası Ne? Yerinde Tarih Podcast 27. Bölüm - YouTube - Google Chrome",
+      "sessionTime": "00:00:32.3595568"
+    },
+    {
+      "time": "2026-04-14T10:32:36Z",
+      "videoTime": "00:00:46.7042414",
+      "eventInfo": "chrome.exe, Dünyanın En Şanslı üçlüsü: Justinus Justinianus ve Theodora! Yerinde Tarih Podcast 26.Bölüm - YouTube - Google Chrome",
+      "sessionTime": "00:00:51.2247515"
+    },
+    {
+      "time": "2026-04-14T10:32:38Z",
+      "videoTime": "00:00:48.7669884",
+      "eventInfo": "chrome.exe, Torpil - Güldür Güldür Show 248.Bölüm - YouTube - Google Chrome",
+      "sessionTime": "00:00:53.2580602"
+    },
+    {
+      "time": "2026-04-14T10:32:44Z",
+      "videoTime": "00:00:54.9700589",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:59.3428912"
+    },
+    {
+      "time": "2026-04-14T10:32:50Z",
+      "videoTime": "00:01:00.6267615",
+      "eventInfo": "[New Tab - Google Chrome] Entry: aberhler",
+      "sessionTime": "00:01:05.3890140"
+    },
+    {
+      "time": "2026-04-14T10:32:51Z",
+      "videoTime": "00:01:01.1422041",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:05.6327217"
+    },
+    {
+      "time": "2026-04-14T10:32:53Z",
+      "videoTime": "00:01:03.7200719",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:08.2616846"
+    },
+    {
+      "time": "2026-04-14T10:32:58Z",
+      "videoTime": "00:01:08.8466407",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:13.3206113"
+    },
+    {
+      "time": "2026-04-14T10:33:00Z",
+      "videoTime": "00:01:10.3976081",
+      "eventInfo": "chrome.exe, En Son Haber: Son Dakika Haberler, Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:15.1283143"
+    },
+    {
+      "time": "2026-04-14T10:33:06Z",
+      "videoTime": "00:01:16.0660099",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:20.7674547"
+    },
+    {
+      "time": "2026-04-14T10:33:09Z",
+      "videoTime": "00:01:19.1419632",
+      "eventInfo": "chrome.exe, Haber 7 - Haber - Haberler - Son Dakika Haberleri - Google Chrome",
+      "sessionTime": "00:01:23.6310133"
+    },
+    {
+      "time": "2026-04-14T10:33:15Z",
+      "videoTime": "00:01:25.8578736",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:30.5103833"
+    },
+    {
+      "time": "2026-04-14T10:33:18Z",
+      "videoTime": "00:01:28.4207671",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:32.9157270"
+    },
+    {
+      "time": "2026-04-14T10:33:21Z",
+      "videoTime": "00:01:32.0196388",
+      "eventInfo": "chrome.exe, Untitled - Google Chrome",
+      "sessionTime": "00:01:36.3777899"
+    },
+    {
+      "time": "2026-04-14T10:33:22Z",
+      "videoTime": "00:01:33.0501339",
+      "eventInfo": "chrome.exe, ls.hit.gemius.pl/lspopupredir/lsdata=HN_w5QQo7QhsRypjMPW2pUJ9DvI8uUvSl0DEEKx9r27.N7_zZgxBB3mCr4QH0HQdiaIxP8g7ZjYc0teDTrsB7LvpEMJb/_qgzKvBocsWbz/&lsadd=KlxIPRMGia5L0S02gEA_cSZKGGGeqSKGaQan08htxGSGlGFs0sXQGs..&url=https://gasurvey.gemius.com/recruiting/index.php?sid=71687&g=14003&o=6082225&id=ipFtx5FpL2i0zFl_5i1vYPU7&fpc=f1nK6N1gjCH_3p0LuhR6I9l0RB5ifCV5Z_mZ9exhx8b.P7&fpd=haberler.com&v=0&c=0&xc=88E86B13&debugtimes=1776162767277,1776162767720,1776162800106,1776162802121 - Google Chrome",
+      "sessionTime": "00:01:37.3933148"
+    },
+    {
+      "time": "2026-04-14T10:33:23Z",
+      "videoTime": "00:01:33.5507366",
+      "eventInfo": "chrome.exe, Audience - TR - PC - TPC - Google Chrome",
+      "sessionTime": "00:01:37.9895398"
+    },
+    {
+      "time": "2026-04-14T10:33:28Z",
+      "videoTime": "00:01:39.1933289",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:43.4599214"
+    },
+    {
+      "time": "2026-04-14T10:33:30Z",
+      "videoTime": "00:01:40.7384887",
+      "eventInfo": "chrome.exe, Untitled - Google Chrome",
+      "sessionTime": "00:01:45.2338396"
+    },
+    {
+      "time": "2026-04-14T10:33:30Z",
+      "videoTime": "00:01:40.7384887",
+      "eventInfo": "chrome.exe, Kemal Kılıçdaroğlu'na hapis cezası - Haberler - Google Chrome",
+      "sessionTime": "00:01:45.4525068"
+    },
+    {
+      "time": "2026-04-14T10:33:57Z",
+      "videoTime": "00:02:07.4886819",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:02:11.8297592"
+    },
+    {
+      "time": "2026-04-14T10:33:59Z",
+      "videoTime": "00:02:09.5509249",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:02:13.8485229"
+    },
+    {
+      "time": "2026-04-14T10:34:02Z",
+      "videoTime": "00:02:12.1290329",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:02:16.6909909"
+    },
+    {
+      "time": "2026-04-14T10:34:03Z",
+      "videoTime": "00:02:13.6606842",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:02:17.9215458"
+    },
+    {
+      "time": "2026-04-14T10:34:03Z",
+      "videoTime": "00:02:13.6606842",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:02:18.3262369"
+    },
+    {
+      "time": "2026-04-14T10:34:06Z",
+      "videoTime": "00:02:16.2387992",
+      "eventInfo": "[Search] Entry: cmd",
+      "sessionTime": "00:02:20.9536793"
+    },
+    {
+      "time": "2026-04-14T10:34:06Z",
+      "videoTime": "00:02:16.7541377",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:02:21.1785208"
+    },
+    {
+      "time": "2026-04-14T10:34:06Z",
+      "videoTime": "00:02:16.7541377",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:02:21.3953926"
+    },
+    {
+      "time": "2026-04-14T10:34:27Z",
+      "videoTime": "00:02:37.3098688",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:02:41.7237647"
+    },
+    {
+      "time": "2026-04-14T10:34:30Z",
+      "videoTime": "00:02:40.9051613",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:02:45.4119320"
+    },
+    {
+      "time": "2026-04-14T10:34:34Z",
+      "videoTime": "00:02:43.9988967",
+      "eventInfo": "[Administrator: Command Prompt] Entry: whoami",
+      "sessionTime": "00:02:48.6415888"
+    },
+    {
+      "time": "2026-04-14T10:34:42Z",
+      "videoTime": "00:02:52.7232982",
+      "eventInfo": "[Administrator: Command Prompt] Entry: ipconfig",
+      "sessionTime": "00:02:57.2338004"
+    },
+    {
+      "time": "2026-04-14T10:34:56Z",
+      "videoTime": "00:03:07.1493604",
+      "eventInfo": "[Administrator: Command Prompt] Entry: ping 10.0.1.55",
+      "sessionTime": "00:03:11.4799303"
+    },
+    {
+      "time": "2026-04-14T10:34:57Z",
+      "videoTime": "00:03:07.1493604",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - ping  10.0.1.55",
+      "sessionTime": "00:03:11.6381048"
+    },
+    {
+      "time": "2026-04-14T10:35:00Z",
+      "videoTime": "00:03:10.2473884",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:03:14.6894820"
+    },
+    {
+      "time": "2026-04-14T10:35:03Z",
+      "videoTime": "00:03:13.8564402",
+      "eventInfo": "[Administrator: Command Prompt] Entry: 22",
+      "sessionTime": "00:03:18.4037622"
+    },
+    {
+      "time": "2026-04-14T10:35:03Z",
+      "videoTime": "00:03:13.8564402",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - ping  10.0.1.22",
+      "sessionTime": "00:03:18.5441472"
+    },
+    {
+      "time": "2026-04-14T10:35:15Z",
+      "videoTime": "00:03:25.7159009",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:03:30.3293459"
+    },
+    {
+      "time": "2026-04-14T10:35:20Z",
+      "videoTime": "00:03:30.8578347",
+      "eventInfo": "[Administrator: Command Prompt] Entry: 2.55",
+      "sessionTime": "00:03:35.1119193"
+    },
+    {
+      "time": "2026-04-14T10:35:20Z",
+      "videoTime": "00:03:30.8578347",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - ping  10.0.2.55",
+      "sessionTime": "00:03:35.2333176"
+    },
+    {
+      "time": "2026-04-14T10:35:23Z",
+      "videoTime": "00:03:33.9353890",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:03:38.2852353"
+    },
+    {
+      "time": "2026-04-14T10:35:27Z",
+      "videoTime": "00:03:37.5447846",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:03:41.9571591"
+    }
+  ]
+}

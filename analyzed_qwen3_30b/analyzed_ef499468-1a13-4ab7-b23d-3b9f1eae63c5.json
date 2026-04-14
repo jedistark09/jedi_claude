@@ -1,0 +1,34 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {
+      "https://notifier.win-rar.com/?language=English&source=wrr&landingpage=expired&version=624&architecture=64": 1
+    }
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {}
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "Program Manager": 6,
+      "File Explorer": 3,
+      "FortiClient.exe": 1,
+      "WinRAR.exe": 1,
+      "Signer": 1,
+      "grizzle-pam": 1,
+      "24.03.2026_VAULT_NEW": 1
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user interacted with FortiClient, used WinRAR to view a trial expiration notification, navigated through file folders including '24.03.2026_VAULT_NEW' and 'grizzle-pam', and accessed the 'Signer' application, with no executed shell commands."
+    }
+  }
+]

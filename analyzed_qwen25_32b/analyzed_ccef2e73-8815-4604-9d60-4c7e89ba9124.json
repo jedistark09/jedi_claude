@@ -1,0 +1,30 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {}
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {
+      "whoami": 1,
+      "ipconfig": 1
+    }
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "Command Prompt": 5,
+      "Server Manager": 1
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user primarily used Command Prompt and Server Manager, executing basic system commands like 'whoami' and 'ipconfig'."
+    }
+  }
+]

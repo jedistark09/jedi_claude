@@ -1,0 +1,30 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {
+      "haberler.com": 2,
+      "youtube.com": 1
+    }
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {}
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "Google Chrome": 6,
+      "Command Prompt": 1
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user opened Command Prompt and Google Chrome, visited YouTube and a news website, and performed multiple search queries on Google."
+    }
+  }
+]

@@ -1,0 +1,485 @@
+{
+  "taskUuid": "4fb28523-3a5f-4a07-994e-f4332e0be276",
+  "monitoringId": "babc536d-7ae2-4db1-ab39-1d31c057cc99",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 79,
+  "activityList": [
+    {
+      "time": "2026-04-14T10:37:17Z",
+      "videoTime": "00:00:03.6108128",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:07.8693682"
+    },
+    {
+      "time": "2026-04-14T10:37:19Z",
+      "videoTime": "00:00:05.1579440",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:09.6778795"
+    },
+    {
+      "time": "2026-04-14T10:37:20Z",
+      "videoTime": "00:00:06.7046321",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:10.8962471"
+    },
+    {
+      "time": "2026-04-14T10:37:27Z",
+      "videoTime": "00:00:13.9316106",
+      "eventInfo": "[New Tab - Google Chrome] Entry: ptg",
+      "sessionTime": "00:00:18.5152175"
+    },
+    {
+      "time": "2026-04-14T10:37:28Z",
+      "videoTime": "00:00:14.4392040",
+      "eventInfo": "chrome.exe, gpt - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:18.8293103"
+    },
+    {
+      "time": "2026-04-14T10:37:30Z",
+      "videoTime": "00:00:16.5172728",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:00:20.8424804"
+    },
+    {
+      "time": "2026-04-14T10:37:30Z",
+      "videoTime": "00:00:17.0326549",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:21.4465928"
+    },
+    {
+      "time": "2026-04-14T10:37:31Z",
+      "videoTime": "00:00:18.0644957",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:22.6591124"
+    },
+    {
+      "time": "2026-04-14T10:37:32Z",
+      "videoTime": "00:00:18.5803225",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:00:22.8689395"
+    },
+    {
+      "time": "2026-04-14T10:37:33Z",
+      "videoTime": "00:00:20.1186706",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:24.2964070"
+    },
+    {
+      "time": "2026-04-14T10:37:33Z",
+      "videoTime": "00:00:20.1186706",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:24.5253015"
+    },
+    {
+      "time": "2026-04-14T10:37:38Z",
+      "videoTime": "00:00:24.7516026",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:29.1970570"
+    },
+    {
+      "time": "2026-04-14T10:37:38Z",
+      "videoTime": "00:00:25.2676811",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:00:29.4046847"
+    },
+    {
+      "time": "2026-04-14T10:37:40Z",
+      "videoTime": "00:00:26.8056825",
+      "eventInfo": "[Search] Entry: cmd",
+      "sessionTime": "00:00:30.9778963"
+    },
+    {
+      "time": "2026-04-14T10:37:40Z",
+      "videoTime": "00:00:26.8056825",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:31.2482749"
+    },
+    {
+      "time": "2026-04-14T10:37:40Z",
+      "videoTime": "00:00:27.3214902",
+      "eventInfo": "cmd.exe, Command Prompt",
+      "sessionTime": "00:00:31.5117866"
+    },
+    {
+      "time": "2026-04-14T10:37:40Z",
+      "videoTime": "00:00:27.3214902",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:31.6707257"
+    },
+    {
+      "time": "2026-04-14T10:37:46Z",
+      "videoTime": "00:00:32.4792831",
+      "eventInfo": "[Command Prompt] Entry: python --version",
+      "sessionTime": "00:00:36.9343147"
+    },
+    {
+      "time": "2026-04-14T10:38:48Z",
+      "videoTime": "00:01:34.6989482",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:01:38.8393016"
+    },
+    {
+      "time": "2026-04-14T10:38:48Z",
+      "videoTime": "00:01:34.6989482",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:39.2388557"
+    },
+    {
+      "time": "2026-04-14T10:38:54Z",
+      "videoTime": "00:01:40.3394940",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:01:44.9299932"
+    },
+    {
+      "time": "2026-04-14T10:38:55Z",
+      "videoTime": "00:01:41.3710054",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:45.7479431"
+    },
+    {
+      "time": "2026-04-14T10:39:00Z",
+      "videoTime": "00:01:47.0185655",
+      "eventInfo": "[Program Manager] Shortcut used: Ctrl+A",
+      "sessionTime": "00:01:51.1246143"
+    },
+    {
+      "time": "2026-04-14T10:39:02Z",
+      "videoTime": "00:01:49.0810092",
+      "eventInfo": "[Program Manager] Entry: hesaphesap.py",
+      "sessionTime": "00:01:53.3446008"
+    },
+    {
+      "time": "2026-04-14T10:39:02Z",
+      "videoTime": "00:01:49.0810092",
+      "eventInfo": "explorer.exe, Rename",
+      "sessionTime": "00:01:53.4719770"
+    },
+    {
+      "time": "2026-04-14T10:39:03Z",
+      "videoTime": "00:01:50.0966700",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:54.2887129"
+    },
+    {
+      "time": "2026-04-14T10:39:17Z",
+      "videoTime": "00:02:03.9949192",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:02:08.3161106"
+    },
+    {
+      "time": "2026-04-14T10:39:17Z",
+      "videoTime": "00:02:03.9949192",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:02:08.5152687"
+    },
+    {
+      "time": "2026-04-14T10:39:22Z",
+      "videoTime": "00:02:09.1414369",
+      "eventInfo": "pythonw.exe, hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)",
+      "sessionTime": "00:02:13.6242385"
+    },
+    {
+      "time": "2026-04-14T10:39:23Z",
+      "videoTime": "00:02:10.1728180",
+      "eventInfo": "pythonw.exe, *hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*",
+      "sessionTime": "00:02:14.6412827"
+    },
+    {
+      "time": "2026-04-14T10:39:32Z",
+      "videoTime": "00:02:18.3923929",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:02:22.7968674"
+    },
+    {
+      "time": "2026-04-14T10:39:32Z",
+      "videoTime": "00:02:19.4238479",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:02:23.6146974"
+    },
+    {
+      "time": "2026-04-14T10:39:33Z",
+      "videoTime": "00:02:19.4238479",
+      "eventInfo": "pythonw.exe, *hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*",
+      "sessionTime": "00:02:23.8255884"
+    },
+    {
+      "time": "2026-04-14T10:39:45Z",
+      "videoTime": "00:02:32.2715763",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Entry: a 0 input89",
+      "sessionTime": "00:02:36.6045363"
+    },
+    {
+      "time": "2026-04-14T10:39:54Z",
+      "videoTime": "00:02:40.4748366",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Entry: b 0 input 89",
+      "sessionTime": "00:02:44.7395302"
+    },
+    {
+      "time": "2026-04-14T10:40:08Z",
+      "videoTime": "00:02:54.8997417",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Entry: c 0 a 4 b",
+      "sessionTime": "00:02:59.4641099"
+    },
+    {
+      "time": "2026-04-14T10:40:15Z",
+      "videoTime": "00:03:01.5871981",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Shortcut used: Ctrl+A",
+      "sessionTime": "00:03:06.1178350"
+    },
+    {
+      "time": "2026-04-14T10:40:15Z",
+      "videoTime": "00:03:02.1027820",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Shortcut used: Ctrl+C",
+      "sessionTime": "00:03:06.6462285"
+    },
+    {
+      "time": "2026-04-14T10:40:16Z",
+      "videoTime": "00:03:03.1204477",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:03:07.3227180"
+    },
+    {
+      "time": "2026-04-14T10:40:17Z",
+      "videoTime": "00:03:03.6360873",
+      "eventInfo": "[ChatGPT - Google Chrome] Shortcut used: Ctrl+V",
+      "sessionTime": "00:03:07.9218386"
+    },
+    {
+      "time": "2026-04-14T10:40:17Z",
+      "videoTime": "00:03:03.6360873",
+      "eventInfo": "[ChatGPT - Google Chrome] Paste detected. Length: 51",
+      "sessionTime": "00:03:08.2298225"
+    },
+    {
+      "time": "2026-04-14T10:40:18Z",
+      "videoTime": "00:03:04.6672967",
+      "eventInfo": "[ChatGPT - Google Chrome] Entry: print8c9a = input()\r\nb = input()\r\n\r\nc = a + b\r\n\r\nprint(c)\r\n",
+      "sessionTime": "00:03:08.8508301"
+    },
+    {
+      "time": "2026-04-14T10:40:26Z",
+      "videoTime": "00:03:12.4017501",
+      "eventInfo": "[ChatGPT - Google Chrome] Entry: python scripti hata var mı",
+      "sessionTime": "00:03:16.8322889"
+    },
+    {
+      "time": "2026-04-14T10:40:40Z",
+      "videoTime": "00:03:26.3235838",
+      "eventInfo": "pythonw.exe, *hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*",
+      "sessionTime": "00:03:30.8184506"
+    },
+    {
+      "time": "2026-04-14T10:40:43Z",
+      "videoTime": "00:03:29.4016457",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Paste detected. Length: 59",
+      "sessionTime": "00:03:33.9672884"
+    },
+    {
+      "time": "2026-04-14T10:40:43Z",
+      "videoTime": "00:03:29.4016457",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Shortcut used: Ctrl+V",
+      "sessionTime": "00:03:33.9640210"
+    },
+    {
+      "time": "2026-04-14T10:40:44Z",
+      "videoTime": "00:03:30.4330567",
+      "eventInfo": "[*hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)*] Shortcut used: Ctrl+S",
+      "sessionTime": "00:03:34.9179277"
+    },
+    {
+      "time": "2026-04-14T10:40:44Z",
+      "videoTime": "00:03:30.9505104",
+      "eventInfo": "pythonw.exe, hesap.py - C:\\Users\\Administrator\\Desktop\\hesap.py (3.12.4)",
+      "sessionTime": "00:03:35.1077810"
+    },
+    {
+      "time": "2026-04-14T10:40:45Z",
+      "videoTime": "00:03:31.9799172",
+      "eventInfo": "chrome.exe, ChatGPT - Google Chrome",
+      "sessionTime": "00:03:36.1254884"
+    },
+    {
+      "time": "2026-04-14T10:40:47Z",
+      "videoTime": "00:03:34.0272855",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:03:38.1733486"
+    },
+    {
+      "time": "2026-04-14T10:40:50Z",
+      "videoTime": "00:03:37.1206318",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:03:41.2364278"
+    },
+    {
+      "time": "2026-04-14T10:40:51Z",
+      "videoTime": "00:03:38.1516722",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:03:42.2540536"
+    },
+    {
+      "time": "2026-04-14T10:40:53Z",
+      "videoTime": "00:03:40.2173151",
+      "eventInfo": "[Administrator: Command Prompt] Entry: a = int(input())\r\nb = int(input())\r\n\r\nc = a + b\r\n\r\nprint(c)hesap.py",
+      "sessionTime": "00:03:44.4303496"
+    },
+    {
+      "time": "2026-04-14T10:41:00Z",
+      "videoTime": "00:03:46.3712372",
+      "eventInfo": "[Administrator: Command Prompt] Entry: python hesap.py",
+      "sessionTime": "00:03:50.9737935"
+    },
+    {
+      "time": "2026-04-14T10:41:06Z",
+      "videoTime": "00:03:52.5599900",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:03:56.8947903"
+    },
+    {
+      "time": "2026-04-14T10:41:09Z",
+      "videoTime": "00:03:55.6525071",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:04:00.1501661"
+    },
+    {
+      "time": "2026-04-14T10:41:10Z",
+      "videoTime": "00:03:56.1684876",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:04:00.7508305"
+    },
+    {
+      "time": "2026-04-14T10:41:14Z",
+      "videoTime": "00:04:00.8089282",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:04:05.0213345"
+    },
+    {
+      "time": "2026-04-14T10:41:17Z",
+      "videoTime": "00:04:04.3943940",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:04:08.4987480"
+    },
+    {
+      "time": "2026-04-14T10:41:24Z",
+      "videoTime": "00:04:10.5688192",
+      "eventInfo": "[Program Manager] Shortcut used: Ctrl+A",
+      "sessionTime": "00:04:14.6980708"
+    },
+    {
+      "time": "2026-04-14T10:41:27Z",
+      "videoTime": "00:04:13.6404198",
+      "eventInfo": "[Program Manager] Entry: eliştirmgeliştirme",
+      "sessionTime": "00:04:18.2405101"
+    },
+    {
+      "time": "2026-04-14T10:41:29Z",
+      "videoTime": "00:04:16.2185389",
+      "eventInfo": "explorer.exe, Progress",
+      "sessionTime": "00:04:20.3382329"
+    },
+    {
+      "time": "2026-04-14T10:41:29Z",
+      "videoTime": "00:04:16.2185389",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:04:20.5407495"
+    },
+    {
+      "time": "2026-04-14T10:41:30Z",
+      "videoTime": "00:04:16.2185389",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:04:20.7451739"
+    },
+    {
+      "time": "2026-04-14T10:41:30Z",
+      "videoTime": "00:04:16.7342376",
+      "eventInfo": "explorer.exe, File Explorer",
+      "sessionTime": "00:04:20.9479289"
+    },
+    {
+      "time": "2026-04-14T10:41:30Z",
+      "videoTime": "00:04:17.2497882",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:04:21.3552983"
+    },
+    {
+      "time": "2026-04-14T10:41:40Z",
+      "videoTime": "00:04:26.9901364",
+      "eventInfo": "MobaXterm.exe, /drives/c/Users/Administrator/Desktop/geliştirme",
+      "sessionTime": "00:04:31.1233591"
+    },
+    {
+      "time": "2026-04-14T10:41:42Z",
+      "videoTime": "00:04:29.0526740",
+      "eventInfo": "MobaXterm.exe, MobaXterm",
+      "sessionTime": "00:04:33.3630319"
+    },
+    {
+      "time": "2026-04-14T10:41:42Z",
+      "videoTime": "00:04:29.0526740",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:04:33.5670293"
+    },
+    {
+      "time": "2026-04-14T10:41:53Z",
+      "videoTime": "00:04:39.3495759",
+      "eventInfo": "explorer.exe, geliştirme Properties",
+      "sessionTime": "00:04:43.9422315"
+    },
+    {
+      "time": "2026-04-14T10:41:55Z",
+      "videoTime": "00:04:41.4120731",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:04:45.7826897"
+    },
+    {
+      "time": "2026-04-14T10:41:56Z",
+      "videoTime": "00:04:42.9433507",
+      "eventInfo": "[geliştirme] Entry: cmd",
+      "sessionTime": "00:04:47.4958069"
+    },
+    {
+      "time": "2026-04-14T10:41:57Z",
+      "videoTime": "00:04:43.4588184",
+      "eventInfo": "cmd.exe, C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:04:47.8147838"
+    },
+    {
+      "time": "2026-04-14T10:41:57Z",
+      "videoTime": "00:04:43.4588184",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:04:48.0184132"
+    },
+    {
+      "time": "2026-04-14T10:42:03Z",
+      "videoTime": "00:04:50.1313528",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: python hesap.py",
+      "sessionTime": "00:04:54.4543093"
+    },
+    {
+      "time": "2026-04-14T10:42:03Z",
+      "videoTime": "00:04:50.1313528",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe - python  hesap.py",
+      "sessionTime": "00:04:54.5337523"
+    },
+    {
+      "time": "2026-04-14T10:42:07Z",
+      "videoTime": "00:04:54.2411410",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: 3",
+      "sessionTime": "00:04:58.6273964"
+    },
+    {
+      "time": "2026-04-14T10:42:09Z",
+      "videoTime": "00:04:55.2721034",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: 5",
+      "sessionTime": "00:04:59.7647202"
+    },
+    {
+      "time": "2026-04-14T10:42:09Z",
+      "videoTime": "00:04:55.2721034",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:04:59.8491413"
+    }
+  ]
+}

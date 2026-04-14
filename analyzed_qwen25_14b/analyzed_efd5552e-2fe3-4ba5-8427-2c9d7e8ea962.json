@@ -1,0 +1,35 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {}
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {
+      "netstat -ano": 4,
+      "ipconfig /all": 2,
+      "tasklist": 2,
+      "hostname": 2,
+      "arp -a": 1,
+      "route print": 1,
+      "whoami": 1,
+      "pktmon stop": 1
+    }
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "Command Prompt": 35
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user primarily used Command Prompt to execute various network and system diagnostic commands."
+    }
+  }
+]

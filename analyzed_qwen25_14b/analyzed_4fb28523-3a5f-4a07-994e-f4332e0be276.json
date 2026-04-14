@@ -1,0 +1,33 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {
+      "ChatGPT - Google Chrome": 5
+    }
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {
+      "python hesap.py": 2,
+      "python --version": 1
+    }
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "Command Prompt": 4,
+      "MobaXterm": 2,
+      "File Explorer": 1
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user visited ChatGPT multiple times, executed Python commands in Command Prompt, and used File Explorer and MobaXterm."
+    }
+  }
+]

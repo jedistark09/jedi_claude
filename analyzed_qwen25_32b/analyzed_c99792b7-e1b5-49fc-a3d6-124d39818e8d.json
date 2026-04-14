@@ -1,0 +1,31 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {}
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {
+      "ipconfig": 1,
+      "powershell": 1,
+      "whoami": 1
+    }
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "Command Prompt": 4,
+      "Server Manager": 1
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user accessed Server Manager and executed several commands in the Command Prompt, including 'ipconfig', 'powershell', and 'whoami'."
+    }
+  }
+]

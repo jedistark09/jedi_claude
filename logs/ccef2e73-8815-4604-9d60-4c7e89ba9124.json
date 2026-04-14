@@ -1,0 +1,71 @@
+{
+  "taskUuid": "ccef2e73-8815-4604-9d60-4c7e89ba9124",
+  "monitoringId": "d80b4465-21ba-48af-adc5-96f319bd8515",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 10,
+  "activityList": [
+    {
+      "time": "2026-04-14T09:26:59Z",
+      "videoTime": "00:00:04.0501324",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - powershell",
+      "sessionTime": "00:00:07.9979314"
+    },
+    {
+      "time": "2026-04-14T09:27:02Z",
+      "videoTime": "00:00:07.0903469",
+      "eventInfo": "ServerManager.exe, Server Manager",
+      "sessionTime": "00:00:11.2119625"
+    },
+    {
+      "time": "2026-04-14T09:27:06Z",
+      "videoTime": "00:00:10.1835143",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - powershell",
+      "sessionTime": "00:00:14.4743529"
+    },
+    {
+      "time": "2026-04-14T09:27:06Z",
+      "videoTime": "00:00:11.2149016",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt - powershell",
+      "sessionTime": "00:00:15.3072634"
+    },
+    {
+      "time": "2026-04-14T09:27:07Z",
+      "videoTime": "00:00:12.2462036",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - powershell",
+      "sessionTime": "00:00:16.3299592"
+    },
+    {
+      "time": "2026-04-14T09:27:14Z",
+      "videoTime": "00:00:18.9025025",
+      "eventInfo": "[Administrator: Command Prompt - powershell] Entry: hit me baby one more time",
+      "sessionTime": "00:00:22.6988574"
+    },
+    {
+      "time": "2026-04-14T09:27:23Z",
+      "videoTime": "00:00:28.1529268",
+      "eventInfo": "[Administrator: Command Prompt - powershell] Entry: stay alive",
+      "sessionTime": "00:00:32.0206054"
+    },
+    {
+      "time": "2026-04-14T09:27:26Z",
+      "videoTime": "00:00:30.7314239",
+      "eventInfo": "[Administrator: Command Prompt - powershell] Entry: whoami",
+      "sessionTime": "00:00:34.6751390"
+    },
+    {
+      "time": "2026-04-14T09:27:31Z",
+      "videoTime": "00:00:36.4059638",
+      "eventInfo": "[Administrator: Command Prompt - powershell] Entry: ipconfig",
+      "sessionTime": "00:00:40.4217725"
+    },
+    {
+      "time": "2026-04-14T09:27:43Z",
+      "videoTime": "00:00:47.7323730",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:51.9357877"
+    }
+  ]
+}
