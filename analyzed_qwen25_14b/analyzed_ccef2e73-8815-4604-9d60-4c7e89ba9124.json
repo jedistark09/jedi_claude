@@ -16,15 +16,14 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 5,
-      "Server Manager": 1
+      "Command Prompt": 6
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user primarily used Command Prompt and Server Manager, executing basic system commands like 'whoami' and 'ipconfig'."
+      "text": "The user executed basic system commands like 'whoami' and 'ipconfig' in the Command Prompt."
     }
   }
 ]

@@ -3,7 +3,7 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "https://notifier.win-rar.com/?language=English&source=wrr&landingpage=expired&version=624&architecture=64": 1
+      "https://notifier.win-rar.com/?language=English&source=wrr&landingpage=expired&version=6.24&architecture=64": 1
     }
   },
   {
@@ -15,16 +15,17 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "WinRAR": 5,
-      "File Explorer": 5,
-      "FortiClient": 2
+      "Program Manager": 5,
+      "File Explorer": 4,
+      "WinRAR": 3,
+      "ShellExperienceHost": 2
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user interacted with FortiClient, WinRAR, and File Explorer."
+      "text": "The user primarily interacted with WinRAR and File Explorer, received notifications from ShellExperienceHost, and occasionally used Program Manager."
     }
   }
 ]

@@ -10,7 +10,6 @@
     "items": {
       "ipconfig": 1,
       "powershell": 1,
-      "ls": 1,
       "whoami": 1
     }
   },
@@ -18,15 +17,16 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
+      "Command Prompt": 3,
       "Server Manager": 1,
-      "Command Prompt": 1
+      "Search": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user opened Server Manager and used Command Prompt to run several administrative commands including ipconfig, powershell, ls, and whoami."
+      "text": "The user opened Server Manager, used the search function to launch Command Prompt, and executed ipconfig, powershell, and whoami commands."
     }
   }
 ]

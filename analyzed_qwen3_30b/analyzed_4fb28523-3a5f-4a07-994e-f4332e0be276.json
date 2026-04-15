@@ -3,8 +3,8 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "chatgpt.com": 2,
-      "google.com": 1
+      "chatgpt.com": 3,
+      "google.com": 2
     }
   },
   {
@@ -13,30 +13,29 @@
     "items": {
       "python hesap.py": 3,
       "python --version": 1,
-      "a = int(input())": 1,
-      "b = int(input())": 1,
-      "c = a + b": 1,
-      "print(c)": 1,
-      "3": 1,
-      "5": 1
+      "python  hesap.py": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "ChatGPT - Google Chrome": 5,
       "Command Prompt": 3,
       "File Explorer": 3,
+      "ChatGPT - Google Chrome": 3,
+      "Google Chrome": 3,
+      "Program Manager": 3,
       "MobaXterm": 2,
-      "Python": 2
+      "Search": 2,
+      "Python Script Editor": 2,
+      "Windows Explorer": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user primarily worked on a Python script for basic arithmetic, tested it via Command Prompt, referenced ChatGPT for code help, and used File Explorer and MobaXterm for file management."
+      "text": "The user primarily worked on a Python script named 'hesap.py', tested it via Command Prompt and MobaXterm, consulted ChatGPT for debugging, and browsed Google and ChatGPT for support."
     }
   }
 ]

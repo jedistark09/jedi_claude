@@ -3,14 +3,8 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "YouTube - Google Chrome": 3,
-      "Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome": 3,
-      "Amerika Balonu Patlamıştır🎈🎯 Amerika'nın Tarihsel Hatası Ne? Yerinde Tarih Podcast 27. Bölüm - YouTube - Google Chrome": 1,
-      "Dünyanın En Şanslı üçlüsü: Justinus Justinianus ve Theodora! Yerinde Tarih Podcast 26.Bölüm - YouTube - Google Chrome": 1,
-      "Torpil - Güldür Güldür Show 248.Bölüm - YouTube - Google Chrome": 1,
-      "En Son Haber: Son Dakika Haberler, Güncel Haberler - Google Chrome": 1,
-      "Haber 7 - Haber - Haberler - Son Dakika Haberleri - Google Chrome": 1,
-      "Kemal Kılıçdaroğlu'na hapis cezası - Haberler - Google Chrome": 1
+      "Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome": 4,
+      "YouTube - Google Chrome": 3
     }
   },
   {
@@ -20,6 +14,7 @@
       "whoami": 1,
       "ipconfig": 1,
       "ping 10.0.1.55": 1,
+      "ping 10.0.1.22": 1,
       "ping 10.0.2.55": 1
     }
   },
@@ -27,14 +22,15 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 9
+      "Google Chrome": 13,
+      "Command Prompt": 8
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user visited several YouTube videos and news websites, executed basic system commands in Command Prompt."
+      "text": "The user primarily engaged with web browsing and executed several network-related commands in the Command Prompt."
     }
   }
 ]

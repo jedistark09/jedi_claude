@@ -3,24 +3,20 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "YouTube - Google Chrome": 1,
-      "İllegal Dizi/Film siteleri:) - YouTube - Google Chrome": 1,
-      "Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome": 1,
-      "En Son Haber: Son Dakika Haberler, Güncel Haberler - Google Chrome": 1
+      "YouTube": 1,
+      "Haberler.com": 1
     }
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
-    "items": {
-      "powershell": 1
-    }
+    "items": {}
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 6,
+      "Google Chrome": 5,
       "Command Prompt": 1
     }
   },
@@ -28,7 +24,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user visited YouTube and news sites using Chrome, executed a PowerShell command in an elevated Command Prompt session."
+      "text": "The user visited YouTube and Haberler.com, used Google Chrome extensively but did not execute any shell commands."
     }
   }
 ]

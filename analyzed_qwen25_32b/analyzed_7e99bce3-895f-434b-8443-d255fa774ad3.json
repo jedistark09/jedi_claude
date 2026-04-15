@@ -19,14 +19,14 @@
     "items": {
       "File Explorer": 6,
       "Command Prompt": 4,
-      "Chrome": 1
+      "Google Chrome": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user accessed ChatGPT via Chrome, executed a Python script using Command Prompt in administrator mode, and frequently used File Explorer."
+      "text": "The user accessed ChatGPT via Google Chrome, executed a Python script using Command Prompt with administrative privileges, and frequently used File Explorer."
     }
   }
 ]

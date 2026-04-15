@@ -3,8 +3,8 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "haberler.com": 2,
-      "youtube.com": 1
+      "YouTube": 1,
+      "Haberler.com": 1
     }
   },
   {
@@ -16,7 +16,7 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 6,
+      "Chrome": 10,
       "Command Prompt": 1
     }
   },
@@ -24,7 +24,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user opened Command Prompt and Google Chrome, visited YouTube and a news website, and performed multiple search queries on Google."
+      "text": "The user accessed YouTube and a news website, and used Command Prompt and Chrome browser during the session."
     }
   }
 ]

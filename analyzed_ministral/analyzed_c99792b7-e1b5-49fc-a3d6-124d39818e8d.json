@@ -17,15 +17,15 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 3,
-      "Server Manager": 1
+      "Server Manager": 1,
+      "Command Prompt": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user accessed Server Manager and executed commands like ipconfig, powershell, and whoami in the Command Prompt."
+      "text": "The user executed three commands in Command Prompt and interacted with Server Manager."
     }
   }
 ]

@@ -3,7 +3,9 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "https://notifier.win-rar.com/": 1
+      "haberler.com": 3,
+      "google.com": 3,
+      "youtube.com": 1
     }
   },
   {
@@ -15,17 +17,14 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "FortiClient": 1,
-      "WinRAR": 1,
-      "File Explorer": 1,
-      "Program Manager": 1
+      "Command Prompt": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user interacted with FortiClient, used WinRAR to view a ZIP file and encountered an expiration notification, and navigated through File Explorer to access folders named '24.03.2026_VAULT_NEW', 'Signer', and 'grizzle-pam'."
+      "text": "User visited news and YouTube sites in Chrome and briefly opened Command Prompt."
     }
   }
 ]

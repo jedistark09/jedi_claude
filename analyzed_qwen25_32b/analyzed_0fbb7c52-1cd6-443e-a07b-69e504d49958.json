@@ -28,7 +28,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user accessed several websites via Google Chrome and executed a command in Command Prompt."
+      "text": "The user accessed YouTube and news websites using Google Chrome, executed a 'powershell' command in Command Prompt."
     }
   }
 ]

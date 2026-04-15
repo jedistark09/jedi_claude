@@ -2,30 +2,37 @@
   {
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
-    "items": {}
+    "items": {
+      "Haberler.com": 2,
+      "YouTube": 1
+    }
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
+      "python hesap.py": 1,
+      "whoami": 1,
       "ipconfig": 1,
-      "powershell": 1,
-      "whoami": 1
+      "netstatt": 1,
+      "python hesap2.py": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 3,
-      "Server Manager": 1
+      "Command Prompt": 6,
+      "File Explorer": 5,
+      "Google Chrome": 4,
+      "Python": 4
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user accessed Server Manager and executed commands like ipconfig, powershell, and whoami in the Command Prompt."
+      "text": "The user executed Python scripts, ran system commands, and browsed news and YouTube, primarily working within a development folder on a Windows machine."
     }
   }
 ]

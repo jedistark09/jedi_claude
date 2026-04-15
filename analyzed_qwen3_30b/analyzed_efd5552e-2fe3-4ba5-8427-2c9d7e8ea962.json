@@ -10,7 +10,7 @@
     "items": {
       "netstat -ano": 4,
       "ipconfig /all": 3,
-      "tasklist": 2,
+      "tasklist": 3,
       "hostname": 2,
       "arp -a": 1,
       "route print": 1,
@@ -24,14 +24,14 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 1
+      "Command Prompt": 18
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user executed multiple network and system diagnostic commands in an elevated Command Prompt session, including ipconfig, netstat, arp, route print, tasklist, and hostname, with repeated use of netstat -ano and one instance of pktmon stop."
+      "text": "The user executed multiple network and system diagnostic commands in an elevated Command Prompt, including ipconfig, netstat, arp, route, tasklist, and hostname, with repeated use of netstat -ano and tasklist /svc."
     }
   }
 ]

@@ -3,9 +3,9 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "haberler.com": 5,
+      "haberler.com": 6,
+      "google.com": 4,
       "youtube.com": 3,
-      "google.com": 3,
       "gasurvey.gemius.com": 1,
       "audience.tr": 1
     }
@@ -25,15 +25,17 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 1,
-      "Command Prompt": 1
+      "Google Chrome": 24,
+      "Command Prompt": 6,
+      "Program Manager": 2,
+      "Search": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user primarily browsed news and YouTube content, conducted network diagnostics using ping and ipconfig, and executed basic system commands in an elevated command prompt."
+      "text": "The user browsed news and YouTube content, performed network diagnostics using ping and ipconfig in an elevated command prompt, and used the system search function."
     }
   }
 ]

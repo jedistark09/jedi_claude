@@ -9,16 +9,14 @@
     "description": "Çalıştırılan terminal komutları",
     "items": {
       "whoami": 1,
-      "ipconfig": 1,
-      "stay alive": 1,
-      "hit me baby one more time": 1
+      "ipconfig": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 1,
+      "Command Prompt": 5,
       "Server Manager": 1
     }
   },
@@ -26,7 +24,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user executed several commands in an elevated Command Prompt, including whoami and ipconfig, while also typing song lyrics, and used Server Manager."
+      "text": "The user executed 'whoami' and 'ipconfig' commands in Command Prompt, and used Server Manager."
     }
   }
 ]

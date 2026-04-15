@@ -10,9 +10,7 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "python hesap.py": 1,
-      "1": 1,
-      "2": 1
+      "python hesap.py": 1
     }
   },
   {
@@ -20,7 +18,7 @@
     "description": "Kullanılan uygulamalar",
     "items": {
       "File Explorer": 4,
-      "Command Prompt": 2,
+      "Command Prompt": 3,
       "IDLE (Python 3.12 64-bit)": 1,
       "Google Chrome": 1
     }
@@ -29,7 +27,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user ran a Python script named 'hesap.py' from the command line, tested it with inputs 1 and 2, edited the script in IDLE, and accessed ChatGPT in Chrome."
+      "text": "The user ran a Python script via Command Prompt, used IDLE for editing, browsed ChatGPT in Chrome, and navigated folders in File Explorer."
     }
   }
 ]

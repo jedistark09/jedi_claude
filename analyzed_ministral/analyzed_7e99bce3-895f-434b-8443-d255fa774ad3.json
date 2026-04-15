@@ -8,24 +8,24 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "ipconfig": 1,
-      "powershell": 1,
-      "whoami": 1
+      "python hesap.py": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 3,
-      "Server Manager": 1
+      "File Explorer": 6,
+      "Command Prompt": 5,
+      "Python IDLE (Python 3.12 64-bit)": 1,
+      "Google Chrome": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user accessed Server Manager and executed commands like ipconfig, powershell, and whoami in the Command Prompt."
+      "text": "User executed one Python script via Command Prompt and interacted with File Explorer, Python IDLE, and Chrome."
     }
   }
 ]

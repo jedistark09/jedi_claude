@@ -2,23 +2,21 @@
   {
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
-    "items": {
-      "ChatGPT - Google Chrome": 1
-    }
+    "items": {}
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "python hesap.py": 1
+      "python  hesap.py": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "File Explorer": 5,
-      "Command Prompt": 2,
+      "Explorer": 7,
+      "Command Prompt": 3,
       "Google Chrome": 1
     }
   },
@@ -26,7 +24,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "The user accessed ChatGPT via Google Chrome, executed a Python script using Command Prompt in administrator mode, and interacted with File Explorer."
+      "text": "The user primarily interacted with the Command Prompt and Explorer applications, executing a Python script once. They also briefly opened Google Chrome to access ChatGPT."
     }
   }
 ]
