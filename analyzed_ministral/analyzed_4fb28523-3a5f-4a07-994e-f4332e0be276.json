@@ -3,8 +3,7 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "chatgpt.com": 1,
-      "google.com": 1
+      "ChatGPT": 6
     }
   },
   {
@@ -12,18 +11,17 @@
     "description": "Çalıştırılan terminal komutları",
     "items": {
       "python hesap.py": 2,
-      "python --version": 1,
-      "cmd": 1
+      "python --version": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 5,
-      "Command Prompt": 3,
-      "Python": 2,
-      "MobaXterm": 1,
+      "Google Chrome": 10,
+      "Command Prompt": 6,
+      "Python": 4,
+      "MobaXterm": 2,
       "File Explorer": 1
     }
   },
@@ -31,7 +29,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User interacted with Python scripts, terminal commands, and browsed ChatGPT and Google while using Chrome, Command Prompt, and MobaXterm."
+      "text": "User accessed ChatGPT via browser, executed Python commands and scripts, and used multiple terminal and desktop applications."
     }
   }
 ]

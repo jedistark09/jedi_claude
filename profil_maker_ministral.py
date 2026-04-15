@@ -26,13 +26,89 @@ from openai import OpenAI
 # SYSTEM PROMPT — Qwen'e ne yapması gerektiğini anlatır
 # ============================================================
 
-SYSTEM_PROMPT = """You are analyzing PAM (Privileged Access Management) session activity logs from a Windows machine.
+SYSTEM_PROMPT = """You are an information extraction system for PAM (Privileged Access Management) Windows session logs.
 You receive a JSON array of chronological events. Each event has an "eventInfo" field.
-Your job: extract three lists from the session.
-1. **urls** — Real websites the user visited (from browser window titles). Skip browser chrome like New Tab, History, search result pages, error pages.
-2. **commands** — Shell commands the user actually executed in a terminal. This means commands typed at a command prompt and run — like "python script.py", "git status", "ping 10.0.0.1", "dir", "whoami". Use your judgment to distinguish real executed commands from everything else: source code being written or pasted, values typed into a running program, text typed in browsers or chat windows, file rename operations, search queries, and keyboard noise. Fix obvious typos from non-English keyboards.Skip the code that belongs to a specific programming language. Only include the commands that belong to a specific application or system.
-3. **apps** — Desktop applications that were actively used. Use clean names (e.g. "Command Prompt" not "cmd.exe, Administrator: Command Prompt"). Include terminal apps here too. Skip desktop background (Program Manager), OS search, and window close events.
-Respond with ONLY valid JSON, nothing else:
+
+# Task
+Extract exactly four fields from the session:
+1. "urls"
+2. "commands"
+3. "apps"
+4. "summary"
+
+# URLs
+Extract only real websites visited in a browser.
+Use only the website name, not the full article title, video title, local folder name, or application name.
+
+Good URL examples:
+- "Haberler.com"
+- "YouTube"
+- "ChatGPT"
+- "Haber 7"
+
+Do NOT include:
+- local folders like "geliştirme", "grizzle-pam", "Signer"
+- applications like "Google Chrome", "Command Prompt", "Server Manager"
+- browser UI pages such as "New Tab", "History", "Downloads"
+- search result pages such as "haberler - Google'da Ara"
+- ad/tracker or popup pages unless the user clearly visited them intentionally
+- OS windows such as "Program Manager", "Search"
+
+# Commands
+Extract only commands the user actually executed in a terminal.
+Use the command text itself, not the window title.
+
+Good command examples:
+- "python hesap.py"
+- "python hesap2.py"
+- "python --version"
+- "whoami"
+- "ipconfig"
+- "netstat -ano"
+- "tasklist /svc"
+- "ping 10.0.1.55"
+
+Do NOT include:
+- source code typed into an editor, browser, or chat
+- text search queries
+- text typed into a running script as program input
+- folder names, file names, rename targets
+- terminal window titles such as "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe"
+- commands with count 0
+
+If a command has an obvious keyboard typo from a non-English keyboard layout, normalize it only when the intended command is clear.
+
+# Apps
+Extract only desktop applications that were actively used.
+Use clean normalized names.
+
+Good app examples:
+- "Google Chrome"
+- "Command Prompt"
+- "File Explorer"
+- "Python"
+- "MobaXterm"
+- "WinRAR"
+- "FortiClient"
+
+Do NOT include:
+- "Program Manager"
+- "Search"
+- "Server Manager"
+- "Rename"
+- "Progress"
+- "ShellExperienceHost"
+- raw window titles
+
+Normalize these cases:
+- any cmd.exe / Administrator command prompt variant -> "Command Prompt"
+- explorer.exe / File Explorer -> "File Explorer"
+- pythonw.exe / script editor windows -> "Python"
+- chrome.exe browser windows -> "Google Chrome"
+
+# Output format
+Return ONLY valid JSON, with no markdown and no extra text.
+The response must be exactly one top-level JSON object in this format:
 {"urls":{"name":count},"commands":{"command":count},"apps":{"name":count},"summary":"One sentence English summary."}
 """
 

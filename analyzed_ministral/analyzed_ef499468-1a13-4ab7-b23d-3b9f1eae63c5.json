@@ -22,7 +22,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User interacted with FortiClient, WinRAR, and File Explorer, with no browser or terminal commands detected."
+      "text": "User interacted with FortiClient, WinRAR, and File Explorer without executing terminal commands or visiting websites."
     }
   }
 ]

@@ -16,15 +16,14 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 1,
-      "Server Manager": 1
+      "Command Prompt": 5
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed two system commands (whoami, ipconfig) in Command Prompt and interacted with Server Manager."
+      "text": "User executed two commands (whoami, ipconfig) in Command Prompt."
     }
   }
 ]

@@ -3,8 +3,9 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "haberler.com": 6,
-      "youtube.com": 4
+      "YouTube": 4,
+      "Haberler.com": 4,
+      "Haber 7": 1
     }
   },
   {
@@ -22,15 +23,16 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 1,
-      "Command Prompt": 1
+      "Google Chrome": 18,
+      "Command Prompt": 10,
+      "File Explorer": 2
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed news and YouTube, executed network diagnostic commands in Command Prompt."
+      "text": "User browsed news sites (Haberler.com, Haber 7) and YouTube, executed network commands (ping, ipconfig), and used Chrome and Command Prompt extensively."
     }
   }
 ]

@@ -2,7 +2,9 @@
   {
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
-    "items": {}
+    "items": {
+      "ChatGPT": 1
+    }
   },
   {
     "category": "Commands",
@@ -15,9 +17,9 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
+      "Command Prompt": 6,
       "File Explorer": 6,
-      "Command Prompt": 5,
-      "Python IDLE (Python 3.12 64-bit)": 1,
+      "Python": 4,
       "Google Chrome": 1
     }
   },
@@ -25,7 +27,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed one Python script via Command Prompt and interacted with File Explorer, Python IDLE, and Chrome."
+      "text": "User executed Python scripts, accessed ChatGPT via browser, and frequently used Command Prompt and File Explorer."
     }
   }
 ]

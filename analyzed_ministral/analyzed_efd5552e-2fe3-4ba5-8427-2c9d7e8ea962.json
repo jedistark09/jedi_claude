@@ -8,11 +8,11 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "netstat -ano": 3,
-      "ipconfig /all": 2,
+      "netstat -ano": 4,
+      "ipconfig /all": 3,
+      "route print": 2,
       "hostname": 2,
       "arp -a": 1,
-      "route print": 1,
       "netstat -abno": 1,
       "tasklist": 1,
       "tasklist /svc": 1,
@@ -31,7 +31,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed 11 distinct system/network diagnostic commands in an elevated Command Prompt session."
+      "text": "User executed multiple network and system diagnostic commands in Command Prompt."
     }
   }
 ]
