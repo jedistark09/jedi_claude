@@ -20,17 +20,15 @@
       "items": [
         "Google",
         "Investing.com"
-      ],
-      "severity_hint": "low"
+      ]
     },
     {
       "type": "off_hours",
-      "detail": "Session at 16:00, normal range 08:00-15:59",
-      "severity_hint": "medium"
+      "detail": "Session at 16:00, normal range 08:00-15:59"
     }
   ],
   "flagCount": 2,
   "llmAssessment": null,
-  "finalVerdict": "needs_review",
-  "finalRiskScore": 30
+  "finalVerdict": "not_evaluated",
+  "finalRiskScore": null
 }

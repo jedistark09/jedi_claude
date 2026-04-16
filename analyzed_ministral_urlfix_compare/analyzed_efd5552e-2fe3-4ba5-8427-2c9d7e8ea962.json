@@ -31,21 +31,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed multiple network diagnostic commands in Command Prompt, including ipconfig, arp, route, netstat, tasklist, hostname, whoami, and pktmon."
-    }
-  },
-  {
-    "category": "Session Start",
-    "description": "Session start timestamp from source log",
-    "items": {
-      "text": "2026-04-14T10:47:36Z"
-    }
-  },
-  {
-    "category": "Session Duration",
-    "description": "Session duration calculated from first and last event timestamps",
-    "items": {
-      "text": "0:02:16"
+      "text": "User executed multiple network and system diagnostic commands in Command Prompt, including ipconfig, arp, route, netstat, tasklist, hostname, whoami, and pktmon."
     }
   }
 ]

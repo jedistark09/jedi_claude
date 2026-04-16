@@ -1,0 +1,80 @@
+{
+  "sessionId": "anomaly_komut",
+  "timestamp": "2026-04-15T16:49:30Z",
+  "duration": 100,
+  "session": {
+    "urls": [],
+    "commands": [
+      "whoami /priv",
+      "ping 192.168.5.100",
+      "mimikatz",
+      "net user admin /add"
+    ],
+    "apps": [
+      "Command Prompt"
+    ]
+  },
+  "pythonFlags": [
+    {
+      "type": "new_commands",
+      "detail": "4 command(s) never seen in profile",
+      "items": [
+        "mimikatz",
+        "net user admin /add",
+        "ping 192.168.5.100",
+        "whoami /priv"
+      ]
+    },
+    {
+      "type": "off_hours",
+      "detail": "Session at 16:00, normal range 08:00-15:59"
+    },
+    {
+      "type": "new_target_ips",
+      "detail": "1 IP(s) never seen before",
+      "items": [
+        "192.168.5.100"
+      ]
+    },
+    {
+      "type": "new_vs_latest_chunk",
+      "detail": "4 commands not in latest chunk (chunk 3)",
+      "items": [
+        "mimikatz",
+        "net user admin /add",
+        "ping 192.168.5.100",
+        "whoami /priv"
+      ]
+    }
+  ],
+  "flagCount": 4,
+  "llmAssessment": {
+    "riskScore": 92,
+    "verdict": "critical",
+    "anomalies": [
+      {
+        "type": "new_commands",
+        "detail": "All 4 commands are **high-risk** (mimikatz: credential dumping, net user admin /add: privilege escalation via user creation, whoami /priv: privilege enumeration, ping 192.168.5.100: potential internal recon). None appear in profile or latest chunk.",
+        "severity": "critical"
+      },
+      {
+        "type": "off_hours",
+        "detail": "Session at 16:49 (outside normal 08:00-15:59 range). Combined with high-risk commands, this suggests **opportunistic or covert activity** (e.g., avoiding detection).",
+        "severity": "high"
+      },
+      {
+        "type": "new_target_ips",
+        "detail": "Target IP **192.168.5.100** is new and internal (likely LAN). Ping suggests **reconnaissance** before potential lateral movement or credential abuse.",
+        "severity": "high"
+      },
+      {
+        "type": "new_vs_latest_chunk",
+        "detail": "All commands are **novel** and align with **post-exploitation** (mimikatz + user creation). Latest chunk shows benign activity (netstat, ipconfig), making this a **sharp behavioral shift**.",
+        "severity": "critical"
+      }
+    ],
+    "reasoning": "The session exhibits **multiple critical indicators of malicious intent**, including the use of **Mimikatz** (a credential theft tool), **unauthorized user creation** (`net user admin /add`), and **privilege enumeration** (`whoami /priv`). The **new internal IP target** (192.168.5.100) and **off-hours timing** further suggest **lateral movement or privilege escalation** attempts. While individual flags (e.g., `new_urls`) are absent, the **combination of high-severity commands, new targets, and behavioral deviation** from the user’s baseline (e.g., no prior Mimikatz or admin tool usage) warrants an **immediate critical verdict**. The lack of URLs or benign apps in this session reinforces the **suspicion of automated or stealthy attack activity** (e.g., post-exploitation)."
+  },
+  "finalVerdict": "critical",
+  "finalRiskScore": 92
+}

@@ -1,0 +1,84 @@
+{
+  "sessionId": "normal_lüx",
+  "timestamp": "2026-04-15T16:43:43Z",
+  "duration": 138,
+  "session": {
+    "urls": [
+      "Haberler.com",
+      "Google"
+    ],
+    "commands": [
+      "whoami",
+      "ipconfig",
+      "nettstat",
+      "git status",
+      "git"
+    ],
+    "apps": [
+      "Google Chrome",
+      "Command Prompt",
+      "File Explorer"
+    ]
+  },
+  "pythonFlags": [
+    {
+      "type": "new_commands",
+      "detail": "3 command(s) never seen in profile",
+      "items": [
+        "git",
+        "git status",
+        "nettstat"
+      ]
+    },
+    {
+      "type": "new_urls",
+      "detail": "1 website(s) never seen in profile",
+      "items": [
+        "Google"
+      ]
+    },
+    {
+      "type": "off_hours",
+      "detail": "Session at 16:00, normal range 08:00-15:59"
+    },
+    {
+      "type": "new_vs_latest_chunk",
+      "detail": "3 commands not in latest chunk (chunk 3)",
+      "items": [
+        "git",
+        "git status",
+        "nettstat"
+      ]
+    }
+  ],
+  "flagCount": 4,
+  "llmAssessment": {
+    "riskScore": 35,
+    "verdict": "suspicious",
+    "anomalies": [
+      {
+        "type": "new_commands",
+        "detail": "3 yeni komut ('git', 'git status', 'nettstat') kullanıcı profiline ve son chunk'a göre görülmemiş. 'git' ve 'git status' kullanıcı profiline göre anormal olmasa da, 'nettstat' (düzeltme: 'netstat') ağ keşfi ve ağ bağlantıları hakkında bilgi sağlayabilir. Bu, tek başına düşük riskli olsa da, diğer flag'lerle birleştiğinde dikkat çekici hale gelir.",
+        "severity": "medium"
+      },
+      {
+        "type": "new_vs_latest_chunk",
+        "detail": "Yeni komutlar ('git', 'git status', 'nettstat') son chunk'ta görülmemiş. Bu, kullanıcının davranışındaki bir değişikliği gösterir, ancak tek başına kritik değildir.",
+        "severity": "medium"
+      },
+      {
+        "type": "off_hours",
+        "detail": "Saat dışı (16:43) kullanım, normal çalışma saatleri (08:00-15:59) dışında. Ancak tek başına risk oluşturmaz; diğer flag'lerle birlikte değerlendirilir.",
+        "severity": "low"
+      },
+      {
+        "type": "new_urls",
+        "detail": "'Google' URL'si profilde görülmemiş olsa da, yaygın bir arama motoru olup riski düşüktür. Bu flag tek başına anlamlı değildir.",
+        "severity": "low"
+      }
+    ],
+    "reasoning": "Kullanıcı, normal çalışma saatleri dışında ('off_hours') bir session başlattı ve 3 adet yeni komut ('git', 'git status', 'nettstat') kullandı. Bu komutlar, kullanıcı profiline ve son chunk'a göre görülmemiş olsa da, 'nettstat' (netstat) ağ keşfi ve ağ bağlantılarını incelemek için kullanılabilir. Ancak, 'git' komutları kullanıcı profiline göre anormal değildir ve bu durumda riski artırmayacak kadar yaygındır. 'off_hours' flag'i tek başına kritik değildir, ancak diğer flag'lerle birlikte değerlendirildiğinde, kullanıcının davranışındaki küçük bir sapma olarak değerlendirilir. Risk skoru orta düzeyde tutulmuştur, çünkü tekil flag'ler güçlü bir saldırı senaryosunu desteklemez, ancak inceleme gerektiren bir davranış değişikliği gösterir."
+  },
+  "finalVerdict": "suspicious",
+  "finalRiskScore": 35
+}

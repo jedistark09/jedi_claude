@@ -26,19 +26,5 @@
     "items": {
       "text": "User executed three commands (ipconfig, powershell, whoami) in Command Prompt."
     }
-  },
-  {
-    "category": "Session Start",
-    "description": "Session start timestamp from source log",
-    "items": {
-      "text": "2026-04-14T09:17:55Z"
-    }
-  },
-  {
-    "category": "Session Duration",
-    "description": "Session duration calculated from first and last event timestamps",
-    "items": {
-      "text": "0:01:19"
-    }
   }
 ]

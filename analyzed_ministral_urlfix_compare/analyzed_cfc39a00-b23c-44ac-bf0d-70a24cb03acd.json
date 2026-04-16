@@ -3,7 +3,7 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Haberler.com": 5,
+      "Haberler.com": 6,
       "YouTube": 4,
       "Google": 3,
       "Haber 7": 1,
@@ -25,7 +25,7 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 18,
+      "Google Chrome": 19,
       "Command Prompt": 10,
       "File Explorer": 2
     }
@@ -34,21 +34,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, news sites (Haberler.com, Haber 7), and Google while executing network commands (ping, ipconfig) in Command Prompt."
-    }
-  },
-  {
-    "category": "Session Start",
-    "description": "Session start timestamp from source log",
-    "items": {
-      "text": "2026-04-14T10:31:53Z"
-    }
-  },
-  {
-    "category": "Session Duration",
-    "description": "Session duration calculated from first and last event timestamps",
-    "items": {
-      "text": "0:03:34"
+      "text": "User browsed YouTube, Google, and news sites (Haberler.com, Haber 7) while executing network commands (ping, ipconfig) in Command Prompt."
     }
   }
 ]

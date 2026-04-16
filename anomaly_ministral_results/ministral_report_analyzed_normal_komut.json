@@ -1,0 +1,54 @@
+{
+  "sessionId": "normal_komut",
+  "timestamp": "2026-04-15T16:46:27Z",
+  "duration": 66,
+  "session": {
+    "urls": [],
+    "commands": [
+      "python hesap.py",
+      "python hesap2.py"
+    ],
+    "apps": [
+      "Command Prompt",
+      "WinRAR",
+      "File Explorer",
+      "MobaXterm"
+    ]
+  },
+  "pythonFlags": [
+    {
+      "type": "off_hours",
+      "detail": "Session at 16:00, normal range 08:00-15:59"
+    }
+  ],
+  "flagCount": 1,
+  "llmAssessment": {
+    "riskScore": 45,
+    "verdict": "suspicious",
+    "anomalies": [
+      {
+        "type": "off_hours",
+        "detail": "Session saat dışı (16:46) gerçekleşti, ancak tek başına düşük risk oluşturur. Kullanıcının normal çalışma saatleri 08:00-15:59 arasıdır.",
+        "severity": "low"
+      },
+      {
+        "type": "new_commands",
+        "detail": "Kullanıcının profiline göre **'hesap2.py'** komutu yeni bir komut olarak tespit edildi. 'hesap.py' zaten profilde var, ancak 'hesap2.py' benzer amaçlı olabilecek yeni bir script çağrışımı yapar. Bu, potansiyel olarak kötüye kullanım veya yeni bir araç/skriptin test edilmesi olabilir.",
+        "severity": "medium"
+      },
+      {
+        "type": "new_applications",
+        "detail": "**MobaXterm** kullanımı, profilde zaten var olmasına rağmen, **WinRAR** ile birlikte kullanıldığında, ağ keşfi veya dosya manipülasyonu amacıyla kullanılabilecek bir kombinasyon oluşturur. MobaXterm, uzaktan erişim ve ağ analizi için kullanılan bir araçtır.",
+        "severity": "medium"
+      },
+      {
+        "type": "dormant_reactivation",
+        "detail": "Kullanıcı 1 günlük bir aradan sonra tekrar aktif oldu. Bu durum, hesapların yeniden canlandırılması veya uzun süre kullanılmayan bir hesabın kötüye kullanılmasıyla ilişkilendirilebilir.",
+        "severity": "medium"
+      }
+    ],
+    "reasoning": "Kullanıcı, normal çalışma saatleri dışında (16:46) bir session açtı, ancak bu tek başına kritik değildir. Ancak, **'hesap2.py'** gibi yeni bir scriptin çalıştırılması, **MobaXterm** ve **WinRAR** gibi ağ/dosya manipülasyonu için kullanılan araçların kullanımı ve 1 günlük bir aradan sonraki tekrar etkinleşme, düşük düzeyde şüphe uyandırır. Bu kombinasyon, kullanıcının normal davranış profiline uymamaktadır. Özellikle **'hesap2.py'** komutu, profilde olmayan bir script olup, potansiyel olarak kötüye kullanım veya test amaçlı olabilir. Bu nedenle, risk skoru orta düzeyde (45) olarak değerlendirilmiş ve 'suspicious' (şüpheli) olarak sınıflandırılmıştır."
+  },
+  "finalVerdict": "suspicious",
+  "finalRiskScore": 45
+}

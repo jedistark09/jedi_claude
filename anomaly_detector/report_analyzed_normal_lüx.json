@@ -28,21 +28,18 @@
         "git",
         "git status",
         "nettstat"
-      ],
-      "severity_hint": "high"
+      ]
     },
     {
       "type": "new_urls",
       "detail": "1 website(s) never seen in profile",
       "items": [
         "Google"
-      ],
-      "severity_hint": "low"
+      ]
     },
     {
       "type": "off_hours",
-      "detail": "Session at 16:00, normal range 08:00-15:59",
-      "severity_hint": "medium"
+      "detail": "Session at 16:00, normal range 08:00-15:59"
     },
     {
       "type": "new_vs_latest_chunk",
@@ -51,12 +48,11 @@
         "git",
         "git status",
         "nettstat"
-      ],
-      "severity_hint": "medium"
+      ]
     }
   ],
   "flagCount": 4,
   "llmAssessment": null,
-  "finalVerdict": "needs_review",
-  "finalRiskScore": 60
+  "finalVerdict": "not_evaluated",
+  "finalRiskScore": null
 }

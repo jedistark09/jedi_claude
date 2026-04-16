@@ -3,8 +3,8 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Google": 3,
-      "YouTube": 1,
+      "Google": 4,
+      "YouTube": 2,
       "Haberler.com": 1
     }
   },
@@ -27,20 +27,6 @@
     "description": "One-sentence English session summary",
     "items": {
       "text": "User browsed YouTube, Google search, and Haberler.com while using Google Chrome, File Explorer, and Command Prompt."
-    }
-  },
-  {
-    "category": "Session Start",
-    "description": "Session start timestamp from source log",
-    "items": {
-      "text": "2026-04-14T09:34:06Z"
-    }
-  },
-  {
-    "category": "Session Duration",
-    "description": "Session duration calculated from first and last event timestamps",
-    "items": {
-      "text": "0:01:00"
     }
   }
 ]

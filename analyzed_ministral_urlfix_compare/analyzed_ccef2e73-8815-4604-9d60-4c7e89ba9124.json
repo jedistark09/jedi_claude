@@ -16,7 +16,7 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 6
+      "Command Prompt": 5
     }
   },
   {
@@ -24,20 +24,6 @@
     "description": "One-sentence English session summary",
     "items": {
       "text": "User executed two commands (whoami, ipconfig) in Command Prompt without browsing or additional app usage."
-    }
-  },
-  {
-    "category": "Session Start",
-    "description": "Session start timestamp from source log",
-    "items": {
-      "text": "2026-04-14T09:26:59Z"
-    }
-  },
-  {
-    "category": "Session Duration",
-    "description": "Session duration calculated from first and last event timestamps",
-    "items": {
-      "text": "0:00:44"
     }
   }
 ]

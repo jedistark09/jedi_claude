@@ -80,7 +80,7 @@ def _stddev(values: list[float]) -> float:
 def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict]:
     """
     Session'i profile ile karsilastir, anomali flag listesi dondur.
-    Her flag: {type, detail, items?, severity_hint}
+    Her flag Python tarafinda sadece deterministik bir filtre sonucudur.
     """
     if config is None:
         config = {
@@ -100,7 +100,6 @@ def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict
             "type": "new_commands",
             "detail": f"{len(new_cmds)} command(s) never seen in profile",
             "items": sorted(new_cmds),
-            "severity_hint": "high" if len(new_cmds) >= 3 else "medium",
         })
 
     # --- 2. Yeni uygulamalar ---
@@ -112,7 +111,6 @@ def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict
             "type": "new_applications",
             "detail": f"{len(new_apps)} application(s) never seen in profile",
             "items": sorted(new_apps),
-            "severity_hint": "high" if len(new_apps) >= 2 else "medium",
         })
 
     # --- 3. Yeni URL'ler ---
@@ -124,7 +122,6 @@ def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict
             "type": "new_urls",
             "detail": f"{len(new_urls)} website(s) never seen in profile",
             "items": sorted(new_urls),
-            "severity_hint": "low",
         })
 
     # --- 4. Saat kontrolu ---
@@ -137,7 +134,6 @@ def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict
             flags.append({
                 "type": "off_hours",
                 "detail": f"Session at {session_hour:02d}:00, normal range {range_start:02d}:00-{range_end:02d}:59",
-                "severity_hint": config["off_hours_severity"],
             })
     except (ValueError, IndexError):
         pass
@@ -154,7 +150,6 @@ def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict
             flags.append({
                 "type": "command_count_spike",
                 "detail": f"{session_cmd_count} commands vs avg {avg_cmds} ({ratio:.1f}x), stddev={std:.1f}",
-                "severity_hint": "high" if ratio >= 3.0 else "medium",
             })
 
     # --- 6. Session suresi spike ---
@@ -165,7 +160,6 @@ def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict
             flags.append({
                 "type": "duration_spike",
                 "detail": f"{session['duration']}s vs avg {avg_dur}s ({dur_ratio:.1f}x)",
-                "severity_hint": "medium",
             })
 
     # --- 7. Yeni hedef IP'ler ---
@@ -177,7 +171,6 @@ def detect_flags(session: dict, profile: dict, config: dict = None) -> list[dict
             "type": "new_target_ips",
             "detail": f"{len(new_ips)} IP(s) never seen before",
             "items": sorted(new_ips),
-            "severity_hint": "high",
         })
 
     # --- 8. Chunk trend karsilastirma ---
@@ -203,12 +196,11 @@ def compare_with_chunks(session: dict, chunks: list[dict]) -> list[dict]:
     session_cmds = set(session["commands"])
     new_vs_chunk = session_cmds - chunk_cmds
 
-    if new_vs_chunk and len(new_vs_chunk) >= 2:
+    if new_vs_chunk:
         flags.append({
             "type": "new_vs_latest_chunk",
             "detail": f"{len(new_vs_chunk)} commands not in latest chunk (chunk {latest_chunk.get('chunkIndex', '?')})",
             "items": sorted(new_vs_chunk),
-            "severity_hint": "medium",
         })
 
     # Komut yogunlugu trendi
@@ -220,8 +212,25 @@ def compare_with_chunks(session: dict, chunks: list[dict]) -> list[dict]:
             flags.append({
                 "type": "escalation_vs_chunk",
                 "detail": f"{session_cmd_count} cmds vs chunk avg {last_avg} ({session_cmd_count/last_avg:.1f}x)",
-                "severity_hint": "medium",
             })
+
+    # Son 5 chunk'ta hic gorulmeyip profile'da bulunan komutlar geri dondu mu?
+    recent_chunks = chunks[-5:]
+    recent_chunk_cmds = set()
+    for chunk in recent_chunks:
+        recent_chunk_cmds.update(chunk.get("commandFrequency", {}).keys())
+
+    profile_cmds = set()
+    for chunk in chunks:
+        profile_cmds.update(chunk.get("commandFrequency", {}).keys())
+
+    dormant_cmds = (session_cmds & profile_cmds) - recent_chunk_cmds
+    if dormant_cmds:
+        flags.append({
+            "type": "dormant_reactivation",
+            "detail": f"{len(dormant_cmds)} previously known command(s) absent from last {len(recent_chunks)} chunk(s)",
+            "items": sorted(dormant_cmds),
+        })
 
     return flags
 
@@ -233,12 +242,15 @@ def compare_with_chunks(session: dict, chunks: list[dict]) -> list[dict]:
 LLM_PROMPT = """You are a PAM security analyst. You receive:
 1. A user behavior PROFILE summary (baseline from past sessions)
 2. A NEW SESSION summary
-3. A list of ANOMALY FLAGS detected by automated comparison
+3. A list of deterministic ANOMALY FLAGS detected by Python rules
 
-Your job: interpret the flags in context and produce a risk assessment.
+Important:
+- Python flags are only pre-filters. They are not risk scores.
+- Do not assume every flag is dangerous.
+- You must decide whether the session is normal, suspicious, or critical based on the full context.
+- Some flags may be benign on their own but risky in combination.
 
-For each flag, explain WHY it matters from a security perspective.
-Consider combinations â€” multiple weak signals together may indicate a serious threat.
+For each flag, explain whether it is meaningful, weak, benign, or high-risk in this context.
 
 Respond ONLY with JSON:
 {
@@ -343,15 +355,15 @@ def build_report(session: dict, flags: list[dict], llm_result: dict | None) -> d
         "pythonFlags": flags,
         "flagCount": len(flags),
         "llmAssessment": llm_result,
-        "finalVerdict": llm_result["verdict"] if llm_result else ("normal" if not flags else "needs_review"),
-        "finalRiskScore": llm_result["riskScore"] if llm_result else (len(flags) * 15),
+        "finalVerdict": llm_result["verdict"] if llm_result else ("not_evaluated" if flags else "normal"),
+        "finalRiskScore": llm_result["riskScore"] if llm_result else None,
     }
 
 
 def print_report(report: dict):
     v = report["finalVerdict"]
     score = report["finalRiskScore"]
-    colors = {"normal": "[OK]", "suspicious": "[WARN]", "critical": "[CRIT]", "needs_review": "[REVIEW]", "error": "[ERROR]"}
+    colors = {"normal": "[OK]", "suspicious": "[WARN]", "critical": "[CRIT]", "not_evaluated": "[PENDING]", "error": "[ERROR]"}
     icon = colors.get(v, "[?]")
 
     print(f"\n{'='*60}")
@@ -360,14 +372,13 @@ def print_report(report: dict):
     print(f"  Time:     {report['timestamp']}")
     print(f"  Duration: {report['duration']}s")
     print(f"  Verdict:  {v.upper()}")
-    print(f"  Risk:     {score}/100")
+    print(f"  Risk:     {score}/100" if score is not None else "  Risk:     not evaluated")
     print(f"  Flags:    {report['flagCount']}")
 
     if report["pythonFlags"]:
         print(f"\n  Python flags:")
         for f in report["pythonFlags"]:
-            sev = f.get("severity_hint", "?")
-            print(f"    [{sev:6s}] {f['type']}: {f['detail']}")
+            print(f"    {f['type']}: {f['detail']}")
             if "items" in f:
                 print(f"            â†’ {', '.join(f['items'][:5])}")
 
@@ -431,6 +442,8 @@ def run_detection(session_path: str, profile: dict, chunks: list[dict], args, cl
     elif not flags:
         print(f"  [OK] No flags - session is NORMAL (LLM not needed)")
         llm_result = {"riskScore": 0, "verdict": "normal", "anomalies": [], "reasoning": "No anomalies detected."}
+    else:
+        print("  [Info] Flags collected. Final risk decision is left to the LLM.")
 
     report = build_report(session, flags, llm_result)
     print_report(report)
