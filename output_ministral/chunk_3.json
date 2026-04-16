@@ -1,0 +1,123 @@
+{
+  "chunkIndex": 3,
+  "userId": "",
+  "accountTarget": "",
+  "firstSeen": "2026-04-14T10:43:33Z",
+  "lastSeen": "2026-04-14T14:16:32Z",
+  "totalSessions": 3,
+  "urlFrequency": {
+    "ChatGPT": 1,
+    "Haberler.com": 1,
+    "YouTube": 1
+  },
+  "commandFrequency": {
+    "python hesap.py": 2,
+    "whoami": 2,
+    "netstat -ano": 1,
+    "ipconfig /all": 1,
+    "route print": 1,
+    "hostname": 1,
+    "arp -a": 1,
+    "netstat -abno": 1,
+    "tasklist": 1,
+    "tasklist /svc": 1,
+    "pktmon stop": 1,
+    "python hesap2.py": 1,
+    "ipconfig": 1,
+    "netstatt": 1
+  },
+  "appFrequency": {
+    "Command Prompt": 3,
+    "File Explorer": 2,
+    "Python": 2,
+    "Google Chrome": 2
+  },
+  "activeHours": {
+    "rangeStart": 9,
+    "rangeEnd": 15,
+    "buffer": 1,
+    "sessionHours": [
+      10,
+      10,
+      14
+    ]
+  },
+  "avgSessionDuration": 187,
+  "avgCommandsPerSession": 5.3,
+  "sessionDurations": [
+    87,
+    136,
+    339
+  ],
+  "commandsPerSession": [
+    1,
+    10,
+    5
+  ],
+  "knownTargetIPs": [],
+  "sessions": [
+    {
+      "sessionId": "7e99bce3-895f-434b-8443-d255fa774ad3",
+      "timestamp": "2026-04-14T10:43:33Z",
+      "duration": 87,
+      "urls": [
+        "ChatGPT"
+      ],
+      "commands": [
+        "python hesap.py"
+      ],
+      "apps": [
+        "Command Prompt",
+        "File Explorer",
+        "Python",
+        "Google Chrome"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "efd5552e-2fe3-4ba5-8427-2c9d7e8ea962",
+      "timestamp": "2026-04-14T10:47:36Z",
+      "duration": 136,
+      "urls": [],
+      "commands": [
+        "netstat -ano",
+        "ipconfig /all",
+        "route print",
+        "hostname",
+        "arp -a",
+        "netstat -abno",
+        "tasklist",
+        "tasklist /svc",
+        "whoami",
+        "pktmon stop"
+      ],
+      "apps": [
+        "Command Prompt"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "a3d1e9d0-c3b3-4f99-8d18-c3e13564cece",
+      "timestamp": "2026-04-14T14:16:32Z",
+      "duration": 339,
+      "urls": [
+        "Haberler.com",
+        "YouTube"
+      ],
+      "commands": [
+        "python hesap.py",
+        "whoami",
+        "python hesap2.py",
+        "ipconfig",
+        "netstatt"
+      ],
+      "apps": [
+        "Command Prompt",
+        "Python",
+        "Google Chrome",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    }
+  ]
+}

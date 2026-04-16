@@ -26,5 +26,19 @@
     "items": {
       "text": "User accessed YouTube, Haberler.com via Google Chrome and interacted with File Explorer."
     }
+  },
+  {
+    "category": "Session Start",
+    "description": "Session start timestamp from source log",
+    "items": {
+      "text": "2026-04-14T09:34:06Z"
+    }
+  },
+  {
+    "category": "Session Duration",
+    "description": "Session duration calculated from first and last event timestamps",
+    "items": {
+      "text": "0:01:00"
+    }
   }
 ]

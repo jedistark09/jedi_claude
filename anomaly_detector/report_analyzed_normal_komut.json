@@ -1,0 +1,29 @@
+{
+  "sessionId": "normal_komut",
+  "timestamp": "2026-04-15T16:46:27Z",
+  "duration": 66,
+  "session": {
+    "urls": [],
+    "commands": [
+      "python hesap.py",
+      "python hesap2.py"
+    ],
+    "apps": [
+      "Command Prompt",
+      "WinRAR",
+      "File Explorer",
+      "MobaXterm"
+    ]
+  },
+  "pythonFlags": [
+    {
+      "type": "off_hours",
+      "detail": "Session at 16:00, normal range 08:00-15:59",
+      "severity_hint": "medium"
+    }
+  ],
+  "flagCount": 1,
+  "llmAssessment": null,
+  "finalVerdict": "needs_review",
+  "finalRiskScore": 15
+}

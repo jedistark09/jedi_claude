@@ -1,0 +1,119 @@
+{
+  "taskUuid": "1dcbd7fa-efbd-4090-a2b5-acf2cd13446b",
+  "monitoringId": "d9c37625-3700-49aa-9ec4-adb0821342fa",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 18,
+  "activityList": [
+    {
+      "time": "2026-04-15T16:51:48Z",
+      "videoTime": "00:00:03.5916412",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:06.9155525"
+    },
+    {
+      "time": "2026-04-15T16:51:50Z",
+      "videoTime": "00:00:06.1922641",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:09.5714508"
+    },
+    {
+      "time": "2026-04-15T16:51:52Z",
+      "videoTime": "00:00:07.2130992",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:10.7661097"
+    },
+    {
+      "time": "2026-04-15T16:51:55Z",
+      "videoTime": "00:00:10.8316409",
+      "eventInfo": "[New Tab - Google Chrome] Entry: ltaın",
+      "sessionTime": "00:00:14.5288862"
+    },
+    {
+      "time": "2026-04-15T16:51:56Z",
+      "videoTime": "00:00:11.3471637",
+      "eventInfo": "chrome.exe, altın - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:14.8148906"
+    },
+    {
+      "time": "2026-04-15T16:51:58Z",
+      "videoTime": "00:00:12.8787888",
+      "eventInfo": "chrome.exe, Altın Fiyatları - Canlı Altın Kuru, Bugün Anlık Altın Fiyatı (Güncel) - Google Chrome",
+      "sessionTime": "00:00:16.6156065"
+    },
+    {
+      "time": "2026-04-15T16:52:03Z",
+      "videoTime": "00:00:18.0352530",
+      "eventInfo": "chrome.exe, altın - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:21.6420471"
+    },
+    {
+      "time": "2026-04-15T16:52:06Z",
+      "videoTime": "00:00:21.1284508",
+      "eventInfo": "[New Tab - Google Chrome] Entry:  grafik",
+      "sessionTime": "00:00:24.6238824"
+    },
+    {
+      "time": "2026-04-15T16:52:06Z",
+      "videoTime": "00:00:21.1284508",
+      "eventInfo": "chrome.exe, altın grafik - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:24.9187340"
+    },
+    {
+      "time": "2026-04-15T16:52:08Z",
+      "videoTime": "00:00:23.7065846",
+      "eventInfo": "chrome.exe, Altın (TL/GR) Fiyatları (1 Ay) - Altın (TL/GR) Alış/Satış Fiyat Arşivi - Google Chrome",
+      "sessionTime": "00:00:27.5316161"
+    },
+    {
+      "time": "2026-04-15T16:52:19Z",
+      "videoTime": "00:00:35.0196077",
+      "eventInfo": "chrome.exe, altın grafik - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:38.3936572"
+    },
+    {
+      "time": "2026-04-15T16:52:23Z",
+      "videoTime": "00:00:38.6290244",
+      "eventInfo": "[New Tab - Google Chrome] Entry: gümüş",
+      "sessionTime": "00:00:42.2510315"
+    },
+    {
+      "time": "2026-04-15T16:52:24Z",
+      "videoTime": "00:00:39.1446801",
+      "eventInfo": "chrome.exe, gümüş grafik - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:42.6599552"
+    },
+    {
+      "time": "2026-04-15T16:52:25Z",
+      "videoTime": "00:00:40.6914714",
+      "eventInfo": "chrome.exe, Gümüş Gram Fiyatı (Canlı XAGg TRY) - Investing.com - Google Chrome",
+      "sessionTime": "00:00:44.4721714"
+    },
+    {
+      "time": "2026-04-15T16:52:31Z",
+      "videoTime": "00:00:46.3485078",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:49.8941632"
+    },
+    {
+      "time": "2026-04-15T16:52:45Z",
+      "videoTime": "00:01:00.7387678",
+      "eventInfo": "chrome.exe, Gümüş Gram Fiyatı (Canlı XAGg TRY) - Investing.com - Google Chrome",
+      "sessionTime": "00:01:04.2754231"
+    },
+    {
+      "time": "2026-04-15T16:52:46Z",
+      "videoTime": "00:01:01.2542793",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:05.0631535"
+    },
+    {
+      "time": "2026-04-15T16:52:56Z",
+      "videoTime": "00:01:11.5970149",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:01:15.4334753"
+    }
+  ]
+}

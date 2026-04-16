@@ -24,5 +24,19 @@
     "items": {
       "text": "User interacted with FortiClient, WinRAR, and File Explorer without executing terminal commands or visiting websites."
     }
+  },
+  {
+    "category": "Session Start",
+    "description": "Session start timestamp from source log",
+    "items": {
+      "text": "2026-04-14T09:36:24Z"
+    }
+  },
+  {
+    "category": "Session Duration",
+    "description": "Session duration calculated from first and last event timestamps",
+    "items": {
+      "text": "0:01:16"
+    }
   }
 ]

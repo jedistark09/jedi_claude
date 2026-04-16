@@ -1,0 +1,253 @@
+{
+  "userId": "",
+  "accountTarget": "",
+  "firstSeen": "2026-04-14T09:17:55Z",
+  "lastSeen": "2026-04-14T14:16:32Z",
+  "profileUpdatedAt": "2026-04-15T18:12:58Z",
+  "totalSessions": 9,
+  "totalChunks": 3,
+  "urlFrequency": {
+    "YouTube": 3,
+    "Haberler.com": 3,
+    "ChatGPT": 2,
+    "Haber 7": 1
+  },
+  "commandFrequency": {
+    "whoami": 5,
+    "ipconfig": 4,
+    "python hesap.py": 3,
+    "ping 10.0.1.55": 1,
+    "ping 10.0.1.22": 1,
+    "ping 10.0.2.55": 1,
+    "python --version": 1,
+    "netstat -ano": 1,
+    "ipconfig /all": 1,
+    "route print": 1,
+    "hostname": 1,
+    "arp -a": 1,
+    "netstat -abno": 1,
+    "tasklist": 1,
+    "tasklist /svc": 1,
+    "pktmon stop": 1,
+    "python hesap2.py": 1,
+    "netstatt": 1
+  },
+  "appFrequency": {
+    "Command Prompt": 7,
+    "File Explorer": 6,
+    "Google Chrome": 5,
+    "Python": 3,
+    "WinRAR": 1,
+    "FortiClient": 1,
+    "MobaXterm": 1
+  },
+  "activeHours": {
+    "rangeStart": 8,
+    "rangeEnd": 15,
+    "buffer": 1,
+    "sessionHours": [
+      9,
+      9,
+      9,
+      9,
+      10,
+      10,
+      10,
+      10,
+      14
+    ]
+  },
+  "avgSessionDuration": 147,
+  "avgCommandsPerSession": 3.0,
+  "sessionDurations": [
+    79,
+    44,
+    60,
+    76,
+    214,
+    292,
+    87,
+    136,
+    339
+  ],
+  "commandsPerSession": [
+    2,
+    2,
+    0,
+    0,
+    5,
+    2,
+    1,
+    10,
+    5
+  ],
+  "knownTargetIPs": [
+    "10.0.1.22",
+    "10.0.1.55",
+    "10.0.2.55"
+  ],
+  "recentSessions": [
+    {
+      "sessionId": "c99792b7-e1b5-49fc-a3d6-124d39818e8d",
+      "timestamp": "2026-04-14T09:17:55Z",
+      "duration": 79,
+      "urls": [],
+      "commands": [
+        "ipconfig",
+        "whoami"
+      ],
+      "apps": [
+        "Command Prompt"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "ccef2e73-8815-4604-9d60-4c7e89ba9124",
+      "timestamp": "2026-04-14T09:26:59Z",
+      "duration": 44,
+      "urls": [],
+      "commands": [
+        "whoami",
+        "ipconfig"
+      ],
+      "apps": [
+        "Command Prompt"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "0fbb7c52-1cd6-443e-a07b-69e504d49958",
+      "timestamp": "2026-04-14T09:34:06Z",
+      "duration": 60,
+      "urls": [
+        "YouTube",
+        "Haberler.com"
+      ],
+      "commands": [],
+      "apps": [
+        "Google Chrome",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "ef499468-1a13-4ab7-b23d-3b9f1eae63c5",
+      "timestamp": "2026-04-14T09:36:24Z",
+      "duration": 76,
+      "urls": [],
+      "commands": [],
+      "apps": [
+        "WinRAR",
+        "File Explorer",
+        "FortiClient"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "cfc39a00-b23c-44ac-bf0d-70a24cb03acd",
+      "timestamp": "2026-04-14T10:31:53Z",
+      "duration": 214,
+      "urls": [
+        "YouTube",
+        "Haberler.com",
+        "Haber 7"
+      ],
+      "commands": [
+        "whoami",
+        "ipconfig",
+        "ping 10.0.1.55",
+        "ping 10.0.1.22",
+        "ping 10.0.2.55"
+      ],
+      "apps": [
+        "Google Chrome",
+        "Command Prompt",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "4fb28523-3a5f-4a07-994e-f4332e0be276",
+      "timestamp": "2026-04-14T10:37:17Z",
+      "duration": 292,
+      "urls": [
+        "ChatGPT"
+      ],
+      "commands": [
+        "python hesap.py",
+        "python --version"
+      ],
+      "apps": [
+        "Google Chrome",
+        "Command Prompt",
+        "Python",
+        "MobaXterm",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "7e99bce3-895f-434b-8443-d255fa774ad3",
+      "timestamp": "2026-04-14T10:43:33Z",
+      "duration": 87,
+      "urls": [
+        "ChatGPT"
+      ],
+      "commands": [
+        "python hesap.py"
+      ],
+      "apps": [
+        "Command Prompt",
+        "File Explorer",
+        "Python",
+        "Google Chrome"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "efd5552e-2fe3-4ba5-8427-2c9d7e8ea962",
+      "timestamp": "2026-04-14T10:47:36Z",
+      "duration": 136,
+      "urls": [],
+      "commands": [
+        "netstat -ano",
+        "ipconfig /all",
+        "route print",
+        "hostname",
+        "arp -a",
+        "netstat -abno",
+        "tasklist",
+        "tasklist /svc",
+        "whoami",
+        "pktmon stop"
+      ],
+      "apps": [
+        "Command Prompt"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "a3d1e9d0-c3b3-4f99-8d18-c3e13564cece",
+      "timestamp": "2026-04-14T14:16:32Z",
+      "duration": 339,
+      "urls": [
+        "Haberler.com",
+        "YouTube"
+      ],
+      "commands": [
+        "python hesap.py",
+        "whoami",
+        "python hesap2.py",
+        "ipconfig",
+        "netstatt"
+      ],
+      "apps": [
+        "Command Prompt",
+        "Python",
+        "Google Chrome",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "chunkIndex": 2,
+  "userId": "",
+  "accountTarget": "",
+  "firstSeen": "2026-04-14T09:36:24Z",
+  "lastSeen": "2026-04-14T10:37:17Z",
+  "totalSessions": 3,
+  "urlFrequency": {
+    "YouTube": 1,
+    "Haberler.com": 1,
+    "Haber 7": 1,
+    "ChatGPT": 1
+  },
+  "commandFrequency": {
+    "whoami": 1,
+    "ipconfig": 1,
+    "ping 10.0.1.55": 1,
+    "ping 10.0.1.22": 1,
+    "ping 10.0.2.55": 1,
+    "python hesap.py": 1,
+    "python --version": 1
+  },
+  "appFrequency": {
+    "File Explorer": 3,
+    "Google Chrome": 2,
+    "Command Prompt": 2,
+    "WinRAR": 1,
+    "FortiClient": 1,
+    "Python": 1,
+    "MobaXterm": 1
+  },
+  "activeHours": {
+    "rangeStart": 8,
+    "rangeEnd": 11,
+    "buffer": 1,
+    "sessionHours": [
+      9,
+      10,
+      10
+    ]
+  },
+  "avgSessionDuration": 194,
+  "avgCommandsPerSession": 2.3,
+  "sessionDurations": [
+    76,
+    214,
+    292
+  ],
+  "commandsPerSession": [
+    0,
+    5,
+    2
+  ],
+  "knownTargetIPs": [
+    "10.0.1.22",
+    "10.0.1.55",
+    "10.0.2.55"
+  ],
+  "sessions": [
+    {
+      "sessionId": "ef499468-1a13-4ab7-b23d-3b9f1eae63c5",
+      "timestamp": "2026-04-14T09:36:24Z",
+      "duration": 76,
+      "urls": [],
+      "commands": [],
+      "apps": [
+        "WinRAR",
+        "File Explorer",
+        "FortiClient"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "cfc39a00-b23c-44ac-bf0d-70a24cb03acd",
+      "timestamp": "2026-04-14T10:31:53Z",
+      "duration": 214,
+      "urls": [
+        "YouTube",
+        "Haberler.com",
+        "Haber 7"
+      ],
+      "commands": [
+        "whoami",
+        "ipconfig",
+        "ping 10.0.1.55",
+        "ping 10.0.1.22",
+        "ping 10.0.2.55"
+      ],
+      "apps": [
+        "Google Chrome",
+        "Command Prompt",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "4fb28523-3a5f-4a07-994e-f4332e0be276",
+      "timestamp": "2026-04-14T10:37:17Z",
+      "duration": 292,
+      "urls": [
+        "ChatGPT"
+      ],
+      "commands": [
+        "python hesap.py",
+        "python --version"
+      ],
+      "apps": [
+        "Google Chrome",
+        "Command Prompt",
+        "Python",
+        "MobaXterm",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    }
+  ]
+}

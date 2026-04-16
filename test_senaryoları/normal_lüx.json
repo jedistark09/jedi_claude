@@ -1,0 +1,221 @@
+{
+  "taskUuid": "16287e00-e211-4bc8-a2ee-1ffd0e303b97",
+  "monitoringId": "8cc447bf-23c8-4ae2-a4eb-22b95e41a97c",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 35,
+  "activityList": [
+    {
+      "time": "2026-04-15T16:43:43Z",
+      "videoTime": "00:00:03.5963044",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:08.0627698"
+    },
+    {
+      "time": "2026-04-15T16:43:47Z",
+      "videoTime": "00:00:08.2209686",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:12.7042527"
+    },
+    {
+      "time": "2026-04-15T16:43:48Z",
+      "videoTime": "00:00:08.7367766",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:00:13.1057620"
+    },
+    {
+      "time": "2026-04-15T16:43:51Z",
+      "videoTime": "00:00:11.3147762",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:15.9647987"
+    },
+    {
+      "time": "2026-04-15T16:43:51Z",
+      "videoTime": "00:00:11.8308806",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:16.3718053"
+    },
+    {
+      "time": "2026-04-15T16:43:53Z",
+      "videoTime": "00:00:13.3789194",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:18.0133852"
+    },
+    {
+      "time": "2026-04-15T16:44:20Z",
+      "videoTime": "00:00:41.1902036",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:45.4855993"
+    },
+    {
+      "time": "2026-04-15T16:44:20Z",
+      "videoTime": "00:00:40.6742256",
+      "eventInfo": "[New Tab - Google Chrome] Entry: haberler",
+      "sessionTime": "00:00:45.1469519"
+    },
+    {
+      "time": "2026-04-15T16:44:22Z",
+      "videoTime": "00:00:42.7371300",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:00:47.3078771"
+    },
+    {
+      "time": "2026-04-15T16:44:31Z",
+      "videoTime": "00:00:52.0023043",
+      "eventInfo": "chrome.exe, Untitled - Google Chrome",
+      "sessionTime": "00:00:56.5854817"
+    },
+    {
+      "time": "2026-04-15T16:44:31Z",
+      "videoTime": "00:00:52.5180160",
+      "eventInfo": "chrome.exe, Kahramanmaraş'taki okul saldırısında can kaybı 9'a yükseldi - Haberler - Google Chrome",
+      "sessionTime": "00:00:56.7860724"
+    },
+    {
+      "time": "2026-04-15T16:44:43Z",
+      "videoTime": "00:01:04.3933195",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:08.6575375"
+    },
+    {
+      "time": "2026-04-15T16:44:48Z",
+      "videoTime": "00:01:09.0195820",
+      "eventInfo": "chrome.exe, Kahramanmaraş'ta okula saldırı: 9 ölü, 13 yaralı - Haberler - Google Chrome",
+      "sessionTime": "00:01:13.5943770"
+    },
+    {
+      "time": "2026-04-15T16:44:56Z",
+      "videoTime": "00:01:17.2523761",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:21.6830962"
+    },
+    {
+      "time": "2026-04-15T16:44:59Z",
+      "videoTime": "00:01:19.8304361",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:24.1030765"
+    },
+    {
+      "time": "2026-04-15T16:45:00Z",
+      "videoTime": "00:01:20.8631642",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:25.5156003"
+    },
+    {
+      "time": "2026-04-15T16:45:04Z",
+      "videoTime": "00:01:24.9710686",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:01:29.1899517"
+    },
+    {
+      "time": "2026-04-15T16:45:08Z",
+      "videoTime": "00:01:29.0808031",
+      "eventInfo": "[Search] Entry: cmd",
+      "sessionTime": "00:01:33.4256049"
+    },
+    {
+      "time": "2026-04-15T16:45:08Z",
+      "videoTime": "00:01:29.0808031",
+      "eventInfo": "cmd.exe, Command Prompt",
+      "sessionTime": "00:01:33.7139044"
+    },
+    {
+      "time": "2026-04-15T16:45:09Z",
+      "videoTime": "00:01:29.5962261",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:33.9238493"
+    },
+    {
+      "time": "2026-04-15T16:45:15Z",
+      "videoTime": "00:01:36.2994054",
+      "eventInfo": "[Command Prompt] Entry: whoami",
+      "sessionTime": "00:01:40.5224569"
+    },
+    {
+      "time": "2026-04-15T16:45:19Z",
+      "videoTime": "00:01:39.9085686",
+      "eventInfo": "[Command Prompt] Entry: ipconfig",
+      "sessionTime": "00:01:44.4849013"
+    },
+    {
+      "time": "2026-04-15T16:45:19Z",
+      "videoTime": "00:01:39.9085686",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - ipconfig",
+      "sessionTime": "00:01:44.5369771"
+    },
+    {
+      "time": "2026-04-15T16:45:19Z",
+      "videoTime": "00:01:40.4244307",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:44.7396033"
+    },
+    {
+      "time": "2026-04-15T16:45:25Z",
+      "videoTime": "00:01:46.0962494",
+      "eventInfo": "[Command Prompt] Entry: nettstat",
+      "sessionTime": "00:01:50.3435456"
+    },
+    {
+      "time": "2026-04-15T16:45:35Z",
+      "videoTime": "00:01:55.8930485",
+      "eventInfo": "[Command Prompt] Entry: baby one more time",
+      "sessionTime": "00:02:00.1912526"
+    },
+    {
+      "time": "2026-04-15T16:45:55Z",
+      "videoTime": "00:02:15.9413208",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:02:20.5633954"
+    },
+    {
+      "time": "2026-04-15T16:45:56Z",
+      "videoTime": "00:02:16.9725628",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:02:21.3748050"
+    },
+    {
+      "time": "2026-04-15T16:45:58Z",
+      "videoTime": "00:02:19.0350289",
+      "eventInfo": "[Command Prompt] Entry: git status",
+      "sessionTime": "00:02:23.4797677"
+    },
+    {
+      "time": "2026-04-15T16:45:58Z",
+      "videoTime": "00:02:19.0350289",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - git  status",
+      "sessionTime": "00:02:23.6185236"
+    },
+    {
+      "time": "2026-04-15T16:45:58Z",
+      "videoTime": "00:02:19.5507949",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:02:23.8228045"
+    },
+    {
+      "time": "2026-04-15T16:45:59Z",
+      "videoTime": "00:02:20.0663121",
+      "eventInfo": "[Command Prompt] Entry: git",
+      "sessionTime": "00:02:24.4507578"
+    },
+    {
+      "time": "2026-04-15T16:45:59Z",
+      "videoTime": "00:02:20.0663121",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - git",
+      "sessionTime": "00:02:24.6436990"
+    },
+    {
+      "time": "2026-04-15T16:45:59Z",
+      "videoTime": "00:02:20.5819048",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:02:24.8455338"
+    },
+    {
+      "time": "2026-04-15T16:46:01Z",
+      "videoTime": "00:02:22.6444109",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:02:26.8763401"
+    }
+  ]
+}

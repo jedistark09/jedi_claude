@@ -1,0 +1,39 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {
+      "Haberler.com": 5,
+      "YouTube": 4,
+      "Haber 7": 1
+    }
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {
+      "ping 10.0.1.55": 2,
+      "whoami": 1,
+      "ipconfig": 1,
+      "ping 10.0.1.22": 1,
+      "ping 10.0.2.55": 1
+    }
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "Google Chrome": 13,
+      "Command Prompt": 8,
+      "File Explorer": 2,
+      "Search": 1
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user browsed several news websites, watched YouTube videos, and executed basic network commands from the command prompt."
+    }
+  }
+]

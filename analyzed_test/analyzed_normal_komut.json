@@ -2,46 +2,45 @@
   {
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
-    "items": {
-      "ChatGPT": 1
-    }
+    "items": {}
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "python hesap.py": 1
+      "python hesap.py": 1,
+      "python hesap2.py": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 6,
-      "File Explorer": 6,
-      "Python": 4,
-      "Google Chrome": 1
+      "Command Prompt": 4,
+      "WinRAR": 3,
+      "File Explorer": 1,
+      "MobaXterm": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed Python scripts, accessed ChatGPT via browser, and frequently used Command Prompt and File Explorer."
+      "text": "User executed Python scripts in Command Prompt, used File Explorer, WinRAR, and MobaXterm."
     }
   },
   {
     "category": "Session Start",
     "description": "Session start timestamp from source log",
     "items": {
-      "text": "2026-04-14T10:43:33Z"
+      "text": "2026-04-15T16:46:27Z"
     }
   },
   {
     "category": "Session Duration",
     "description": "Session duration calculated from first and last event timestamps",
     "items": {
-      "text": "0:01:27"
+      "text": "0:01:06"
     }
   }
 ]

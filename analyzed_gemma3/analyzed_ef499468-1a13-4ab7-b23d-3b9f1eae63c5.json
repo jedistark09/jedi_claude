@@ -1,0 +1,33 @@
+[
+  {
+    "category": "URLs",
+    "description": "Ziyaret edilen web sayfaları",
+    "items": {
+      "name": 0
+    }
+  },
+  {
+    "category": "Commands",
+    "description": "Çalıştırılan terminal komutları",
+    "items": {
+      "command": 0
+    }
+  },
+  {
+    "category": "Applications",
+    "description": "Kullanılan uygulamalar",
+    "items": {
+      "WinRAR": 5,
+      "Program Manager": 5,
+      "File Explorer": 4,
+      "FortiClient": 3
+    }
+  },
+  {
+    "category": "Summary",
+    "description": "One-sentence English session summary",
+    "items": {
+      "text": "The user primarily interacted with file management and security applications, including FortiClient and WinRAR."
+    }
+  }
+]

@@ -31,5 +31,19 @@
     "items": {
       "text": "User accessed ChatGPT via browser, executed Python commands and scripts, and used multiple terminal and desktop applications."
     }
+  },
+  {
+    "category": "Session Start",
+    "description": "Session start timestamp from source log",
+    "items": {
+      "text": "2026-04-14T10:37:17Z"
+    }
+  },
+  {
+    "category": "Session Duration",
+    "description": "Session duration calculated from first and last event timestamps",
+    "items": {
+      "text": "0:04:52"
+    }
   }
 ]

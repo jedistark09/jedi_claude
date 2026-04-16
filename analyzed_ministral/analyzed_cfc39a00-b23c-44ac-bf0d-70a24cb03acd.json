@@ -34,5 +34,19 @@
     "items": {
       "text": "User browsed news sites (Haberler.com, Haber 7) and YouTube, executed network commands (ping, ipconfig), and used Chrome and Command Prompt extensively."
     }
+  },
+  {
+    "category": "Session Start",
+    "description": "Session start timestamp from source log",
+    "items": {
+      "text": "2026-04-14T10:31:53Z"
+    }
+  },
+  {
+    "category": "Session Duration",
+    "description": "Session duration calculated from first and last event timestamps",
+    "items": {
+      "text": "0:03:34"
+    }
   }
 ]

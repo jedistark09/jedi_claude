@@ -1,0 +1,185 @@
+{
+  "taskUuid": "f1be673a-c6f0-428e-9417-a8f44875cb97",
+  "monitoringId": "cd5cfa91-b5cf-4d15-9e72-a4c19aedbec7",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 29,
+  "activityList": [
+    {
+      "time": "2026-04-15T16:46:27Z",
+      "videoTime": "00:00:00.0000736",
+      "eventInfo": "SESSION_CLOSED",
+      "sessionTime": "00:00:05.2773304"
+    },
+    {
+      "time": "2026-04-15T16:46:30Z",
+      "videoTime": "00:00:03.5327931",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:08.7884116"
+    },
+    {
+      "time": "2026-04-15T16:46:32Z",
+      "videoTime": "00:00:06.0831372",
+      "eventInfo": "explorer.exe, File Explorer",
+      "sessionTime": "00:00:11.2384497"
+    },
+    {
+      "time": "2026-04-15T16:46:33Z",
+      "videoTime": "00:00:06.5987922",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:00:11.6449539"
+    },
+    {
+      "time": "2026-04-15T16:46:40Z",
+      "videoTime": "00:00:13.2708165",
+      "eventInfo": "[File Explorer] Entry: mcd",
+      "sessionTime": "00:00:18.4696774"
+    },
+    {
+      "time": "2026-04-15T16:46:40Z",
+      "videoTime": "00:00:13.7870520",
+      "eventInfo": "cmd.exe, C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:00:18.9754608"
+    },
+    {
+      "time": "2026-04-15T16:46:40Z",
+      "videoTime": "00:00:13.7870520",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:00:19.1781997"
+    },
+    {
+      "time": "2026-04-15T16:46:41Z",
+      "videoTime": "00:00:14.8174534",
+      "eventInfo": "cmd.exe, Select Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:00:19.9925328"
+    },
+    {
+      "time": "2026-04-15T16:46:42Z",
+      "videoTime": "00:00:15.8487303",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:00:20.8053500"
+    },
+    {
+      "time": "2026-04-15T16:46:47Z",
+      "videoTime": "00:00:19.9737471",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: python hesap.py",
+      "sessionTime": "00:00:25.3633141"
+    },
+    {
+      "time": "2026-04-15T16:46:47Z",
+      "videoTime": "00:00:20.4892839",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe - python  hesap.py",
+      "sessionTime": "00:00:25.5068851"
+    },
+    {
+      "time": "2026-04-15T16:46:48Z",
+      "videoTime": "00:00:21.5205397",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: 1",
+      "sessionTime": "00:00:26.5431763"
+    },
+    {
+      "time": "2026-04-15T16:46:48Z",
+      "videoTime": "00:00:22.0363020",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: 5",
+      "sessionTime": "00:00:27.0374415"
+    },
+    {
+      "time": "2026-04-15T16:46:48Z",
+      "videoTime": "00:00:22.0363020",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:00:27.1319713"
+    },
+    {
+      "time": "2026-04-15T16:46:54Z",
+      "videoTime": "00:00:28.1929636",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: 2",
+      "sessionTime": "00:00:33.2372104"
+    },
+    {
+      "time": "2026-04-15T16:46:55Z",
+      "videoTime": "00:00:28.1929636",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe - python  hesap2.py",
+      "sessionTime": "00:00:33.4315162"
+    },
+    {
+      "time": "2026-04-15T16:46:55Z",
+      "videoTime": "00:00:28.7084883",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: 1",
+      "sessionTime": "00:00:33.9860129"
+    },
+    {
+      "time": "2026-04-15T16:46:56Z",
+      "videoTime": "00:00:29.2242105",
+      "eventInfo": "[C:\\Windows\\System32\\cmd.exe] Entry: 4",
+      "sessionTime": "00:00:34.6258729"
+    },
+    {
+      "time": "2026-04-15T16:46:56Z",
+      "videoTime": "00:00:29.7396911",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:00:34.8587375"
+    },
+    {
+      "time": "2026-04-15T16:46:59Z",
+      "videoTime": "00:00:32.3186611",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:00:37.7144444"
+    },
+    {
+      "time": "2026-04-15T16:47:01Z",
+      "videoTime": "00:00:34.8961336",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:39.9496994"
+    },
+    {
+      "time": "2026-04-15T16:47:05Z",
+      "videoTime": "00:00:39.0210577",
+      "eventInfo": "WinRAR.exe, WinRAR",
+      "sessionTime": "00:00:44.0125966"
+    },
+    {
+      "time": "2026-04-15T16:47:06Z",
+      "videoTime": "00:00:40.0523022",
+      "eventInfo": "WinRAR.exe, WinRAR 6.24 Expired Notification | Your free trial period has ended!",
+      "sessionTime": "00:00:45.0369724"
+    },
+    {
+      "time": "2026-04-15T16:47:07Z",
+      "videoTime": "00:00:40.5682759",
+      "eventInfo": "WinRAR.exe, BKM 19.02.2026.zip (evaluation copy)",
+      "sessionTime": "00:00:45.8573831"
+    },
+    {
+      "time": "2026-04-15T16:47:09Z",
+      "videoTime": "00:00:43.1307211",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:48.0965425"
+    },
+    {
+      "time": "2026-04-15T16:47:14Z",
+      "videoTime": "00:00:47.7554834",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:52.7662691"
+    },
+    {
+      "time": "2026-04-15T16:47:14Z",
+      "videoTime": "00:00:47.7554834",
+      "eventInfo": "MobaXterm.exe, MobaXterm",
+      "sessionTime": "00:00:52.9691993"
+    },
+    {
+      "time": "2026-04-15T16:47:24Z",
+      "videoTime": "00:00:58.0679325",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:03.1903639"
+    },
+    {
+      "time": "2026-04-15T16:47:33Z",
+      "videoTime": "00:01:06.3178422",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:01:11.7768108"
+    }
+  ]
+}

@@ -34,5 +34,19 @@
     "items": {
       "text": "User executed Python scripts, browsed news and YouTube, and ran system commands in Command Prompt while frequently accessing File Explorer."
     }
+  },
+  {
+    "category": "Session Start",
+    "description": "Session start timestamp from source log",
+    "items": {
+      "text": "2026-04-14T14:16:32Z"
+    }
+  },
+  {
+    "category": "Session Duration",
+    "description": "Session duration calculated from first and last event timestamps",
+    "items": {
+      "text": "0:05:39"
+    }
   }
 ]

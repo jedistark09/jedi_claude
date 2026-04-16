@@ -1,0 +1,36 @@
+{
+  "sessionId": "anomaly_altın",
+  "timestamp": "2026-04-15T16:51:48Z",
+  "duration": 68,
+  "session": {
+    "urls": [
+      "Google",
+      "Investing.com"
+    ],
+    "commands": [],
+    "apps": [
+      "Google Chrome",
+      "File Explorer"
+    ]
+  },
+  "pythonFlags": [
+    {
+      "type": "new_urls",
+      "detail": "2 website(s) never seen in profile",
+      "items": [
+        "Google",
+        "Investing.com"
+      ],
+      "severity_hint": "low"
+    },
+    {
+      "type": "off_hours",
+      "detail": "Session at 16:00, normal range 08:00-15:59",
+      "severity_hint": "medium"
+    }
+  ],
+  "flagCount": 2,
+  "llmAssessment": null,
+  "finalVerdict": "needs_review",
+  "finalRiskScore": 30
+}
