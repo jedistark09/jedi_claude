@@ -1,0 +1,107 @@
+{
+  "taskUuid": "a4310613-93fb-4dd6-94db-3e71f0aa2d70",
+  "monitoringId": "be680fbd-9fea-4144-82b0-7c4dfc05fe51",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 16,
+  "activityList": [
+    {
+      "time": "2026-04-16T15:33:51Z",
+      "videoTime": "00:00:04.5532380",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:08.1838714"
+    },
+    {
+      "time": "2026-04-16T15:34:01Z",
+      "videoTime": "00:00:14.3258427",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:18.1204374"
+    },
+    {
+      "time": "2026-04-16T15:34:01Z",
+      "videoTime": "00:00:14.8418273",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:00:18.3230429"
+    },
+    {
+      "time": "2026-04-16T15:34:03Z",
+      "videoTime": "00:00:16.3905127",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:19.9554472"
+    },
+    {
+      "time": "2026-04-16T15:34:03Z",
+      "videoTime": "00:00:16.3905127",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:00:20.1521319"
+    },
+    {
+      "time": "2026-04-16T15:34:10Z",
+      "videoTime": "00:00:23.0916610",
+      "eventInfo": "[Search] Entry: cmd",
+      "sessionTime": "00:00:26.7093361"
+    },
+    {
+      "time": "2026-04-16T15:34:10Z",
+      "videoTime": "00:00:23.0916610",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:26.8541981"
+    },
+    {
+      "time": "2026-04-16T15:34:10Z",
+      "videoTime": "00:00:23.6076094",
+      "eventInfo": "cmd.exe, Command Prompt",
+      "sessionTime": "00:00:27.0570640"
+    },
+    {
+      "time": "2026-04-16T15:34:10Z",
+      "videoTime": "00:00:23.6076094",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:27.2656678"
+    },
+    {
+      "time": "2026-04-16T15:34:19Z",
+      "videoTime": "00:00:32.3574180",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:00:35.9972371"
+    },
+    {
+      "time": "2026-04-16T15:34:20Z",
+      "videoTime": "00:00:33.3900346",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:37.2156723"
+    },
+    {
+      "time": "2026-04-16T15:34:21Z",
+      "videoTime": "00:00:34.9360253",
+      "eventInfo": "[Command Prompt] Entry: ollama",
+      "sessionTime": "00:00:38.3836457"
+    },
+    {
+      "time": "2026-04-16T15:34:25Z",
+      "videoTime": "00:00:38.0292977",
+      "eventInfo": "[Command Prompt] Entry: ollama list",
+      "sessionTime": "00:00:41.6848215"
+    },
+    {
+      "time": "2026-04-16T15:34:40Z",
+      "videoTime": "00:00:52.9825179",
+      "eventInfo": "[Command Prompt] Entry: ollama show qwen2.5 14b",
+      "sessionTime": "00:00:56.8280503"
+    },
+    {
+      "time": "2026-04-16T15:34:46Z",
+      "videoTime": "00:00:59.6702038",
+      "eventInfo": "[Command Prompt] Entry: ollama service",
+      "sessionTime": "00:01:03.2520304"
+    },
+    {
+      "time": "2026-04-16T15:34:51Z",
+      "videoTime": "00:01:03.7965417",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:07.5379749"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "taskUuid": "50bd6d7e-ec46-4e1d-9a65-b69943d6ed6a",
+  "monitoringId": "ea766576-3e77-47e8-b7f7-28082cf8370e",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 16,
+  "activityList": [
+    {
+      "time": "2026-04-16T15:35:10Z",
+      "videoTime": "00:00:02.0662059",
+      "eventInfo": "SESSION_CLOSED",
+      "sessionTime": "00:00:06.1991627"
+    },
+    {
+      "time": "2026-04-16T15:35:13Z",
+      "videoTime": "00:00:05.1598433",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:09.3969214"
+    },
+    {
+      "time": "2026-04-16T15:35:21Z",
+      "videoTime": "00:00:12.8630724",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:16.9421510"
+    },
+    {
+      "time": "2026-04-16T15:35:22Z",
+      "videoTime": "00:00:13.3683709",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:17.7869595"
+    },
+    {
+      "time": "2026-04-16T15:35:32Z",
+      "videoTime": "00:00:23.6598022",
+      "eventInfo": "[New Tab - Google Chrome] Entry: huggingface",
+      "sessionTime": "00:00:28.1588025"
+    },
+    {
+      "time": "2026-04-16T15:35:32Z",
+      "videoTime": "00:00:24.1753735",
+      "eventInfo": "chrome.exe, huggingface - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:28.5139103"
+    },
+    {
+      "time": "2026-04-16T15:35:40Z",
+      "videoTime": "00:00:31.9014123",
+      "eventInfo": "chrome.exe, huggingface.co - Google Chrome",
+      "sessionTime": "00:00:36.0443483"
+    },
+    {
+      "time": "2026-04-16T15:35:40Z",
+      "videoTime": "00:00:32.4176286",
+      "eventInfo": "chrome.exe, Hugging Face – The AI community building the future. - Google Chrome",
+      "sessionTime": "00:00:36.4501001"
+    },
+    {
+      "time": "2026-04-16T15:35:56Z",
+      "videoTime": "00:00:48.3703343",
+      "eventInfo": "chrome.exe, Models – Hugging Face - Google Chrome",
+      "sessionTime": "00:00:52.5402364"
+    },
+    {
+      "time": "2026-04-16T15:36:48Z",
+      "videoTime": "00:01:40.3858557",
+      "eventInfo": "chrome.exe, scandukuri/user-behavior-classifier-Llama-3.1-8B-Instruct-scalar-head-only · Hugging Face - Google Chrome",
+      "sessionTime": "00:01:44.5528092"
+    },
+    {
+      "time": "2026-04-16T15:36:49Z",
+      "videoTime": "00:01:40.3858557",
+      "eventInfo": "chrome.exe, Datasets – Hugging Face - Google Chrome",
+      "sessionTime": "00:01:44.7532603"
+    },
+    {
+      "time": "2026-04-16T15:36:58Z",
+      "videoTime": "00:01:50.1670603",
+      "eventInfo": "chrome.exe, jin-ying-so-cute/ecommerce-user-behavior-data · Datasets at Hugging Face - Google Chrome",
+      "sessionTime": "00:01:54.5910761"
+    },
+    {
+      "time": "2026-04-16T15:37:06Z",
+      "videoTime": "00:01:57.8867537",
+      "eventInfo": "chrome.exe, Models – Hugging Face - Google Chrome",
+      "sessionTime": "00:02:02.2783145"
+    },
+    {
+      "time": "2026-04-16T15:37:07Z",
+      "videoTime": "00:01:58.3920401",
+      "eventInfo": "chrome.exe, scandukuri/user-behavior-classifier-Llama-3.1-8B-Instruct-scalar-head-only · Hugging Face - Google Chrome",
+      "sessionTime": "00:02:02.8778150"
+    },
+    {
+      "time": "2026-04-16T15:37:07Z",
+      "videoTime": "00:01:59.4170592",
+      "eventInfo": "chrome.exe, jin-ying-so-cute/ecommerce-user-behavior-data · Datasets at Hugging Face - Google Chrome",
+      "sessionTime": "00:02:03.4830556"
+    },
+    {
+      "time": "2026-04-16T15:37:09Z",
+      "videoTime": "00:02:00.9638933",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:02:05.0968562"
+    }
+  ]
+}

@@ -2,38 +2,37 @@
   {
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
-    "items": {
-      "Google": 4,
-      "YouTube": 2,
-      "Haberler.com": 1
-    }
+    "items": {}
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
-    "items": {}
+    "items": {
+      "ollama": 1,
+      "ollama list": 1,
+      "ollama show qwen2.5 14b": 1,
+      "ollama service": 1
+    }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 7,
-      "File Explorer": 2,
-      "Command Prompt": 1
+      "Command Prompt": 4
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, Google search, and Haberler.com while using Google Chrome, Command Prompt, and File Explorer."
+      "text": "User executed four 'ollama' commands in Command Prompt."
     }
   },
   {
     "category": "Session Start",
     "description": "Session start timestamp from source log",
     "items": {
-      "text": "2026-04-14T09:34:06Z"
+      "text": "2026-04-16T15:33:51Z"
     }
   },
   {

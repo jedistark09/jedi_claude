@@ -16,35 +16,25 @@
   "pythonFlags": [
     {
       "type": "new_urls",
-      "detail": "2 website(s) never seen in profile",
+      "detail": "1 website(s) never seen in profile",
       "items": [
-        "Google",
         "Investing.com"
       ]
-    },
-    {
-      "type": "off_hours",
-      "detail": "Session at 16:00, normal range 08:00-15:59"
     }
   ],
-  "flagCount": 2,
+  "flagCount": 1,
   "llmAssessment": {
-    "riskScore": 15,
+    "riskScore": 12,
     "verdict": "normal",
     "anomalies": [
       {
         "type": "new_urls",
-        "detail": "Investing.com profile'da görülmemiş olsa da, Google zaten sık kullanılan bir URL'dir. Tek başına düşük risk taşır.",
-        "severity": "low"
-      },
-      {
-        "type": "off_hours",
-        "detail": "Saat dışı kullanım tek başına kritik değildir, ancak kullanıcı geçmişte 14:00-15:59 aralığında bir oturumu olduğu için tamamen normal dışı değildir.",
+        "detail": "Kullanıcının geçmişte hiç görüntülenmemiş olan 'Investing.com' URL'si tespit edildi. Ancak bu tür URL'ler tek başına düşük risk taşır, çünkü kullanıcı Google ve finansal içerik sitelerini ziyaret etme eğiliminde olabilir. Bu durumda, tek başına bir anomali olarak değerlendirilmez.",
         "severity": "low"
       }
     ],
-    "reasoning": "Kullanıcının geçmiş davranış profiline bakıldığında, yeni bir URL (Investing.com) ve saat dışı bir oturum (16:51) tespit edilmiştir. Ancak bu sinyaller tek başına zayıf olup, kullanıcıya ait diğer normal davranışlar (Google, YouTube, ChatGPT gibi URL'ler ve Python, Command Prompt gibi uygulamalar) ile dengelenmektedir. Ayrıca, yeni oturumda komut veya uygulama kullanımı yoktur ve geçmişte 14:00-15:59 aralığında bir oturum kaydedilmiştir. Bu nedenle, risk skorunun düşük tutulması ve 'normal' verdikti uygun görülmektedir."
+    "reasoning": "Kullanıcının geçmiş davranış profiline bakıldığında, aktif saatleri 08:00-17:00 aralığında yoğunlaşmakta ve ortalama oturum süresi 151 saniye, ortalama komut sayısı ise 3 komut olarak belirlenmiştir. Yeni oturumda sadece 'Investing.com' URL'si yeni bir anomali olarak tespit edilse de, bu tür finansal içerik siteleri kullanıcı profiline uygun olabilir. Ayrıca, komut veya uygulama kullanımında herhangi bir anormalite gözlenmediğinden, risk seviyesi düşük kalmaktadır. Bu nedenle, bu oturum normal kabul edilmektedir."
   },
   "finalVerdict": "normal",
-  "finalRiskScore": 15
+  "finalRiskScore": 12
 }

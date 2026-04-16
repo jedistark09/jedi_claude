@@ -1,11 +1,11 @@
 {
-  "sessionId": "anomaly_altın",
-  "timestamp": "2026-04-15T16:51:48Z",
-  "duration": 68,
+  "sessionId": "anomaly_hg",
+  "timestamp": "2026-04-16T15:35:10Z",
+  "duration": 119,
   "session": {
     "urls": [
-      "Google",
-      "Investing.com"
+      "Hugging Face",
+      "Google"
     ],
     "commands": [],
     "apps": [
@@ -18,7 +18,7 @@
       "type": "new_urls",
       "detail": "1 website(s) never seen in profile",
       "items": [
-        "Investing.com"
+        "Hugging Face"
       ]
     }
   ],

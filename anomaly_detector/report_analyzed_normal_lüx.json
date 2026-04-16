@@ -31,27 +31,18 @@
       ]
     },
     {
-      "type": "new_urls",
-      "detail": "1 website(s) never seen in profile",
-      "items": [
-        "Google"
-      ]
-    },
-    {
-      "type": "off_hours",
-      "detail": "Session at 16:00, normal range 08:00-15:59"
-    },
-    {
       "type": "new_vs_latest_chunk",
-      "detail": "3 commands not in latest chunk (chunk 3)",
+      "detail": "5 commands not in latest chunk (chunk 5)",
       "items": [
         "git",
         "git status",
-        "nettstat"
+        "ipconfig",
+        "nettstat",
+        "whoami"
       ]
     }
   ],
-  "flagCount": 4,
+  "flagCount": 2,
   "llmAssessment": null,
   "finalVerdict": "not_evaluated",
   "finalRiskScore": null

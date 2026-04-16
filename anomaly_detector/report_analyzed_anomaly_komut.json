@@ -26,10 +26,6 @@
       ]
     },
     {
-      "type": "off_hours",
-      "detail": "Session at 16:00, normal range 08:00-15:59"
-    },
-    {
       "type": "new_target_ips",
       "detail": "1 IP(s) never seen before",
       "items": [
@@ -38,7 +34,7 @@
     },
     {
       "type": "new_vs_latest_chunk",
-      "detail": "4 commands not in latest chunk (chunk 3)",
+      "detail": "4 commands not in latest chunk (chunk 5)",
       "items": [
         "mimikatz",
         "net user admin /add",
@@ -47,7 +43,7 @@
       ]
     }
   ],
-  "flagCount": 4,
+  "flagCount": 3,
   "llmAssessment": null,
   "finalVerdict": "not_evaluated",
   "finalRiskScore": null

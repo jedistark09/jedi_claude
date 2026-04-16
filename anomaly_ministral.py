@@ -87,6 +87,7 @@ Verdict rules:
 
 Response format:
 Return only valid JSON. Do not use Markdown.
+Write all natural-language output in Turkish. Keep JSON keys unchanged.
 
 JSON schema:
 {
@@ -109,6 +110,7 @@ Rules:
 - avoid unnecessary dramatization
 - be cautious when evidence is weak
 - raise risk when evidence combines into a stronger pattern
+- write all "detail" and "reasoning" text in Turkish
 """
 
 

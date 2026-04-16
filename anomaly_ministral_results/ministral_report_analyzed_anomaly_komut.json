@@ -26,10 +26,6 @@
       ]
     },
     {
-      "type": "off_hours",
-      "detail": "Session at 16:00, normal range 08:00-15:59"
-    },
-    {
       "type": "new_target_ips",
       "detail": "1 IP(s) never seen before",
       "items": [
@@ -38,7 +34,7 @@
     },
     {
       "type": "new_vs_latest_chunk",
-      "detail": "4 commands not in latest chunk (chunk 3)",
+      "detail": "4 commands not in latest chunk (chunk 5)",
       "items": [
         "mimikatz",
         "net user admin /add",
@@ -47,34 +43,29 @@
       ]
     }
   ],
-  "flagCount": 4,
+  "flagCount": 3,
   "llmAssessment": {
-    "riskScore": 92,
+    "riskScore": 95,
     "verdict": "critical",
     "anomalies": [
       {
         "type": "new_commands",
-        "detail": "All 4 commands are **high-risk** (mimikatz: credential dumping, net user admin /add: privilege escalation via user creation, whoami /priv: privilege enumeration, ping 192.168.5.100: potential internal recon). None appear in profile or latest chunk.",
+        "detail": "Kullanıcının profiline göre **asla görülmemiş** ve **yüksek riskli** komutlar tespit edildi: 'mimikatz' (şifre çözme aracı), 'net user admin /add' (yeni yönetici hesabı oluşturma) ve 'whoami /priv' (yetki ayrıntıları alma). Bu komutlar **saldırı, yetki tırmanma veya kimlik hırsızlığı** ile ilişkilendirilebilir.",
         "severity": "critical"
       },
       {
-        "type": "off_hours",
-        "detail": "Session at 16:49 (outside normal 08:00-15:59 range). Combined with high-risk commands, this suggests **opportunistic or covert activity** (e.g., avoiding detection).",
-        "severity": "high"
-      },
-      {
         "type": "new_target_ips",
-        "detail": "Target IP **192.168.5.100** is new and internal (likely LAN). Ping suggests **reconnaissance** before potential lateral movement or credential abuse.",
+        "detail": "Yeni bir hedef IP ('192.168.5.100') tespit edildi. Bu IP, kullanıcının normal profiline ('10.0.x.x' aralığı) uygun değil ve **network reconnaissance** veya **lateral movement** işaretleri taşıyor.",
         "severity": "high"
       },
       {
         "type": "new_vs_latest_chunk",
-        "detail": "All commands are **novel** and align with **post-exploitation** (mimikatz + user creation). Latest chunk shows benign activity (netstat, ipconfig), making this a **sharp behavioral shift**.",
-        "severity": "critical"
+        "detail": "Son chunk'ta (5) **hiç görülememiş** komutlar tekrarlandı. Bu, **anormal davranışın tekrarlanma riskini** artırıyor.",
+        "severity": "medium"
       }
     ],
-    "reasoning": "The session exhibits **multiple critical indicators of malicious intent**, including the use of **Mimikatz** (a credential theft tool), **unauthorized user creation** (`net user admin /add`), and **privilege enumeration** (`whoami /priv`). The **new internal IP target** (192.168.5.100) and **off-hours timing** further suggest **lateral movement or privilege escalation** attempts. While individual flags (e.g., `new_urls`) are absent, the **combination of high-severity commands, new targets, and behavioral deviation** from the user’s baseline (e.g., no prior Mimikatz or admin tool usage) warrants an **immediate critical verdict**. The lack of URLs or benign apps in this session reinforces the **suspicion of automated or stealthy attack activity** (e.g., post-exploitation)."
+    "reasoning": "Bu oturumda **kritik düzeyde riskli** davranışlar gözleniyor. 'mimikatz' gibi **şifre çözme aracı** kullanımı, 'net user admin /add' gibi **yeni yönetici hesabı oluşturma** ve 'whoami /priv' gibi **yetki ayrıntıları alma** komutları, **saldırı veya yetki tırmanma** senaryolarını güçlü bir şekilde işaret ediyor. Ayrıca, yeni bir hedef IP ('192.168.5.100') ile birlikte bu komutların kullanımı, **network scanning** veya **lateral movement** faaliyetlerini düşündürüyor. Kullanıcının normal profiline göre bu davranışlar **anormal, kötü niyetli ve derhal müdahale gerektiren** bir risk oluşturuyor."
   },
   "finalVerdict": "critical",
-  "finalRiskScore": 92
+  "finalRiskScore": 95
 }

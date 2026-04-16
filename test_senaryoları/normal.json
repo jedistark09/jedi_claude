@@ -1,0 +1,233 @@
+{
+  "taskUuid": "1c15e15e-0406-4d0d-ba89-8417c2386d93",
+  "monitoringId": "d693e9d8-d860-44a3-9e0d-4a2afb931bc6",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 37,
+  "activityList": [
+    {
+      "time": "2026-04-16T15:39:41Z",
+      "videoTime": "00:00:03.0194679",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:09.1547696"
+    },
+    {
+      "time": "2026-04-16T15:39:43Z",
+      "videoTime": "00:00:05.0819720",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:11.3670710"
+    },
+    {
+      "time": "2026-04-16T15:39:44Z",
+      "videoTime": "00:00:06.1133278",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:12.1796754"
+    },
+    {
+      "time": "2026-04-16T15:39:50Z",
+      "videoTime": "00:00:12.3166995",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:00:18.6854070"
+    },
+    {
+      "time": "2026-04-16T15:39:52Z",
+      "videoTime": "00:00:13.8631927",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:00:20.2920987"
+    },
+    {
+      "time": "2026-04-16T15:40:04Z",
+      "videoTime": "00:00:26.7434082",
+      "eventInfo": "chrome.exe, Sinem Dedetaş'ın acı günü - Haberler - Google Chrome",
+      "sessionTime": "00:00:32.7223886"
+    },
+    {
+      "time": "2026-04-16T15:40:15Z",
+      "videoTime": "00:00:37.0135475",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:43.4085810"
+    },
+    {
+      "time": "2026-04-16T15:40:17Z",
+      "videoTime": "00:00:39.0916325",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:45.2443123"
+    },
+    {
+      "time": "2026-04-16T15:40:17Z",
+      "videoTime": "00:00:39.6073128",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:00:45.6555277"
+    },
+    {
+      "time": "2026-04-16T15:40:18Z",
+      "videoTime": "00:00:40.1229376",
+      "eventInfo": "[Search] Buffer cleared due to timeout. Cleared input: abehrler",
+      "sessionTime": "00:00:46.2733925"
+    },
+    {
+      "time": "2026-04-16T15:40:20Z",
+      "videoTime": "00:00:41.6846581",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:48.1099820"
+    },
+    {
+      "time": "2026-04-16T15:40:20Z",
+      "videoTime": "00:00:42.1936715",
+      "eventInfo": "SearchUI.exe, Search",
+      "sessionTime": "00:00:48.5151162"
+    },
+    {
+      "time": "2026-04-16T15:40:23Z",
+      "videoTime": "00:00:45.2794508",
+      "eventInfo": "[Search] Entry: ccmd",
+      "sessionTime": "00:00:51.6973868"
+    },
+    {
+      "time": "2026-04-16T15:40:23Z",
+      "videoTime": "00:00:45.8012372",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:00:51.8132413"
+    },
+    {
+      "time": "2026-04-16T15:40:24Z",
+      "videoTime": "00:00:45.8012372",
+      "eventInfo": "cmd.exe, Command Prompt",
+      "sessionTime": "00:00:52.0232981"
+    },
+    {
+      "time": "2026-04-16T15:40:24Z",
+      "videoTime": "00:00:45.8012372",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:52.2576094"
+    },
+    {
+      "time": "2026-04-16T15:40:28Z",
+      "videoTime": "00:00:49.9196586",
+      "eventInfo": "cmd.exe, Select Administrator: Command Prompt",
+      "sessionTime": "00:00:56.3377710"
+    },
+    {
+      "time": "2026-04-16T15:40:29Z",
+      "videoTime": "00:00:50.9510493",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:00:56.9501014"
+    },
+    {
+      "time": "2026-04-16T15:40:30Z",
+      "videoTime": "00:00:52.4980063",
+      "eventInfo": "[Command Prompt] Entry: whoami",
+      "sessionTime": "00:00:58.6546322"
+    },
+    {
+      "time": "2026-04-16T15:40:34Z",
+      "videoTime": "00:00:56.6073631",
+      "eventInfo": "[Command Prompt] Entry: ipconfig",
+      "sessionTime": "00:01:02.7416333"
+    },
+    {
+      "time": "2026-04-16T15:40:35Z",
+      "videoTime": "00:00:56.6073631",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - ipconfig",
+      "sessionTime": "00:01:02.8492140"
+    },
+    {
+      "time": "2026-04-16T15:40:35Z",
+      "videoTime": "00:00:56.6073631",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:03.0516765"
+    },
+    {
+      "time": "2026-04-16T15:40:41Z",
+      "videoTime": "00:01:03.3105205",
+      "eventInfo": "[Command Prompt] Entry: whoami 7all",
+      "sessionTime": "00:01:09.2738818"
+    },
+    {
+      "time": "2026-04-16T15:40:41Z",
+      "videoTime": "00:01:03.3105205",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - whoami  /all",
+      "sessionTime": "00:01:09.3743294"
+    },
+    {
+      "time": "2026-04-16T15:40:41Z",
+      "videoTime": "00:01:03.3105205",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:09.5762173"
+    },
+    {
+      "time": "2026-04-16T15:40:43Z",
+      "videoTime": "00:01:04.8415418",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:10.9974444"
+    },
+    {
+      "time": "2026-04-16T15:40:46Z",
+      "videoTime": "00:01:07.9356435",
+      "eventInfo": "explorer.exe, File Explorer",
+      "sessionTime": "00:01:14.0627479"
+    },
+    {
+      "time": "2026-04-16T15:40:46Z",
+      "videoTime": "00:01:08.4509695",
+      "eventInfo": "explorer.exe, geliştirme2",
+      "sessionTime": "00:01:14.4670354"
+    },
+    {
+      "time": "2026-04-16T15:40:52Z",
+      "videoTime": "00:01:13.6077581",
+      "eventInfo": "[File Explorer] Entry: cmd",
+      "sessionTime": "00:01:20.0190215"
+    },
+    {
+      "time": "2026-04-16T15:40:52Z",
+      "videoTime": "00:01:14.1236135",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:01:20.3752162"
+    },
+    {
+      "time": "2026-04-16T15:41:05Z",
+      "videoTime": "00:01:26.4665997",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: python hesap3.py",
+      "sessionTime": "00:01:32.9165644"
+    },
+    {
+      "time": "2026-04-16T15:41:05Z",
+      "videoTime": "00:01:26.9822355",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe - python  hesap3.py",
+      "sessionTime": "00:01:32.9750010"
+    },
+    {
+      "time": "2026-04-16T15:41:06Z",
+      "videoTime": "00:01:28.5291528",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: 1",
+      "sessionTime": "00:01:34.8050608"
+    },
+    {
+      "time": "2026-04-16T15:41:07Z",
+      "videoTime": "00:01:29.0449010",
+      "eventInfo": "[Administrator: C:\\Windows\\System32\\cmd.exe] Entry: 5",
+      "sessionTime": "00:01:35.3837227"
+    },
+    {
+      "time": "2026-04-16T15:41:07Z",
+      "videoTime": "00:01:29.5604373",
+      "eventInfo": "cmd.exe, Administrator: C:\\Windows\\System32\\cmd.exe",
+      "sessionTime": "00:01:35.6140830"
+    },
+    {
+      "time": "2026-04-16T15:41:09Z",
+      "videoTime": "00:01:31.1072383",
+      "eventInfo": "explorer.exe, geliştirme2",
+      "sessionTime": "00:01:37.2580953"
+    },
+    {
+      "time": "2026-04-16T15:41:16Z",
+      "videoTime": "00:01:37.8251109",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:01:44.1640398"
+    }
+  ]
+}

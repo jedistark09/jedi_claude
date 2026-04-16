@@ -3,7 +3,7 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Haberler": 3,
+      "Haberler.com": 3,
       "Google": 1,
       "YouTube": 1
     }
@@ -26,14 +26,14 @@
       "Command Prompt": 10,
       "Python": 6,
       "Google Chrome": 6,
-      "File Explorer": 5
+      "File Explorer": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed Python scripts, ran system commands, browsed news and YouTube, and used File Explorer and Chrome."
+      "text": "User executed Python scripts, ran system commands, browsed Google, Haberler.com, and YouTube, and used Command Prompt, File Explorer, and Google Chrome."
     }
   },
   {

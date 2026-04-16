@@ -8,6 +8,7 @@
   "urlFrequency": {
     "ChatGPT": 1,
     "Haberler.com": 1,
+    "Google": 1,
     "YouTube": 1
   },
   "commandFrequency": {
@@ -102,6 +103,7 @@
       "duration": 339,
       "urls": [
         "Haberler.com",
+        "Google",
         "YouTube"
       ],
       "commands": [

@@ -3,44 +3,50 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Google": 4,
-      "YouTube": 2,
+      "YouTube": 5,
+      "Google": 1,
       "Haberler.com": 1
     }
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
-    "items": {}
+    "items": {
+      "whoami": 3,
+      "ipconfig": 2,
+      "whoami /all": 1,
+      "7all": 1
+    }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 7,
-      "File Explorer": 2,
-      "Command Prompt": 1
+      "Command Prompt": 10,
+      "Google Chrome": 9,
+      "Notepad": 2,
+      "File Explorer": 2
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, Google search, and Haberler.com while using Google Chrome, Command Prompt, and File Explorer."
+      "text": "User browsed YouTube, Google, and Haberler.com while executing multiple command prompts with commands like whoami, ipconfig, and a misfired '7all' entry."
     }
   },
   {
     "category": "Session Start",
     "description": "Session start timestamp from source log",
     "items": {
-      "text": "2026-04-14T09:34:06Z"
+      "text": "2026-04-16T14:58:57Z"
     }
   },
   {
     "category": "Session Duration",
     "description": "Session duration calculated from first and last event timestamps",
     "items": {
-      "text": "0:01:00"
+      "text": "0:02:02"
     }
   }
 ]

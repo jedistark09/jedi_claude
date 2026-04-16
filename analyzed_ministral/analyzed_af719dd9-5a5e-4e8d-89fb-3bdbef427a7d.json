@@ -2,11 +2,7 @@
   {
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
-    "items": {
-      "Google": 4,
-      "YouTube": 2,
-      "Haberler.com": 1
-    }
+    "items": {}
   },
   {
     "category": "Commands",
@@ -17,30 +13,30 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 7,
-      "File Explorer": 2,
-      "Command Prompt": 1
+      "File Explorer": 4,
+      "WinHTTrack Website Copier": 2,
+      "FortiClient": 2
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, Google search, and Haberler.com while using Google Chrome, Command Prompt, and File Explorer."
+      "text": "User interacted with File Explorer, WinHTTrack Website Copier, and FortiClient applications."
     }
   },
   {
     "category": "Session Start",
     "description": "Session start timestamp from source log",
     "items": {
-      "text": "2026-04-14T09:34:06Z"
+      "text": "2026-04-16T15:13:24Z"
     }
   },
   {
     "category": "Session Duration",
     "description": "Session duration calculated from first and last event timestamps",
     "items": {
-      "text": "0:01:00"
+      "text": "0:01:51"
     }
   }
 ]

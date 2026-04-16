@@ -22,9 +22,9 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 1,
-      "Command Prompt": 1,
-      "File Explorer": 1
+      "Google Chrome": 10,
+      "Command Prompt": 10,
+      "File Explorer": 3
     }
   },
   {

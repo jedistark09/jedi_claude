@@ -1,0 +1,40 @@
+{
+  "sessionId": "anomaly_hg",
+  "timestamp": "2026-04-16T15:35:10Z",
+  "duration": 119,
+  "session": {
+    "urls": [
+      "Hugging Face",
+      "Google"
+    ],
+    "commands": [],
+    "apps": [
+      "Google Chrome",
+      "File Explorer"
+    ]
+  },
+  "pythonFlags": [
+    {
+      "type": "new_urls",
+      "detail": "1 website(s) never seen in profile",
+      "items": [
+        "Hugging Face"
+      ]
+    }
+  ],
+  "flagCount": 1,
+  "llmAssessment": {
+    "riskScore": 12,
+    "verdict": "normal",
+    "anomalies": [
+      {
+        "type": "new_urls",
+        "detail": "Kullanıcının geçmişte hiç görüntülenmemiş olan 'Hugging Face' URL'si tespit edildi. Ancak bu tür URL'ler tek başına düşük risk taşır, çünkü kullanıcı Google Chrome ve File Explorer gibi yaygın uygulamaları kullanmaya devam etti ve herhangi bir komut veya yeni IP hedefi yok. Ayrıca, kullanım saatleri (15:35) normal çalışma saatleri içinde yer almaktadır.",
+        "severity": "low"
+      }
+    ],
+    "reasoning": "Kullanıcının yeni oturumu, geçmiş davranış profiline göre çok az anormallik içermektedir. Tek bir yeni URL (Hugging Face) tespit edilmesine rağmen, bu tür URL'ler tek başına riskli değildir ve kullanıcı normal uygulamaları (Google Chrome, File Explorer) kullanmaya devam etmektedir. Ayrıca, komut satırı aktivitesi, yeni IP hedefleri veya yetkilendirme faaliyetleri gibi yüksek riskli davranışlar gözlenmemektedir. Oturum süresi ve kullanım saatleri de normal aralıklar içinde yer almaktadır. Bu nedenle, bu oturum düşük riskli olarak değerlendirilmektedir."
+  },
+  "finalVerdict": "normal",
+  "finalRiskScore": 12
+}

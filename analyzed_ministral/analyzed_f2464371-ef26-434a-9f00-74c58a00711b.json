@@ -3,44 +3,53 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Google": 4,
-      "YouTube": 2,
-      "Haberler.com": 1
+      "YouTube": 3,
+      "Haberler.com": 2,
+      "Google": 1
     }
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
-    "items": {}
+    "items": {
+      "whoami": 1,
+      "ipconfig": 1,
+      "whoami /all": 1,
+      "python hesap3.py": 1,
+      "python hesap.py": 1,
+      "python hesap2.py": 1
+    }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 7,
-      "File Explorer": 2,
-      "Command Prompt": 1
+      "Command Prompt": 10,
+      "Google Chrome": 6,
+      "File Explorer": 4,
+      "WinRAR": 2,
+      "MobaXterm": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, Google search, and Haberler.com while using Google Chrome, Command Prompt, and File Explorer."
+      "text": "User browsed YouTube, Google, and Haberler.com, executed system commands and Python scripts, and used File Explorer, WinRAR, and MobaXterm."
     }
   },
   {
     "category": "Session Start",
     "description": "Session start timestamp from source log",
     "items": {
-      "text": "2026-04-14T09:34:06Z"
+      "text": "2026-04-16T15:05:59Z"
     }
   },
   {
     "category": "Session Duration",
     "description": "Session duration calculated from first and last event timestamps",
     "items": {
-      "text": "0:01:00"
+      "text": "0:04:24"
     }
   }
 ]

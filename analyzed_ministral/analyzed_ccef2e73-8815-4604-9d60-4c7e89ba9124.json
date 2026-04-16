@@ -16,14 +16,14 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 6
+      "Command Prompt": 5
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed two commands (whoami, ipconfig) in Command Prompt without browsing or additional app usage."
+      "text": "User executed two commands (whoami, ipconfig) in Command Prompt."
     }
   },
   {

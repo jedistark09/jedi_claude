@@ -2,45 +2,44 @@
   {
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
-    "items": {
-      "Google": 4,
-      "YouTube": 2,
-      "Haberler.com": 1
-    }
+    "items": {}
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
-    "items": {}
+    "items": {
+      "python python3.py": 1,
+      "hesap": 1
+    }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 7,
-      "File Explorer": 2,
-      "Command Prompt": 1
+      "File Explorer": 6,
+      "Command Prompt": 6,
+      "Python": 5
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, Google search, and Haberler.com while using Google Chrome, Command Prompt, and File Explorer."
+      "text": "User executed Python scripts and terminal commands while managing files in File Explorer."
     }
   },
   {
     "category": "Session Start",
     "description": "Session start timestamp from source log",
     "items": {
-      "text": "2026-04-14T09:34:06Z"
+      "text": "2026-04-16T15:02:02Z"
     }
   },
   {
     "category": "Session Duration",
     "description": "Session duration calculated from first and last event timestamps",
     "items": {
-      "text": "0:01:00"
+      "text": "0:02:23"
     }
   }
 ]

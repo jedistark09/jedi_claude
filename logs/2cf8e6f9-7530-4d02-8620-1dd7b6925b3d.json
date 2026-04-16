@@ -1,0 +1,167 @@
+{
+  "taskUuid": "2cf8e6f9-7530-4d02-8620-1dd7b6925b3d",
+  "monitoringId": "e95fe8f2-d602-4b37-82a6-4f4c704fedbe",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 26,
+  "activityList": [
+    {
+      "time": "2026-04-16T14:58:57Z",
+      "videoTime": "00:00:03.0189749",
+      "eventInfo": "chrome.exe, Şampiyonlar Ligi Çeyrek Final | Bayern Münih - Real Madrid (Özet) - YouTube - Google Chrome",
+      "sessionTime": "00:00:09.8849098"
+    },
+    {
+      "time": "2026-04-16T14:59:04Z",
+      "videoTime": "00:00:09.7222399",
+      "eventInfo": "chrome.exe, YouTube - Google Chrome",
+      "sessionTime": "00:00:16.5096190"
+    },
+    {
+      "time": "2026-04-16T14:59:13Z",
+      "videoTime": "00:00:18.9879003",
+      "eventInfo": "chrome.exe, Şampiyonlar Ligi Çeyrek Final | Bayern Münih - Real Madrid (Özet) - YouTube - Google Chrome",
+      "sessionTime": "00:00:25.5335565"
+    },
+    {
+      "time": "2026-04-16T14:59:14Z",
+      "videoTime": "00:00:20.0239198",
+      "eventInfo": "chrome.exe, Alper Kul'dan Samimi İtiraflar! \"İlk Dizimde 3 Yıl Perukla Oynadım, Valla Ben Keldim!\" - YouTube - Google Chrome",
+      "sessionTime": "00:00:26.4706358"
+    },
+    {
+      "time": "2026-04-16T14:59:43Z",
+      "videoTime": "00:00:48.8672505",
+      "eventInfo": "chrome.exe, YouTube - Google Chrome",
+      "sessionTime": "00:00:55.2693635"
+    },
+    {
+      "time": "2026-04-16T14:59:45Z",
+      "videoTime": "00:00:51.4297439",
+      "eventInfo": "chrome.exe, New Tab - Google Chrome",
+      "sessionTime": "00:00:57.8891637"
+    },
+    {
+      "time": "2026-04-16T14:59:50Z",
+      "videoTime": "00:00:56.0702991",
+      "eventInfo": "[Şampiyonlar Ligi Çeyrek Final | Bayern Münih - Real Madrid (Özet) - YouTube - Google Chrome] Entry: aberhler",
+      "sessionTime": "00:01:02.7404340"
+    },
+    {
+      "time": "2026-04-16T14:59:50Z",
+      "videoTime": "00:00:56.5860167",
+      "eventInfo": "chrome.exe, haberler - Google'da Ara - Google Chrome",
+      "sessionTime": "00:01:02.9760599"
+    },
+    {
+      "time": "2026-04-16T14:59:54Z",
+      "videoTime": "00:00:59.1641043",
+      "eventInfo": "chrome.exe, Haberler.com - Son Dakika Haberler ve Güncel Haberler - Google Chrome",
+      "sessionTime": "00:01:06.0310965"
+    },
+    {
+      "time": "2026-04-16T15:00:06Z",
+      "videoTime": "00:01:11.4612797",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:18.2156291"
+    },
+    {
+      "time": "2026-04-16T15:00:09Z",
+      "videoTime": "00:01:15.0715385",
+      "eventInfo": "notepad.exe, OVA export.txt - Notepad",
+      "sessionTime": "00:01:21.7094271"
+    },
+    {
+      "time": "2026-04-16T15:00:10Z",
+      "videoTime": "00:01:16.1025936",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:22.9361669"
+    },
+    {
+      "time": "2026-04-16T15:00:11Z",
+      "videoTime": "00:01:17.1341618",
+      "eventInfo": "notepad.exe, OVA export.txt - Notepad",
+      "sessionTime": "00:01:23.5438027"
+    },
+    {
+      "time": "2026-04-16T15:00:11Z",
+      "videoTime": "00:01:17.1341618",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:23.7482134"
+    },
+    {
+      "time": "2026-04-16T15:00:22Z",
+      "videoTime": "00:01:27.9621629",
+      "eventInfo": "[Administrator: Command Prompt] Entry: whoami",
+      "sessionTime": "00:01:34.5786088"
+    },
+    {
+      "time": "2026-04-16T15:00:34Z",
+      "videoTime": "00:01:39.8058472",
+      "eventInfo": "[Administrator: Command Prompt] Entry: ipconfig",
+      "sessionTime": "00:01:46.6730237"
+    },
+    {
+      "time": "2026-04-16T15:00:34Z",
+      "videoTime": "00:01:40.3212781",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - ipconfig",
+      "sessionTime": "00:01:46.7364671"
+    },
+    {
+      "time": "2026-04-16T15:00:34Z",
+      "videoTime": "00:01:40.3212781",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:46.9424774"
+    },
+    {
+      "time": "2026-04-16T15:00:45Z",
+      "videoTime": "00:01:51.1338823",
+      "eventInfo": "[Administrator: Command Prompt] Entry: whoami",
+      "sessionTime": "00:01:57.6948220"
+    },
+    {
+      "time": "2026-04-16T15:00:45Z",
+      "videoTime": "00:01:51.1338823",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - whoami",
+      "sessionTime": "00:01:57.7724189"
+    },
+    {
+      "time": "2026-04-16T15:00:45Z",
+      "videoTime": "00:01:51.1338823",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:01:57.9741233"
+    },
+    {
+      "time": "2026-04-16T15:00:49Z",
+      "videoTime": "00:01:54.2280693",
+      "eventInfo": "[Administrator: Command Prompt] Entry:  7all",
+      "sessionTime": "00:02:01.0511185"
+    },
+    {
+      "time": "2026-04-16T15:00:49Z",
+      "videoTime": "00:01:54.7431446",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt - whoami  /all",
+      "sessionTime": "00:02:01.2396766"
+    },
+    {
+      "time": "2026-04-16T15:00:49Z",
+      "videoTime": "00:01:54.7431446",
+      "eventInfo": "cmd.exe, Administrator: Command Prompt",
+      "sessionTime": "00:02:01.4441354"
+    },
+    {
+      "time": "2026-04-16T15:00:52Z",
+      "videoTime": "00:01:57.3214619",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:02:04.1001607"
+    },
+    {
+      "time": "2026-04-16T15:00:59Z",
+      "videoTime": "00:02:05.0533065",
+      "eventInfo": "(Window Closed)",
+      "sessionTime": "00:02:11.6404629"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "taskUuid": "af719dd9-5a5e-4e8d-89fb-3bdbef427a7d",
+  "monitoringId": "1c808d65-b743-4607-bf65-cf9669e92eda",
+  "accountId": "943d62fa-8558-40fe-a06a-95c060f14f12",
+  "accountUsername": "administrator",
+  "connectionUserId": "2ee50f67-0644-4193-a869-5bea7b553df8",
+  "connectionUsername": "superadmin",
+  "totalActivityCount": 16,
+  "activityList": [
+    {
+      "time": "2026-04-16T15:13:24Z",
+      "videoTime": "00:00:04.1255274",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:00:10.1663247"
+    },
+    {
+      "time": "2026-04-16T15:14:13Z",
+      "videoTime": "00:00:53.5604347",
+      "eventInfo": "explorer.exe, File Explorer",
+      "sessionTime": "00:00:59.1887911"
+    },
+    {
+      "time": "2026-04-16T15:14:14Z",
+      "videoTime": "00:00:53.5604347",
+      "eventInfo": "explorer.exe, geliştirme2",
+      "sessionTime": "00:00:59.3954063"
+    },
+    {
+      "time": "2026-04-16T15:14:16Z",
+      "videoTime": "00:00:56.1384589",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:02.0282425"
+    },
+    {
+      "time": "2026-04-16T15:14:17Z",
+      "videoTime": "00:00:57.6854570",
+      "eventInfo": "explorer.exe, File Explorer",
+      "sessionTime": "00:01:03.2510969"
+    },
+    {
+      "time": "2026-04-16T15:14:18Z",
+      "videoTime": "00:00:57.6854570",
+      "eventInfo": "explorer.exe, geliştirme",
+      "sessionTime": "00:01:03.6611465"
+    },
+    {
+      "time": "2026-04-16T15:14:23Z",
+      "videoTime": "00:01:03.3573148",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:09.1586051"
+    },
+    {
+      "time": "2026-04-16T15:14:26Z",
+      "videoTime": "00:01:06.4363708",
+      "eventInfo": "WinHTTrack.exe, WinHTTrack Website Copier",
+      "sessionTime": "00:01:12.2119041"
+    },
+    {
+      "time": "2026-04-16T15:14:27Z",
+      "videoTime": "00:01:06.9514939",
+      "eventInfo": "WinHTTrack.exe, WinHTTrack Website Copier - [New Project 1]",
+      "sessionTime": "00:01:12.8324349"
+    },
+    {
+      "time": "2026-04-16T15:14:38Z",
+      "videoTime": "00:01:17.7400152",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:23.4163965"
+    },
+    {
+      "time": "2026-04-16T15:14:46Z",
+      "videoTime": "00:01:26.4775307",
+      "eventInfo": "explorer.exe, File Explorer",
+      "sessionTime": "00:01:32.1576224"
+    },
+    {
+      "time": "2026-04-16T15:14:47Z",
+      "videoTime": "00:01:26.9785726",
+      "eventInfo": "explorer.exe, Recycle Bin",
+      "sessionTime": "00:01:32.5737322"
+    },
+    {
+      "time": "2026-04-16T15:14:50Z",
+      "videoTime": "00:01:30.5741915",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:01:36.2303278"
+    },
+    {
+      "time": "2026-04-16T15:14:57Z",
+      "videoTime": "00:01:36.7617769",
+      "eventInfo": "FortiClient.exe, FortiClient",
+      "sessionTime": "00:01:42.7448350"
+    },
+    {
+      "time": "2026-04-16T15:14:57Z",
+      "videoTime": "00:01:37.2773006",
+      "eventInfo": "FortiClient.exe, FortiClient - Zero Trust Fabric Agent",
+      "sessionTime": "00:01:42.9464349"
+    },
+    {
+      "time": "2026-04-16T15:15:15Z",
+      "videoTime": "00:01:55.3119958",
+      "eventInfo": "explorer.exe, Program Manager",
+      "sessionTime": "00:02:01.2214105"
+    }
+  ]
+}

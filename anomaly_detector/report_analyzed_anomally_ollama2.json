@@ -1,0 +1,43 @@
+{
+  "sessionId": "anomally_ollama2",
+  "timestamp": "2026-04-16T15:33:51Z",
+  "duration": 60,
+  "session": {
+    "urls": [],
+    "commands": [
+      "ollama",
+      "ollama list",
+      "ollama show qwen2.5 14b",
+      "ollama service"
+    ],
+    "apps": [
+      "Command Prompt"
+    ]
+  },
+  "pythonFlags": [
+    {
+      "type": "new_commands",
+      "detail": "4 command(s) never seen in profile",
+      "items": [
+        "ollama",
+        "ollama list",
+        "ollama service",
+        "ollama show qwen2.5 14b"
+      ]
+    },
+    {
+      "type": "new_vs_latest_chunk",
+      "detail": "4 commands not in latest chunk (chunk 5)",
+      "items": [
+        "ollama",
+        "ollama list",
+        "ollama service",
+        "ollama show qwen2.5 14b"
+      ]
+    }
+  ],
+  "flagCount": 2,
+  "llmAssessment": null,
+  "finalVerdict": "not_evaluated",
+  "finalRiskScore": null
+}

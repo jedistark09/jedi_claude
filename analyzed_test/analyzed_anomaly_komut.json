@@ -25,7 +25,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed commands in Command Prompt including mimikatz, privilege checks, user creation, and network pings."
+      "text": "User executed commands in Command Prompt including mimikatz, privilege checks, user addition, and network pings."
     }
   },
   {

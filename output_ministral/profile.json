@@ -2,22 +2,27 @@
   "userId": "",
   "accountTarget": "",
   "firstSeen": "2026-04-14T09:17:55Z",
-  "lastSeen": "2026-04-14T14:16:32Z",
-  "profileUpdatedAt": "2026-04-15T18:12:58Z",
-  "totalSessions": 9,
-  "totalChunks": 3,
+  "lastSeen": "2026-04-16T15:13:24Z",
+  "profileUpdatedAt": "2026-04-16T20:05:54Z",
+  "totalSessions": 13,
+  "totalChunks": 5,
   "urlFrequency": {
-    "YouTube": 3,
-    "Haberler.com": 3,
+    "Google": 6,
+    "YouTube": 5,
+    "Haberler.com": 5,
     "ChatGPT": 2,
-    "Haber 7": 1
+    "Haber 7": 1,
+    "gemius.com": 1,
+    "gasurvey.gemius.com": 1
   },
   "commandFrequency": {
-    "whoami": 5,
-    "ipconfig": 4,
-    "python hesap.py": 3,
+    "whoami": 7,
+    "ipconfig": 6,
+    "python hesap.py": 4,
+    "python hesap2.py": 2,
+    "whoami /all": 2,
+    "powershell": 1,
     "ping 10.0.1.55": 1,
-    "ping 10.0.1.22": 1,
     "ping 10.0.2.55": 1,
     "python --version": 1,
     "netstat -ano": 1,
@@ -29,21 +34,26 @@
     "tasklist": 1,
     "tasklist /svc": 1,
     "pktmon stop": 1,
-    "python hesap2.py": 1,
-    "netstatt": 1
+    "netstatt": 1,
+    "7all": 1,
+    "python python3.py": 1,
+    "hesap": 1,
+    "python hesap3.py": 1
   },
   "appFrequency": {
-    "Command Prompt": 7,
-    "File Explorer": 6,
-    "Google Chrome": 5,
-    "Python": 3,
-    "WinRAR": 1,
-    "FortiClient": 1,
-    "MobaXterm": 1
+    "Command Prompt": 11,
+    "File Explorer": 10,
+    "Google Chrome": 7,
+    "Python": 4,
+    "WinRAR": 2,
+    "FortiClient": 2,
+    "MobaXterm": 2,
+    "Notepad": 1,
+    "WinHTTrack Website Copier": 1
   },
   "activeHours": {
     "rangeStart": 8,
-    "rangeEnd": 15,
+    "rangeEnd": 16,
     "buffer": 1,
     "sessionHours": [
       9,
@@ -54,10 +64,14 @@
       10,
       10,
       10,
-      14
+      14,
+      14,
+      15,
+      15,
+      15
     ]
   },
-  "avgSessionDuration": 147,
+  "avgSessionDuration": 151,
   "avgCommandsPerSession": 3.0,
   "sessionDurations": [
     79,
@@ -68,68 +82,32 @@
     292,
     87,
     136,
-    339
+    339,
+    122,
+    143,
+    264,
+    111
   ],
   "commandsPerSession": [
-    2,
+    3,
     2,
     0,
     0,
-    5,
+    4,
     2,
     1,
     10,
-    5
+    5,
+    4,
+    2,
+    6,
+    0
   ],
   "knownTargetIPs": [
-    "10.0.1.22",
     "10.0.1.55",
     "10.0.2.55"
   ],
   "recentSessions": [
-    {
-      "sessionId": "c99792b7-e1b5-49fc-a3d6-124d39818e8d",
-      "timestamp": "2026-04-14T09:17:55Z",
-      "duration": 79,
-      "urls": [],
-      "commands": [
-        "ipconfig",
-        "whoami"
-      ],
-      "apps": [
-        "Command Prompt"
-      ],
-      "verdict": "normal"
-    },
-    {
-      "sessionId": "ccef2e73-8815-4604-9d60-4c7e89ba9124",
-      "timestamp": "2026-04-14T09:26:59Z",
-      "duration": 44,
-      "urls": [],
-      "commands": [
-        "whoami",
-        "ipconfig"
-      ],
-      "apps": [
-        "Command Prompt"
-      ],
-      "verdict": "normal"
-    },
-    {
-      "sessionId": "0fbb7c52-1cd6-443e-a07b-69e504d49958",
-      "timestamp": "2026-04-14T09:34:06Z",
-      "duration": 60,
-      "urls": [
-        "YouTube",
-        "Haberler.com"
-      ],
-      "commands": [],
-      "apps": [
-        "Google Chrome",
-        "File Explorer"
-      ],
-      "verdict": "normal"
-    },
     {
       "sessionId": "ef499468-1a13-4ab7-b23d-3b9f1eae63c5",
       "timestamp": "2026-04-14T09:36:24Z",
@@ -148,15 +126,17 @@
       "timestamp": "2026-04-14T10:31:53Z",
       "duration": 214,
       "urls": [
-        "YouTube",
         "Haberler.com",
-        "Haber 7"
+        "YouTube",
+        "Google",
+        "Haber 7",
+        "gemius.com",
+        "gasurvey.gemius.com"
       ],
       "commands": [
         "whoami",
         "ipconfig",
         "ping 10.0.1.55",
-        "ping 10.0.1.22",
         "ping 10.0.2.55"
       ],
       "apps": [
@@ -171,7 +151,8 @@
       "timestamp": "2026-04-14T10:37:17Z",
       "duration": 292,
       "urls": [
-        "ChatGPT"
+        "ChatGPT",
+        "Google"
       ],
       "commands": [
         "python hesap.py",
@@ -232,6 +213,7 @@
       "duration": 339,
       "urls": [
         "Haberler.com",
+        "Google",
         "YouTube"
       ],
       "commands": [
@@ -246,6 +228,84 @@
         "Python",
         "Google Chrome",
         "File Explorer"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "2cf8e6f9-7530-4d02-8620-1dd7b6925b3d",
+      "timestamp": "2026-04-16T14:58:57Z",
+      "duration": 122,
+      "urls": [
+        "YouTube",
+        "Google",
+        "Haberler.com"
+      ],
+      "commands": [
+        "whoami",
+        "ipconfig",
+        "whoami /all",
+        "7all"
+      ],
+      "apps": [
+        "Command Prompt",
+        "Google Chrome",
+        "Notepad",
+        "File Explorer"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "68e3eda6-6986-4041-9ff5-9e68dae2fa82",
+      "timestamp": "2026-04-16T15:02:02Z",
+      "duration": 143,
+      "urls": [],
+      "commands": [
+        "python python3.py",
+        "hesap"
+      ],
+      "apps": [
+        "File Explorer",
+        "Command Prompt",
+        "Python"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "f2464371-ef26-434a-9f00-74c58a00711b",
+      "timestamp": "2026-04-16T15:05:59Z",
+      "duration": 264,
+      "urls": [
+        "YouTube",
+        "Haberler.com",
+        "Google"
+      ],
+      "commands": [
+        "whoami",
+        "ipconfig",
+        "whoami /all",
+        "python hesap3.py",
+        "python hesap.py",
+        "python hesap2.py"
+      ],
+      "apps": [
+        "Command Prompt",
+        "Google Chrome",
+        "File Explorer",
+        "WinRAR",
+        "MobaXterm"
+      ],
+      "verdict": "normal"
+    },
+    {
+      "sessionId": "af719dd9-5a5e-4e8d-89fb-3bdbef427a7d",
+      "timestamp": "2026-04-16T15:13:24Z",
+      "duration": 111,
+      "urls": [],
+      "commands": [],
+      "apps": [
+        "File Explorer",
+        "WinHTTrack Website Copier",
+        "FortiClient"
       ],
       "verdict": "normal"
     }

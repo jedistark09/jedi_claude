@@ -31,53 +31,34 @@
       ]
     },
     {
-      "type": "new_urls",
-      "detail": "1 website(s) never seen in profile",
-      "items": [
-        "Google"
-      ]
-    },
-    {
-      "type": "off_hours",
-      "detail": "Session at 16:00, normal range 08:00-15:59"
-    },
-    {
       "type": "new_vs_latest_chunk",
-      "detail": "3 commands not in latest chunk (chunk 3)",
+      "detail": "5 commands not in latest chunk (chunk 5)",
       "items": [
         "git",
         "git status",
-        "nettstat"
+        "ipconfig",
+        "nettstat",
+        "whoami"
       ]
     }
   ],
-  "flagCount": 4,
+  "flagCount": 2,
   "llmAssessment": {
     "riskScore": 35,
     "verdict": "suspicious",
     "anomalies": [
       {
         "type": "new_commands",
-        "detail": "3 yeni komut ('git', 'git status', 'nettstat') kullanıcı profiline ve son chunk'a göre görülmemiş. 'git' ve 'git status' kullanıcı profiline göre anormal olmasa da, 'nettstat' (düzeltme: 'netstat') ağ keşfi ve ağ bağlantıları hakkında bilgi sağlayabilir. Bu, tek başına düşük riskli olsa da, diğer flag'lerle birleştiğinde dikkat çekici hale gelir.",
+        "detail": "Kullanıcının profiline göre 'git' ve 'git status' komutları yeni ve dikkat çekicidir. 'nettstat' ise kullanıcı profiline yakın olsa da, 'netstat' yerine yazılmış olması (türevsel bir hata olabilir) veya yeni bir kullanım olabilir. Bu komutlar genellikle ağ keşfi veya geliştirme faaliyetleriyle ilişkilendirilir, ancak kullanıcı profiline göre bu tür komutlar önceden görülmemiştir.",
         "severity": "medium"
       },
       {
         "type": "new_vs_latest_chunk",
-        "detail": "Yeni komutlar ('git', 'git status', 'nettstat') son chunk'ta görülmemiş. Bu, kullanıcının davranışındaki bir değişikliği gösterir, ancak tek başına kritik değildir.",
-        "severity": "medium"
-      },
-      {
-        "type": "off_hours",
-        "detail": "Saat dışı (16:43) kullanım, normal çalışma saatleri (08:00-15:59) dışında. Ancak tek başına risk oluşturmaz; diğer flag'lerle birlikte değerlendirilir.",
-        "severity": "low"
-      },
-      {
-        "type": "new_urls",
-        "detail": "'Google' URL'si profilde görülmemiş olsa da, yaygın bir arama motoru olup riski düşüktür. Bu flag tek başına anlamlı değildir.",
+        "detail": "Son chunk (5) ile karşılaştırıldığında, bu oturumda 5 yeni komut tespit edildi. Ancak bu flag, tek başına yüksek risk taşımamaktadır, çünkü kullanıcı profiline göre komutlar normal aralıkta kalmaktadır. Ancak yeni komutların bir arada olması, kullanım alışkanlıklarından sapma gösterebilir.",
         "severity": "low"
       }
     ],
-    "reasoning": "Kullanıcı, normal çalışma saatleri dışında ('off_hours') bir session başlattı ve 3 adet yeni komut ('git', 'git status', 'nettstat') kullandı. Bu komutlar, kullanıcı profiline ve son chunk'a göre görülmemiş olsa da, 'nettstat' (netstat) ağ keşfi ve ağ bağlantılarını incelemek için kullanılabilir. Ancak, 'git' komutları kullanıcı profiline göre anormal değildir ve bu durumda riski artırmayacak kadar yaygındır. 'off_hours' flag'i tek başına kritik değildir, ancak diğer flag'lerle birlikte değerlendirildiğinde, kullanıcının davranışındaki küçük bir sapma olarak değerlendirilir. Risk skoru orta düzeyde tutulmuştur, çünkü tekil flag'ler güçlü bir saldırı senaryosunu desteklemez, ancak inceleme gerektiren bir davranış değişikliği gösterir."
+    "reasoning": "Kullanıcının profiline göre, 'git' ve 'git status' komutları tamamen yeni olup, bu tür komutlar genellikle geliştirme veya kod yönetimi faaliyetleriyle ilişkilendirilir. Ancak kullanıcı profili bu tür komutları önceden içermemekte ve bu durum, kullanım alışkanlıklarından sapma olarak değerlendirilebilir. Ayrıca, 'nettstat' komutu da kullanıcı profiline yakın olsa da, yazım hatası veya yeni bir kullanım olabilir. Bu oturumda kullanılan uygulamalar ve URL'ler normal aralıkta kalmakta ve riski artırmamaktadır. Ancak, yeni komutların bir arada olması ve kullanıcı profiline uygun olmayan bu davranışlar, düşük düzeyde şüphe uyandırmaktadır. Bu nedenle, risk skoru orta düzeyde tutulmuş ve 'suspicious' (şüpheli) olarak değerlendirilmiştir."
   },
   "finalVerdict": "suspicious",
   "finalRiskScore": 35

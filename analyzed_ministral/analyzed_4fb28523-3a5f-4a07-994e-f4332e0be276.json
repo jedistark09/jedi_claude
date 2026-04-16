@@ -3,7 +3,7 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "ChatGPT": 11,
+      "ChatGPT": 10,
       "Google": 1
     }
   },
@@ -19,8 +19,8 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 14,
-      "Command Prompt": 6,
+      "Google Chrome": 13,
+      "Command Prompt": 7,
       "Python": 5,
       "MobaXterm": 2,
       "File Explorer": 1
@@ -30,7 +30,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed ChatGPT and Google, executed Python commands, and used multiple terminal and file management applications."
+      "text": "User browsed ChatGPT and Google, executed Python commands and scripts, and used multiple terminal and file management applications."
     }
   },
   {
