@@ -4,15 +4,15 @@
   "duration": 138,
   "session": {
     "urls": [
-      "Haberler.com",
+      "Haberler",
       "Google"
     ],
     "commands": [
+      "git",
       "whoami",
       "ipconfig",
       "nettstat",
-      "git status",
-      "git"
+      "git status"
     ],
     "apps": [
       "Google Chrome",
@@ -31,6 +31,10 @@
       ]
     },
     {
+      "type": "command_count_spike",
+      "detail": "5 commands vs avg 2.4 (2.1x), stddev=2.1"
+    },
+    {
       "type": "new_vs_latest_chunk",
       "detail": "5 commands not in latest chunk (chunk 5)",
       "items": [
@@ -42,7 +46,7 @@
       ]
     }
   ],
-  "flagCount": 2,
+  "flagCount": 3,
   "llmAssessment": null,
   "finalVerdict": "not_evaluated",
   "finalRiskScore": null

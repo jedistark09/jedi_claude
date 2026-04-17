@@ -3,7 +3,7 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Haberler.com": 5,
+      "Haberler": 5,
       "Google": 1
     }
   },
@@ -11,11 +11,11 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
+      "git": 2,
       "whoami": 1,
       "ipconfig": 1,
       "nettstat": 1,
-      "git status": 1,
-      "git": 1
+      "git status": 1
     }
   },
   {
@@ -31,7 +31,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed news sites (Google, Haberler.com) and executed system/network commands (whoami, ipconfig, nettstat) and Git operations in Command Prompt."
+      "text": "User browsed news sites (Google, Haberler), executed system commands (whoami, ipconfig, nettstat), and used Git commands in an elevated Command Prompt."
     }
   },
   {

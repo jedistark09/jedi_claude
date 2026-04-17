@@ -5,8 +5,7 @@
   "session": {
     "urls": [],
     "commands": [
-      "python hesap.py",
-      "python hesap2.py"
+      "python"
     ],
     "apps": [
       "Command Prompt",
@@ -18,10 +17,9 @@
   "pythonFlags": [
     {
       "type": "new_vs_latest_chunk",
-      "detail": "2 commands not in latest chunk (chunk 5)",
+      "detail": "1 commands not in latest chunk (chunk 5)",
       "items": [
-        "python hesap.py",
-        "python hesap2.py"
+        "python"
       ]
     }
   ],
@@ -32,26 +30,26 @@
     "anomalies": [
       {
         "type": "new_vs_latest_chunk",
-        "detail": "Bu oturumda 'python hesap.py' ve 'python hesap2.py' komutları son parçada (parça 5) görülmedi. Ancak kullanıcının geçmişte bu komutları sıkça kullandığı ve profili incelendiğinde, bu komutların normal bir kullanım alışkanlığına sahip olduğu görülmektedir. Bu nedenle tek başına orta düzey bir anormallik olarak değerlendirilse de, diğer zayıf sinyallerle birlikte riski hafifçe artırmaktadır.",
-        "severity": "medium"
-      },
-      {
-        "type": "new_commands",
-        "detail": "Komutlar geçmişte kullanıcı profiline uygun olsa da, bu oturumda yalnızca bu iki komutun kullanılması, kullanım alışkanlığının daraldığına işaret edebilir. Ancak bu durum tek başına yüksek risk taşımamaktadır.",
+        "detail": "Bu oturumda 'python' komutu kullanılmışken, en son parçada (parça 5) bu komut görülmemiştir. Ancak kullanıcı profiline bakıldığında 'python' sıkça kullanılan bir komut olduğu için bu tek başına yüksek risk taşımamaktadır.",
         "severity": "low"
       },
       {
+        "type": "new_commands",
+        "detail": "'python' komutu, kullanıcı profiline göre normal bir kullanım olsa da, tek başına bir oturumda kullanıldığında ve geçmişteki parçalarda görülmediği için dikkat çekicidir. Ancak bu durum tek başına kritik bir risk değildir.",
+        "severity": "medium"
+      },
+      {
         "type": "off_hours",
-        "detail": "Oturum saat 16:46'da gerçekleşmiş olup, kullanıcının normal aktif saatleri (8-16) içinde olsa da, bu saat diliminin sonuna yakın olması nedeniyle hafif bir anormallik olarak değerlendirilebilir. Ancak bu tek başına riski artırmaya yeterli değildir.",
+        "detail": "Kullanıcının normal aktif saatleri 8-17 arasında iken, bu oturum 16:46'da gerçekleşmiş ve normal saat diliminin sınırında kalmıştır. Bu durum tek başına risk oluşturmaz.",
         "severity": "low"
       },
       {
         "type": "duration_spike",
-        "detail": "Oturum süresi 66 saniye olup, kullanıcının ortalama oturum süresi (151 saniye) ile karşılaştırıldığında daha kısa olsa da, bu durum tek başına bir anormallik oluşturmaz.",
+        "detail": "Oturum süresi 66 saniye olup, kullanıcının ortalama oturum süresi (151 saniye) ile karşılaştırıldığında düşüktür. Bu durum riski azaltır.",
         "severity": "low"
       }
     ],
-    "reasoning": "Kullanıcının geçmiş profiline bakıldığında, 'python hesap.py' ve 'python hesap2.py' komutları sıkça kullanılan ve normal bir kullanım alışkanlığına sahip olduğu görülmektedir. Bu oturumda yalnızca bu iki komutun kullanılması, kullanım alışkanlığının daraldığına işaret edebilir, ancak bu durum tek başına yüksek risk taşımamaktadır. Ayrıca oturum saat dilimi ve süresi de normal aralıklar içinde olup, anormallik oluşturmuyor. Bu nedenle, tek başına orta düzey bir anormallik (komutların son parçada görülmemesi) ve birkaç zayıf sinyalin bir araya gelmesi nedeniyle risk skorunun orta düzeyde (25) olduğu ve 'suspicious' (şüpheli) olarak değerlendirilmesi uygun görülmektedir. Ancak bu durumun kötü niyetli bir aktivite olduğunu doğrulayacak yeterli kanıt bulunmamaktadır."
+    "reasoning": "Kullanıcı profiline bakıldığında, 'python' komutu sıkça kullanılan bir komut olduğu için bu tek başına bir risk oluşturmaz. Ancak, bu komutun en son parçada görülmemesi ve tek bir oturumda kullanılması, kullanım alışkanlıklarından sapma olarak değerlendirilebilir. Diğer faktörler (normal saat dilimi, kısa oturum süresi) riski daha da azaltmaktadır. Bu nedenle, bu oturumun risk skoru orta düzeyde (25) olarak değerlendirilmiş ve 'suspicious' (şüpheli) olarak etiketlenmiştir. Daha fazla inceleme önerilir, ancak kritik bir tehdit olarak değerlendirilmez."
   },
   "finalVerdict": "suspicious",
   "finalRiskScore": 25

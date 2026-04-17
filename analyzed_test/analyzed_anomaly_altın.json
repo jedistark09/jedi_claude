@@ -3,7 +3,7 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Google": 6,
+      "Google": 10,
       "Investing.com": 2
     }
   },
@@ -24,7 +24,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed Google search results and Investing.com for gold and silver price charts."
+      "text": "User browsed Google for gold and silver price data, including live charts and Investing.com for silver pricing."
     }
   },
   {

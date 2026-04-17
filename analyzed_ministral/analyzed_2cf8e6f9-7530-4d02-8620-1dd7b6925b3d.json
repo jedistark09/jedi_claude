@@ -14,25 +14,24 @@
     "items": {
       "whoami": 3,
       "ipconfig": 2,
-      "whoami /all": 1,
-      "7all": 1
+      "whoami /all": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 10,
       "Google Chrome": 9,
-      "Notepad": 2,
-      "File Explorer": 2
+      "Command Prompt": 9,
+      "File Explorer": 2,
+      "Notepad": 2
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, Google, and Haberler.com while executing multiple command prompts with commands like whoami, ipconfig, and a misfired '7all' entry."
+      "text": "User browsed YouTube, Google, and Haberler.com while executing system commands like whoami, ipconfig, and running Notepad and File Explorer."
     }
   },
   {

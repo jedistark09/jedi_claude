@@ -5,10 +5,10 @@
   "session": {
     "urls": [],
     "commands": [
-      "whoami /priv",
-      "ping 192.168.5.100",
+      "whoami",
+      "ping",
       "mimikatz",
-      "net user admin /add"
+      "net user"
     ],
     "apps": [
       "Command Prompt"
@@ -17,19 +17,10 @@
   "pythonFlags": [
     {
       "type": "new_commands",
-      "detail": "4 command(s) never seen in profile",
+      "detail": "2 command(s) never seen in profile",
       "items": [
         "mimikatz",
-        "net user admin /add",
-        "ping 192.168.5.100",
-        "whoami /priv"
-      ]
-    },
-    {
-      "type": "new_target_ips",
-      "detail": "1 IP(s) never seen before",
-      "items": [
-        "192.168.5.100"
+        "net user"
       ]
     },
     {
@@ -37,35 +28,30 @@
       "detail": "4 commands not in latest chunk (chunk 5)",
       "items": [
         "mimikatz",
-        "net user admin /add",
-        "ping 192.168.5.100",
-        "whoami /priv"
+        "net user",
+        "ping",
+        "whoami"
       ]
     }
   ],
-  "flagCount": 3,
+  "flagCount": 2,
   "llmAssessment": {
-    "riskScore": 95,
+    "riskScore": 92,
     "verdict": "critical",
     "anomalies": [
       {
         "type": "new_commands",
-        "detail": "Kullanıcının profiline göre **asla görülmemiş** ve **yüksek riskli** komutlar tespit edildi: 'mimikatz' (şifre çözme aracı), 'net user admin /add' (yeni yönetici hesabı oluşturma) ve 'whoami /priv' (yetki ayrıntıları alma). Bu komutlar **saldırı, yetki tırmanma veya kimlik hırsızlığı** ile ilişkilendirilebilir.",
+        "detail": "Kullanıcının geçmişinde hiç görülmemiş **mimikatz** ve **net user** komutları tespit edildi. **Mimikatz**, şifre çözme ve hak kazanma amaçlı kullanılan bir araçtır ve saldırganlık göstergesi olarak kabul edilir. **net user**, kullanıcı yönetimiyle ilgili bir komut olup, yetkili olmayan bir kullanıcının bu komutu kullanması, hesap manipülasyonu riskini artırır.",
         "severity": "critical"
       },
       {
-        "type": "new_target_ips",
-        "detail": "Yeni bir hedef IP ('192.168.5.100') tespit edildi. Bu IP, kullanıcının normal profiline ('10.0.x.x' aralığı) uygun değil ve **network reconnaissance** veya **lateral movement** işaretleri taşıyor.",
-        "severity": "high"
-      },
-      {
         "type": "new_vs_latest_chunk",
-        "detail": "Son chunk'ta (5) **hiç görülememiş** komutlar tekrarlandı. Bu, **anormal davranışın tekrarlanma riskini** artırıyor.",
-        "severity": "medium"
+        "detail": "Son oturumda (chunk 5) görülmeyen **mimikatz**, **net user**, **ping** ve **whoami** komutları bu oturumda tekrarlandı. Bu, kullanım alışkanlıklarında ani bir değişiklik olduğunu gösterir ve saldırganlık riskini yükseltir.",
+        "severity": "high"
       }
     ],
-    "reasoning": "Bu oturumda **kritik düzeyde riskli** davranışlar gözleniyor. 'mimikatz' gibi **şifre çözme aracı** kullanımı, 'net user admin /add' gibi **yeni yönetici hesabı oluşturma** ve 'whoami /priv' gibi **yetki ayrıntıları alma** komutları, **saldırı veya yetki tırmanma** senaryolarını güçlü bir şekilde işaret ediyor. Ayrıca, yeni bir hedef IP ('192.168.5.100') ile birlikte bu komutların kullanımı, **network scanning** veya **lateral movement** faaliyetlerini düşündürüyor. Kullanıcının normal profiline göre bu davranışlar **anormal, kötü niyetli ve derhal müdahale gerektiren** bir risk oluşturuyor."
+    "reasoning": "Bu oturumda kullanıcı, **mimikatz** gibi saldırganlık amaçlı kullanılan bir araçla birlikte **net user** komutu çalıştırdı. **Mimikatz**, şifre çözme ve hak kazanma için kullanılan bir araç olup, bu tür komutların kullanımı, yetkisiz erişim veya hesap manipülasyonu riskini ciddi şekilde artırır. Ayrıca, bu komutların kullanıcı profiline uygun olmadığı ve geçmiş oturumlarda görülmediği göz önüne alındığında, bu davranışın kötü niyetli bir saldırıya işaret ettiği sonucuna varılabilir. Bu nedenle, risk skoru **kritik** olarak değerlendirilmiştir."
   },
   "finalVerdict": "critical",
-  "finalRiskScore": 95
+  "finalRiskScore": 92
 }

@@ -16,7 +16,7 @@
     "powershell": 1
   },
   "appFrequency": {
-    "Command Prompt": 3,
+    "Command Prompt": 2,
     "Google Chrome": 1,
     "File Explorer": 1
   },
@@ -85,8 +85,7 @@
       "commands": [],
       "apps": [
         "Google Chrome",
-        "File Explorer",
-        "Command Prompt"
+        "File Explorer"
       ],
       "verdict": "normal"
     }

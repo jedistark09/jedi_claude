@@ -3,20 +3,19 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Haberler.com": 3,
-      "Google": 1,
-      "YouTube": 1
+      "Haberler": 4,
+      "YouTube": 2,
+      "Google": 1
     }
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "python hesap.py": 2,
+      "python": 4,
       "whoami": 2,
-      "python hesap2.py": 2,
       "ipconfig": 1,
-      "netstatt": 1
+      "netstat": 1
     }
   },
   {
@@ -24,16 +23,16 @@
     "description": "Kullanılan uygulamalar",
     "items": {
       "Command Prompt": 10,
-      "Python": 6,
-      "Google Chrome": 6,
-      "File Explorer": 1
+      "File Explorer": 10,
+      "Google Chrome": 8,
+      "Python": 8
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed Python scripts, ran system commands, browsed Google, Haberler.com, and YouTube, and used Command Prompt, File Explorer, and Google Chrome."
+      "text": "User executed Python scripts, terminal commands (ipconfig, whoami, netstat), browsed Google, Haberler, and YouTube, and used File Explorer and Chrome."
     }
   },
   {

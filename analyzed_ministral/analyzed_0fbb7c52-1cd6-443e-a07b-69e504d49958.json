@@ -3,8 +3,8 @@
     "category": "URLs",
     "description": "Ziyaret edilen web sayfaları",
     "items": {
-      "Google": 4,
-      "YouTube": 2,
+      "Google": 3,
+      "YouTube": 1,
       "Haberler.com": 1
     }
   },
@@ -18,15 +18,14 @@
     "description": "Kullanılan uygulamalar",
     "items": {
       "Google Chrome": 7,
-      "File Explorer": 2,
-      "Command Prompt": 1
+      "File Explorer": 2
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, Google search, and Haberler.com while using Google Chrome, Command Prompt, and File Explorer."
+      "text": "User browsed YouTube, Google search, and Haberler.com using Google Chrome and interacted with File Explorer."
     }
   },
   {

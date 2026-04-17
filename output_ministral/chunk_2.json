@@ -10,16 +10,15 @@
     "Haberler.com": 1,
     "YouTube": 1,
     "Haber 7": 1,
-    "gemius.com": 1,
     "gasurvey.gemius.com": 1,
+    "Audience": 1,
     "ChatGPT": 1
   },
   "commandFrequency": {
+    "ping": 1,
     "whoami": 1,
     "ipconfig": 1,
-    "ping 10.0.1.55": 1,
-    "ping 10.0.2.55": 1,
-    "python hesap.py": 1,
+    "python": 1,
     "python --version": 1
   },
   "appFrequency": {
@@ -42,7 +41,7 @@
     ]
   },
   "avgSessionDuration": 194,
-  "avgCommandsPerSession": 2.0,
+  "avgCommandsPerSession": 1.7,
   "sessionDurations": [
     76,
     214,
@@ -50,13 +49,10 @@
   ],
   "commandsPerSession": [
     0,
-    4,
+    3,
     2
   ],
-  "knownTargetIPs": [
-    "10.0.1.55",
-    "10.0.2.55"
-  ],
+  "knownTargetIPs": [],
   "sessions": [
     {
       "sessionId": "ef499468-1a13-4ab7-b23d-3b9f1eae63c5",
@@ -80,14 +76,13 @@
         "YouTube",
         "Google",
         "Haber 7",
-        "gemius.com",
-        "gasurvey.gemius.com"
+        "gasurvey.gemius.com",
+        "Audience"
       ],
       "commands": [
+        "ping",
         "whoami",
-        "ipconfig",
-        "ping 10.0.1.55",
-        "ping 10.0.2.55"
+        "ipconfig"
       ],
       "apps": [
         "Google Chrome",
@@ -105,7 +100,7 @@
         "Google"
       ],
       "commands": [
-        "python hesap.py",
+        "python",
         "python --version"
       ],
       "apps": [

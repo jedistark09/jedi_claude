@@ -29,21 +29,21 @@
     "anomalies": [
       {
         "type": "new_urls",
-        "detail": "Kullanıcının geçmişte hiç görüntülenmemiş olan 'Ollama' URL'si tespit edildi. Ancak bu tek başına yüksek risk taşımamaktadır. Kullanıcı, Python ve ağ komutlarıyla ilgili geçmişteki aktiviteleri göz önüne alındığında, bu yeni URL'nin araştırma veya test amaçlı olma olasılığı vardır. Ancak, yeni bir URL bile kullanıcı davranışında küçük bir sapma olarak değerlendirilebilir.",
+        "detail": "Kullanıcının geçmişte hiç görüntülenmemiş olan 'Ollama' URL'si tespit edildi. Ancak bu tek başına düşük risk taşımaktadır, çünkü kullanıcı Google Chrome ve File Explorer gibi yaygın uygulamaları kullanmaya devam etmektedir. Ayrıca bu oturumda komut satırı veya yüksek riskli uygulamalar kullanılmamıştır.",
         "severity": "low"
       },
       {
         "type": "off_hours",
-        "detail": "Kullanıcının normal çalışma saatleri (08:00-17:00) dışında (15:31) bir oturum başlatması, tek başına riskli değildir. Ancak, bu durum diğer zayıf sinyallerle birleştiğinde dikkat çekici hale gelebilir.",
+        "detail": "Kullanıcının tipik aktif saatleri (08:00-17:00) dışında, ancak buffer sınırları içinde (15:31) bir oturum başlatılmıştır. Bu tek başına riskli değildir, ancak diğer zayıf sinyallerle birleştiğinde dikkat çekicidir.",
         "severity": "low"
       },
       {
         "type": "new_vs_latest_chunk",
-        "detail": "Son oturumda (chunkIndex: 5) komut veya uygulama kullanımı olmamasına rağmen, yeni bir oturumda 'Ollama' URL'si gibi yeni bir web sitesi ziyareti tespit edildi. Bu, kullanıcı davranışında küçük bir değişiklik olarak değerlendirilebilir.",
+        "detail": "Son oturumda (chunkIndex: 5) kullanılan uygulamalar (File Explorer, WinHTTrack Website Copier, FortiClient) ile bu yeni oturumda kullanılan uygulamalar (Google Chrome, File Explorer) arasında farklılıklar vardır. Ancak bu farklılıklar riskli değildir, çünkü her ikisi de yaygın ve benimsenmiş uygulamalardır.",
         "severity": "low"
       }
     ],
-    "reasoning": "Kullanıcının geçmişte Python ve ağ komutlarıyla (örneğin, `netstat`, `arp`, `ping`, `route print`) yoğun bir şekilde etkileşimde bulunduğu gözlemlenmiştir. Bu yeni oturumda ise komut kullanımı olmamakla birlikte, 'Ollama' URL'si gibi geçmişte görülmemiş bir web sitesi ziyaret edildi. Bu durum, kullanıcı davranışında küçük bir sapma olarak değerlendirilebilir. Ancak, kullanıcı geçmişte ağ keşfi ve Python tabanlı aktivitelerde bulunmuş olması nedeniyle, bu yeni URL'nin araştırma veya test amaçlı olma olasılığı vardır. Oturum süresi ve kullanılan uygulamalar normal sınırlar içinde kaldığı için risk orta düzeyde değerlendirilmektedir. Bu nedenle, bu oturumun incelenmesi önerilir, ancak şu anda kritik bir tehdit olarak değerlendirilmez."
+    "reasoning": "Kullanıcının bu oturumu, geçmişte hiç görüntülenmemiş bir URL (Ollama) içermesine rağmen, komut satırı kullanımı, yüksek riskli uygulamalar veya ağ keşfi gibi aktiviteler içermez. Ayrıca, kullanılan uygulamalar (Google Chrome, File Explorer) normal ve yaygın uygulamalardır. Oturumun süresi (95 saniye) ve zamanlaması (aktif saatlerin sonlarında) tek başına riskli değildir. Ancak, bu zayıf sinyallerin birleşimi ve kullanıcı profiline göre yeni bir URL'in ortaya çıkması, düşük düzeyde şüphe uyandırmaktadır. Bu nedenle, bu oturumun normal kullanımdan sapma göstermesi muhtemel değildir, ancak daha detaylı inceleme önerilir."
   },
   "finalVerdict": "suspicious",
   "finalRiskScore": 25

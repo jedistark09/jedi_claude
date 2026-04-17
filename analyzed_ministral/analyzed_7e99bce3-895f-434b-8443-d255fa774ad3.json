@@ -10,14 +10,14 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "python hesap.py": 1
+      "python": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 6,
+      "Command Prompt": 7,
       "File Explorer": 6,
       "Python": 4,
       "Google Chrome": 1
@@ -27,7 +27,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed Python scripts, accessed ChatGPT via browser, and used Command Prompt, File Explorer, and Python IDE."
+      "text": "User executed Python scripts, accessed File Explorer and Command Prompt, and visited ChatGPT in Google Chrome."
     }
   },
   {

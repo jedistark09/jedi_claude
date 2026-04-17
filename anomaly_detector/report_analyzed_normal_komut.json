@@ -5,8 +5,7 @@
   "session": {
     "urls": [],
     "commands": [
-      "python hesap.py",
-      "python hesap2.py"
+      "python"
     ],
     "apps": [
       "Command Prompt",
@@ -18,10 +17,9 @@
   "pythonFlags": [
     {
       "type": "new_vs_latest_chunk",
-      "detail": "2 commands not in latest chunk (chunk 5)",
+      "detail": "1 commands not in latest chunk (chunk 5)",
       "items": [
-        "python hesap.py",
-        "python hesap2.py"
+        "python"
       ]
     }
   ],

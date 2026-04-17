@@ -29,11 +29,11 @@
     "anomalies": [
       {
         "type": "new_urls",
-        "detail": "Kullanıcının geçmişte hiç görüntülenmemiş olan 'Investing.com' URL'si tespit edildi. Ancak bu tür URL'ler tek başına düşük risk taşır, çünkü kullanıcı Google ve finansal içerik sitelerini ziyaret etme eğiliminde olabilir. Bu durumda, tek başına bir anomali olarak değerlendirilmez.",
+        "detail": "Kullanıcının geçmişte hiç görüntülenmemiş olan 'Investing.com' URL'si tespit edildi. Ancak bu tür URL'ler tek başına düşük risk taşır, çünkü kullanıcıların yeni web sitelerini ziyaret etmesi normal bir davranıştır. Ayrıca bu oturumda komut veya uygulama kullanımı gibi diğer risk sinyalleri yoktur.",
         "severity": "low"
       }
     ],
-    "reasoning": "Kullanıcının geçmiş davranış profiline bakıldığında, aktif saatleri 08:00-17:00 aralığında yoğunlaşmakta ve ortalama oturum süresi 151 saniye, ortalama komut sayısı ise 3 komut olarak belirlenmiştir. Yeni oturumda sadece 'Investing.com' URL'si yeni bir anomali olarak tespit edilse de, bu tür finansal içerik siteleri kullanıcı profiline uygun olabilir. Ayrıca, komut veya uygulama kullanımında herhangi bir anormalite gözlenmediğinden, risk seviyesi düşük kalmaktadır. Bu nedenle, bu oturum normal kabul edilmektedir."
+    "reasoning": "Kullanıcının geçmiş davranış profiline bakıldığında, aktif saatleri 08:00-17:00 aralığında yoğunlaşmakta ve ortalama oturum süresi 151 saniye, ortalama komut sayısı ise 2.4 olarak belirlenmiştir. Yeni oturumda sadece bir adet yeni URL (Investing.com) tespit edilmiştir, ancak bu tek başına risk oluşturmaz. Ayrıca oturumda komut veya yeni uygulama kullanımı gibi diğer anormallikler gözlenmemiştir. Bu nedenle, bu oturum normal kabul edilmektedir."
   },
   "finalVerdict": "normal",
   "finalRiskScore": 12

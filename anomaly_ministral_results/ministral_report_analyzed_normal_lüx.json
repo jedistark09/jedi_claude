@@ -4,15 +4,15 @@
   "duration": 138,
   "session": {
     "urls": [
-      "Haberler.com",
+      "Haberler",
       "Google"
     ],
     "commands": [
+      "git",
       "whoami",
       "ipconfig",
       "nettstat",
-      "git status",
-      "git"
+      "git status"
     ],
     "apps": [
       "Google Chrome",
@@ -31,6 +31,10 @@
       ]
     },
     {
+      "type": "command_count_spike",
+      "detail": "5 commands vs avg 2.4 (2.1x), stddev=2.1"
+    },
+    {
       "type": "new_vs_latest_chunk",
       "detail": "5 commands not in latest chunk (chunk 5)",
       "items": [
@@ -42,24 +46,29 @@
       ]
     }
   ],
-  "flagCount": 2,
+  "flagCount": 3,
   "llmAssessment": {
-    "riskScore": 35,
+    "riskScore": 45,
     "verdict": "suspicious",
     "anomalies": [
       {
         "type": "new_commands",
-        "detail": "Kullanıcının profiline göre 'git' ve 'git status' komutları yeni ve dikkat çekicidir. 'nettstat' ise kullanıcı profiline yakın olsa da, 'netstat' yerine yazılmış olması (türevsel bir hata olabilir) veya yeni bir kullanım olabilir. Bu komutlar genellikle ağ keşfi veya geliştirme faaliyetleriyle ilişkilendirilir, ancak kullanıcı profiline göre bu tür komutlar önceden görülmemiştir.",
+        "detail": "Kullanıcının profiline göre 'git' ve 'git status' komutları yeni ve potansiyel olarak gelişmiş kullanım veya yeni bir araç seti kullanımını işaret edebilir. Ancak 'nettstat' ve 'whoami' gibi komutlar daha önce de görülmüştü, bu yüzden tek başına orta derecede risk taşımaktadır.",
+        "severity": "medium"
+      },
+      {
+        "type": "command_count_spike",
+        "detail": "Ortalama 2.4 komut yerine 5 komutun çalıştırılması, kullanım alışkanlıklarından sapma gösterir. Ancak tek başına bu da orta derecede bir risk faktörüdür.",
         "severity": "medium"
       },
       {
         "type": "new_vs_latest_chunk",
-        "detail": "Son chunk (5) ile karşılaştırıldığında, bu oturumda 5 yeni komut tespit edildi. Ancak bu flag, tek başına yüksek risk taşımamaktadır, çünkü kullanıcı profiline göre komutlar normal aralıkta kalmaktadır. Ancak yeni komutların bir arada olması, kullanım alışkanlıklarından sapma gösterebilir.",
-        "severity": "low"
+        "detail": "Son oturumda (chunk 5) görülmeyen tüm komutların yeni oturumda tekrar görüntülenmesi, kullanım modelinde bir değişikliği işaret eder. Ancak bu durumda komutların çoğu daha önce profil içinde yer alıyordu, bu yüzden risk orta düzeyde değerlendirilmektedir.",
+        "severity": "medium"
       }
     ],
-    "reasoning": "Kullanıcının profiline göre, 'git' ve 'git status' komutları tamamen yeni olup, bu tür komutlar genellikle geliştirme veya kod yönetimi faaliyetleriyle ilişkilendirilir. Ancak kullanıcı profili bu tür komutları önceden içermemekte ve bu durum, kullanım alışkanlıklarından sapma olarak değerlendirilebilir. Ayrıca, 'nettstat' komutu da kullanıcı profiline yakın olsa da, yazım hatası veya yeni bir kullanım olabilir. Bu oturumda kullanılan uygulamalar ve URL'ler normal aralıkta kalmakta ve riski artırmamaktadır. Ancak, yeni komutların bir arada olması ve kullanıcı profiline uygun olmayan bu davranışlar, düşük düzeyde şüphe uyandırmaktadır. Bu nedenle, risk skoru orta düzeyde tutulmuş ve 'suspicious' (şüpheli) olarak değerlendirilmiştir."
+    "reasoning": "Kullanıcının yeni bir oturumda 'git' komutlarının kullanımı ve komut sayısındaki artış, profilinde görülmeyen yeni bir davranış modelini işaret etmektedir. Ancak 'git' komutları bazen geliştirme veya proje yönetimi amaçlı kullanılabilmektedir ve tek başına yüksek risk taşımamaktadır. Ayrıca 'nettstat' ve 'whoami' gibi komutlar daha önce de görülmüştü, bu yüzden risk orta düzeyde değerlendirilmektedir. Bununla birlikte, komut sayısındaki artış ve yeni komutların kullanımı birlikte değerlendirildiğinde, kullanım alışkanlıklarından sapma gösterdiği için 'suspicious' (şüpheli) olarak değerlendirilmiştir. Bu durumun daha detaylı incelenmesi ve kullanıcının faaliyetlerinin izlenmesi önerilir."
   },
   "finalVerdict": "suspicious",
-  "finalRiskScore": 35
+  "finalRiskScore": 45
 }

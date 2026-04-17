@@ -4,17 +4,16 @@
     "description": "Ziyaret edilen web sayfaları",
     "items": {
       "Google": 4,
-      "Haberler": 2
+      "Haberler.com": 1
     }
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "whoami": 1,
+      "whoami": 2,
       "ipconfig": 1,
-      "whoami /all": 1,
-      "python hesap3.py": 1
+      "python": 1
     }
   },
   {
@@ -23,14 +22,14 @@
     "items": {
       "Command Prompt": 7,
       "Google Chrome": 4,
-      "File Explorer": 2
+      "File Explorer": 1
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed Google and Haberler, executed system commands and Python scripts, and used Chrome, Command Prompt, and File Explorer."
+      "text": "User browsed Google and Haberler.com, executed system commands (whoami, ipconfig, python), and used Chrome, Command Prompt, and File Explorer."
     }
   },
   {

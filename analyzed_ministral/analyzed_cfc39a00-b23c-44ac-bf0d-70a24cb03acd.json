@@ -7,18 +7,17 @@
       "YouTube": 4,
       "Google": 3,
       "Haber 7": 1,
-      "gemius.com": 1,
-      "gasurvey.gemius.com": 1
+      "gasurvey.gemius.com": 1,
+      "Audience": 1
     }
   },
   {
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
+      "ping": 3,
       "whoami": 1,
-      "ipconfig": 1,
-      "ping 10.0.1.55": 1,
-      "ping 10.0.2.55": 1
+      "ipconfig": 1
     }
   },
   {
@@ -34,7 +33,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed YouTube, news sites (Haberler.com, Haber 7), and Google, while executing network commands (ping, ipconfig) in Command Prompt."
+      "text": "User browsed YouTube, news sites (Haberler.com, Haber 7), and Google, while executing system commands (whoami, ipconfig, ping) in Command Prompt."
     }
   },
   {

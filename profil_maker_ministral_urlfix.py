@@ -58,10 +58,12 @@ Do NOT include:
 # Commands
 Extract only commands the user actually executed in a terminal.
 Use the command text itself, not the window title.
+For interpreter-style commands, keep only the base command and drop script names, file names, paths, and input arguments.
 
 Good command examples:
-- "python hesap.py"
-- "python hesap2.py"
+- "python"
+- "python --version"
+- "py"
 - "python --version"
 - "whoami"
 - "ipconfig"
@@ -74,8 +76,16 @@ Do NOT include:
 - text search queries
 - text typed into a running script as program input
 - folder names, file names, rename targets
+- script names such as "hesap.py" or paths such as "C:\\work\\run.py"
 - terminal window titles such as "cmd.exe, Administrator: C:\Windows\System32\cmd.exe"
 - commands with count 0
+
+Normalize these cases:
+- "python hesap.py" -> "python"
+- "python hesap2.py" -> "python"
+- "python C:\\work\\run.py --debug" -> "python"
+- "py script.py" -> "py"
+- "powershell script.ps1" -> "powershell"
 
 If a command has an obvious keyboard typo from a non-English keyboard layout, normalize it only when the intended command is clear.
 

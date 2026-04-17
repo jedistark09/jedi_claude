@@ -5,13 +5,12 @@
   "session": {
     "urls": [
       "Google",
-      "Haberler"
+      "Haberler.com"
     ],
     "commands": [
       "whoami",
       "ipconfig",
-      "whoami /all",
-      "python hesap3.py"
+      "python"
     ],
     "apps": [
       "Command Prompt",
@@ -21,40 +20,27 @@
   },
   "pythonFlags": [
     {
-      "type": "new_urls",
-      "detail": "1 website(s) never seen in profile",
-      "items": [
-        "Haberler"
-      ]
-    },
-    {
       "type": "new_vs_latest_chunk",
-      "detail": "4 commands not in latest chunk (chunk 5)",
+      "detail": "3 commands not in latest chunk (chunk 5)",
       "items": [
         "ipconfig",
-        "python hesap3.py",
-        "whoami",
-        "whoami /all"
+        "python",
+        "whoami"
       ]
     }
   ],
-  "flagCount": 2,
+  "flagCount": 1,
   "llmAssessment": {
     "riskScore": 25,
     "verdict": "suspicious",
     "anomalies": [
       {
-        "type": "new_urls",
-        "detail": "Kullanıcının profiline göre 'Haberler' URL'si yeni olsa da, bu tür haber siteleri genellikle normal kullanım kapsamındadır ve tek başına yüksek risk taşımamaktadır. Bu nedenle, düşük etkili bir sinyal olarak değerlendirilmiştir.",
-        "severity": "low"
-      },
-      {
         "type": "new_vs_latest_chunk",
-        "detail": "'python hesap3.py' komutu kullanıcının önceki oturumlarında görülmemiş olup, 'hesap.py' ve 'hesap2.py' gibi benzer Python betiklerinin kullanım geçmişi vardır. Bu, yeni bir betiğin çalıştırılmasını düşündürücü kılsa da, tek başına yeterli risk oluşturmaz. Ancak, kullanıcının normal oturumlarında görülen komut sayısının çok altında olduğu göz önüne alındığında, orta düzeyde bir sinyal olarak değerlendirilmiştir.",
+        "detail": "Bu oturumda kullanıcı, son oturumda (parça 5) görülmeyen 3 komut ('whoami', 'ipconfig', 'python') çalıştırdı. Ancak bu komutlar kullanıcının geçmiş profiline (topCommands) uygun düşmektedir ve tek başına yüksek risk taşımamaktadır. Bu nedenle orta düzey bir anomali olarak değerlendirilmiştir.",
         "severity": "medium"
       }
     ],
-    "reasoning": "Kullanıcının yeni oturumunda, önceki oturumlarda görülmeyen 'python hesap3.py' komutu ve 'Haberler' URL'si gibi düşük etkili sinyaller gözlenmektedir. Ancak, kullanıcının geçmişte benzer Python betikleri çalıştırmış olması ve komutların çoğunlukla normal sistem bilgisi alma komutları ('whoami', 'ipconfig') olması, riski orta düzeyde tutmaktadır. Bu oturumda kullanılan komutların sayısı ve türü, kullanıcının normal davranış profiline uygun olsa da, yeni betik çalıştırması ve önceki oturumda görülen komutların eksikliği, dikkatli bir inceleme gerektiren bir durum oluşturur. Bu nedenle, risk skoru orta düzeyde 'suspicious' olarak değerlendirilmiştir."
+    "reasoning": "Kullanıcının yeni oturumu, geçmiş davranış profiline uygun olarak 'whoami', 'ipconfig' ve 'python' komutlarını içermektedir. Bu komutlar kullanıcının normal aktivitelerinde de sıkça görülmekte ve tek başına şüphe uyandırmamaktadır. Ayrıca oturum süresi (95 saniye) ve kullanılan uygulamalar (Command Prompt, Google Chrome) normal aralıkta olup, kullanıcının aktif saatleri dışında (15:39) gerçekleşmiş olsa da, bu tek başına kritik bir sinyal değildir. Ancak, son oturumda (parça 5) komut çalıştırılmamışken bu oturumda komutlar tekrar görülmesi, kullanıcının davranışında küçük bir sapma olarak değerlendirilmiştir. Bu nedenle risk puanı orta düzeyde tutulmuş ve 'suspicious' (şüpheli) olarak değerlendirilmiştir. Daha fazla risk artışı için komutların içeriği veya hedef IP'ler gibi daha belirgin anormalliklerin eşlik etmesi gerekmektedir."
   },
   "finalVerdict": "suspicious",
   "finalRiskScore": 25

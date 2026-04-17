@@ -11,7 +11,7 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "python hesap.py": 2,
+      "python": 3,
       "python --version": 1
     }
   },
@@ -19,9 +19,9 @@
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Google Chrome": 13,
-      "Command Prompt": 7,
-      "Python": 5,
+      "Google Chrome": 12,
+      "Command Prompt": 6,
+      "Python": 4,
       "MobaXterm": 2,
       "File Explorer": 1
     }
@@ -30,7 +30,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User browsed ChatGPT and Google, executed Python commands and scripts, and used multiple terminal and file management applications."
+      "text": "User browsed ChatGPT and Google, executed Python commands in terminals, and used Chrome, Command Prompt, MobaXterm, and File Explorer."
     }
   },
   {

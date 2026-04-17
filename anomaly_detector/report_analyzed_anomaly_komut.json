@@ -5,10 +5,10 @@
   "session": {
     "urls": [],
     "commands": [
-      "whoami /priv",
-      "ping 192.168.5.100",
+      "whoami",
+      "ping",
       "mimikatz",
-      "net user admin /add"
+      "net user"
     ],
     "apps": [
       "Command Prompt"
@@ -17,19 +17,10 @@
   "pythonFlags": [
     {
       "type": "new_commands",
-      "detail": "4 command(s) never seen in profile",
+      "detail": "2 command(s) never seen in profile",
       "items": [
         "mimikatz",
-        "net user admin /add",
-        "ping 192.168.5.100",
-        "whoami /priv"
-      ]
-    },
-    {
-      "type": "new_target_ips",
-      "detail": "1 IP(s) never seen before",
-      "items": [
-        "192.168.5.100"
+        "net user"
       ]
     },
     {
@@ -37,13 +28,13 @@
       "detail": "4 commands not in latest chunk (chunk 5)",
       "items": [
         "mimikatz",
-        "net user admin /add",
-        "ping 192.168.5.100",
-        "whoami /priv"
+        "net user",
+        "ping",
+        "whoami"
       ]
     }
   ],
-  "flagCount": 3,
+  "flagCount": 2,
   "llmAssessment": null,
   "finalVerdict": "not_evaluated",
   "finalRiskScore": null

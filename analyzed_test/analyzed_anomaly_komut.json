@@ -8,24 +8,24 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "whoami /priv": 2,
-      "ping 192.168.5.100": 2,
+      "whoami": 2,
+      "ping": 2,
       "mimikatz": 1,
-      "net user admin /add": 1
+      "net user": 1
     }
   },
   {
     "category": "Applications",
     "description": "Kullanılan uygulamalar",
     "items": {
-      "Command Prompt": 1
+      "Command Prompt": 15
     }
   },
   {
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed commands in Command Prompt including mimikatz, privilege checks, user addition, and network pings."
+      "text": "User executed commands in Command Prompt including mimikatz, whoami, net user, and ping."
     }
   },
   {

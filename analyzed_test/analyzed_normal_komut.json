@@ -8,8 +8,7 @@
     "category": "Commands",
     "description": "Çalıştırılan terminal komutları",
     "items": {
-      "python hesap.py": 1,
-      "python hesap2.py": 1
+      "python": 3
     }
   },
   {
@@ -26,7 +25,7 @@
     "category": "Summary",
     "description": "One-sentence English session summary",
     "items": {
-      "text": "User executed Python scripts in Command Prompt, used File Explorer, WinRAR, and MobaXterm."
+      "text": "User executed Python commands in Command Prompt, used File Explorer, WinRAR, and MobaXterm, with no web activity detected."
     }
   },
   {
